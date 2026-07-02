@@ -1,0 +1,61 @@
+With 13,500 trade legs per minute, 13 million transactions per 
+day and few trillion USD worth of securities in custody, SECOM 
+is the electronic post trading system used by SIX for automated 
+processing and settlement of transactions. Built by TCS, SECOM 
+was one of the world’s first real-time gross settlement (RTGS) 
+systems and formed the backbone of the Swiss capital market. 
+But can a three-decade old system meet the strenuous demands 
+of modern times? TCS and SIX both knew the answer was ‘no’. 
+SIX decided to embark on a journey of transformation yet again, 
+backed by three decades of relation and trust it shares with TCS. 
+Back in 1990, when SIX was looking to enhance the scalability 
+of its batch system to meet the market demands of the future, 
+TCS proposed a new platform called SECOM. This platform 
+would be real time, cutting-edge, scalable, and modular with 
+robust architecture. Enabling straight-through processing, it was 
+amongst the most sophisticated systems of its time. Over the 
+years, TCS continued to manage this system for SIX.
+Three decades later, SIX partnered with TCS to accomplish 
+another mega feat. TCS executed a PoC to demonstrate the 
+CUSTOMER
+S T O R I E S
+Trading old for new: SIX unveils an 
+advanced post trading platform
+To take this forward, TCS tapped into its design labs to create 
+a platform that reimagined the user experience and enabled 
+faster response to queries. TCS was able to fast-track this 
+development with an ingenious automation solution which 
+migrated over 500 billion records in record time, saving 10-12 
+months’ time from the overall process.
+The flexible, secure, and cloud-ready platform is economical 
+and makes SIX’ internal operations and process more 
+efficient. The ability to customize individual post trade 
+processes depending on market requirements in different 
+parts of the world has set SIX on a steady path of growth and 
+expansion. With this new and advanced system, SIX became 
+more modern, up to date and market-friendly – boosting 
+customer-centricity and overall competitiveness – and 
+maintaining its pole position in the Swiss financial market.    
+feasibility of modernizing the existing system. TCS showed 
+how this transformation would serve SIX for decades to 
+come – making it more efficient, enabling speed and growth for 
+the firm. Placing trust in TCS’ execution capabilities, SIX decided 
+to go ahead with the transformation. Thus, the next journey 
+from mainframe to an open and more resilient system began. 
+This is going to give a second life to our core 
+CSD platform and make our relationship with 
+TCS even stronger. We are conscious of the pressure 
+and high expectations that we have put on TCS for the most 
+complex project in recent years, but the TCS team has lived up 
+to the expectations with an outstanding level of commitment. 
+Our main goal is to become more customer-centric and user 
+friendly and we have achieved it with this platform upgrade. I 
+am sure that we can count on TCS for the many challenges that 
+SIX has ahead.
+Arturo Merino                                                                           
+Head IT, Securities Services 
+SIX
+Customer Stories
+  
+26
+Integrated Annual Report 2023-24

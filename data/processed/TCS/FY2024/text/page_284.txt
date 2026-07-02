@@ -1,0 +1,105 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+284
+Standalone Financial Statements 2023-24
+	
+Revenue disaggregation by industry vertical is as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Banking, Financial Services and Insurance
+ 71,349 
+ 68,240 
+Manufacturing 
+ 18,854 
+ 16,905 
+Consumer Business
+ 34,612 
+ 33,169 
+Communication, Media and Technology
+ 35,061 
+ 33,606 
+Life Sciences and Healthcare
+ 24,352 
+ 22,398 
+Others
+ 18,131 
+ 16,036 
+2,02,359
+1,90,354
+	
+Revenue disaggregation by geography is as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Americas
+	 North America
+ 115,581 
+ 113,208 
+	 Latin America
+ 484 
+ 382 
+Europe
+	 United Kingdom
+ 35,625 
+ 30,676 
+	 Continental Europe
+ 20,705 
+ 19,209 
+Asia Pacific
+ 12,466 
+ 12,017 
+India
+ 13,105 
+ 10,941 
+Middle East and Africa
+ 4,393 
+ 3,921 
+2,02,359
+1,90,354
+	
+Geographical revenue is allocated based on the location of the customers.
+	
+Information about major customers
+	
+No single customer represents 10% or more of the Company’s total revenue during the years ended March 31, 2024 and 2023.
+	
+While disclosing the aggregate amount of transaction price yet to be recognised as revenue towards unsatisfied (or partially 
+satisfied) performance obligations, along with the broad time band for the expected time to recognise those revenues, the 
+Company has applied the practical expedient in Ind AS 115. Accordingly, the Company has not disclosed the aggregate transaction 
+price allocated to unsatisfied (or partially satisfied) performance obligations which pertain to contracts where revenue recognised 
+corresponds to the value transferred to customer typically involving time and material, outcome based and event based contracts. 
+	
+Unsatisfied (or partially satisfied) performance obligations are subject to variability due to several factors such as terminations, 
+changes in scope of contracts, periodic revalidations of the estimates, economic factors (changes in currency rates, tax laws etc). 
+The aggregate value of transaction price allocated to unsatisfied (or partially satisfied) performance obligations is `1,34,160 crore 
+out of which 50.03% is expected to be recognised as revenue in the next year and the balance thereafter. No consideration from 
+contracts with customers is excluded from the amount mentioned above.
+	
+Changes in contract assets are as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Balance at the beginning of the year
+ 4,831 
+ 3,470 
+Invoices raised that were included in the contract assets balance at the beginning of 
+the year
+ (3,278)
+ (2,632)
+Increase due to revenue recognised during the year, excluding amounts billed during 
+the year
+ 3,595 
+ 3,826 
+Translation exchange difference
+ 56 
+ 167 
+Balance at the end of the year
+ 5,204 
+ 4,831 

@@ -1,0 +1,73 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+224
+Consolidated Financial Statements 2023-24
+16)	 Finance costs
+	
+Finance costs consist of the following:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Interest on lease liabilities
+ 518 
+ 492 
+Interest on tax matters
+30 
+46 
+Other interest costs
+ 230 
+ 241 
+778 
+ 779 
+17)	 Income taxes
+	
+Income tax expense comprises current tax expense and the net change in the deferred tax asset or liability during the year. 
+Current and deferred taxes are recognised in statement of profit and loss, except when they relate to items that are recognised 
+in other comprehensive income or directly in equity, in which case, the current and deferred tax are also recognised in other 
+comprehensive income or directly in equity, respectively.
+	
+Current income taxes
+	
+The current income tax expense includes income taxes payable by the Company and its subsidiaries in India and overseas. The 
+current tax payable by the Company and its subsidiaries in India is Indian income tax payable on income after taking credit for tax 
+relief available for export operations in Special Economic Zones (SEZs).
+	
+Current income tax payable by overseas branches of the Company is computed in accordance with the tax laws applicable in the 
+jurisdiction in which the respective branch operates. The taxes paid are generally available for set off against the Indian income 
+tax liability of the Company’s worldwide income.
+	
+The current income tax expense for overseas subsidiaries has been computed based on the tax laws applicable to each subsidiary 
+in the respective jurisdiction in which it operates.
+	
+Advance taxes and provisions for current income taxes are presented in the balance sheet after off-setting advance tax paid and 
+income tax provision arising in the same tax jurisdiction and where the relevant tax paying unit intends to settle the asset and 
+liability on a net basis.
+	
+Deferred income taxes
+	
+Deferred income tax is recognised using the balance sheet approach. Deferred income tax assets and liabilities are recognised 
+for deductible and taxable temporary differences arising between the tax base of assets and liabilities and their carrying amount, 
+except when the deferred income tax arises from the initial recognition of goodwill or an asset or liability in a transaction that is 
+not a business combination, affects neither accounting nor taxable profit or loss at the time of the transaction. 
+	
+Deferred income tax assets are recognised to the extent that it is probable that taxable profit will be available against which the 
+deductible temporary differences and the carry forward of unused tax credits and unused tax losses can be utilised. 
+	
+The carrying amount of deferred income tax assets is reviewed at each reporting date and reduced to the extent that it is no 
+longer probable that sufficient taxable profit will be available to allow all or part of the deferred income tax asset to be utilised.
+	
+Deferred income tax liabilities are recognised for all taxable temporary differences except in respect of taxable temporary 
+differences associated with investments in subsidiaries where timing of the reversal of the temporary difference can be controlled 
+and it is probable that the temporary difference will not reverse in the foreseeable future. 
+	
+Deferred tax assets and liabilities are measured using substantively enacted tax rates expected to apply to taxable income in the 
+years in which the temporary differences are expected to be received or settled.
+	
+For operations carried out in SEZs, deferred tax assets or liabilities, if any, have been established for the tax consequences of 
+those temporary differences between the carrying values of assets and liabilities and their respective tax bases that reverse after 
+the tax holiday ends.
+	
+Deferred tax assets and liabilities are offset when they relate to income taxes levied by the same taxation authority and the 
+relevant entity intends to settle its current tax assets and liabilities on a net basis.

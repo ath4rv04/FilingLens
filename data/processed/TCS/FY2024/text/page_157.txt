@@ -1,0 +1,110 @@
+Integrated Annual Report 2023-24
+157
+Business Responsibility & Sustainability Report
+	
+(iii)	 Water withdrawal, consumption and discharge in the following format:
+Parameter
+FY 2023-24
+FY 2022-23*
+Water withdrawal by source (in kilolitres)
+(i)	
+Surface water
+-
+-
+(ii)	
+Groundwater
+69,057
+43,320
+(iii)	 Third party water
+6,83,525
+5,05,970
+(iv)	 Seawater / desalinated water
+-
+-
+(v)	
+Others
+1,013
+610
+Total volume of water withdrawal (in kilolitres)
+7,53,595
+5,49,900
+Total volume of water consumption (in kilolitres)
+6,33,900
+5,26,730
+Water intensity per rupee of turnover (Water consumed in KL/ turnover in INR)
+0.00000026
+0.00000023
+Water discharge by destination and level of treatment (in kiloliters)
+(i)	
+Into Surface water
+	
+-	
+No treatment
+-
+-
+	
+-	
+With treatment – please specify level of treatment
+-
+-
+(ii)	
+Into Groundwater
+	
+-	
+No treatment
+-
+-
+	
+-	
+With treatment – please specify level of treatment
+-
+-
+(iii)	 Into Seawater
+	
+-	
+No treatment
+-
+-
+	
+-	
+With treatment – please specify level of treatment
+-
+-
+(iv)	 Sent to third-parties
+	
+-	
+No treatment 
+Note: Wastewater sent for municipal treatment
+27,118
+20,150
+	
+-	
+With treatment – please specify level of treatment 
+Note: Tertiary treatment
+92,577
+3,020
+(v)	
+Others
+	
+-	
+No treatment
+-
+-
+	
+-	
+With treatment – please specify level of treatment
+-
+-
+Total water discharged (in kilolitres)
+1,19,695
+23,170
+	
+	
+*Data mentioned above is for TCS India operations
+	
+	
+Indicate if any independent assessment/ evaluation/assurance has been carried out by an external agency? (Y/N) If yes, 
+name of the external agency.
+	
+	
+Yes. This data has been subject to independent assurance by KPMG

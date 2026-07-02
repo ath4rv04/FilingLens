@@ -1,0 +1,164 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+268
+Standalone Financial Statements 2023-24
+	
+The following table summarises financial assets and liabilities measured at fair value on a recurring basis and financial assets that 
+are not measured at fair value on a recurring basis (but fair value disclosures are required):
+(` crore)
+As at March 31, 2024
+ Level 1 
+ Level 2 
+ Level 3 
+ Total 
+Financial assets
+Mutual fund units
+ 749 
+ - 
+ - 
+ 749 
+Equity shares
+ - 
+ - 
+ - 
+ - 
+Government bonds and securities
+ 24,746 
+ - 
+ - 
+ 24,746 
+Corporate bonds
+ 3,406 
+ - 
+ - 
+ 3,406 
+Commercial papers
+ 940 
+ - 
+ - 
+ 940 
+Fair value of foreign exchange derivative assets
+ - 
+ 113 
+ - 
+ 113 
+ 29,841 
+ 113 
+ - 
+ 29,954 
+Financial liabilities
+Fair value of foreign exchange derivative liabilities 
+ - 
+ 109 
+ - 
+ 109 
+ - 
+ 109 
+ - 
+ 109 
+(` crore)
+As at March 31, 2023
+ Level 1 
+ Level 2 
+ Level 3 
+ Total 
+Financial assets
+Mutual fund units
+1,147 
+ - 
+ - 
+1,147 
+Equity shares
+ - 
+ - 
+ - 
+ - 
+Government bonds and securities
+26,128 
+ - 
+ - 
+26,128 
+Corporate bonds
+3,110 
+ - 
+ - 
+3,110 
+Certificate of deposits
+ 2,951 
+ - 
+ - 
+ 2,951 
+Commercial papers
+2,400 
+ - 
+ - 
+2,400 
+Fair value of foreign exchange derivative assets
+ - 
+190 
+ - 
+190 
+35,736 
+190 
+ - 
+35,926 
+Financial liabilities
+Fair value of foreign exchange derivative liabilities 
+ - 
+141 
+ - 
+141 
+ - 
+ 141 
+ - 
+ 141 
+(l)	
+Derivative financial instruments and hedging activity
+	
+The Company’s revenue is denominated in various foreign currencies. Given the nature of the business, a large portion of the 
+costs are denominated in Indian Rupee. This exposes the Company to currency fluctuations. 
+	
+The Board of Directors has constituted a Risk Management Committee (RMC) to frame, implement and monitor the risk 
+management plan of the Company which inter-alia covers risks arising out of exposure to foreign currency fluctuations. Under 
+the guidance and framework provided by the RMC, the Company uses various derivative instruments such as foreign exchange 
+forward, currency options and futures contracts in which the counter party is generally a bank.
+	
+The following are outstanding currency options contracts, which have been designated as cash flow hedges:
+Foreign currency
+As at March 31, 2024
+As at March 31, 2023
+No. of 
+contracts
+Notional amount of 
+contracts  
+(In million)
+Fair value 
+(` crore)
+No. of 
+contracts
+Notional amount of 
+contracts  
+(In million)
+Fair value 
+(` crore)
+US Dollar
+ 19 
+ 475 
+ 6 
+ 8 
+ 225 
+ 13 
+Great Britain Pound
+ 29 
+ 230 
+ 24 
+ 22 
+ 200 
+ 14 
+Euro
+ 28 
+ 235 
+ 16 
+ 22 
+ 203 
+ 10 

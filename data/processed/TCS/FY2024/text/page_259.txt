@@ -1,0 +1,96 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+259
+Standalone Financial Statements 2023-24
+financing transaction. In determining the allowance for expected credit losses, the Company has used a practical expedient by 
+computing the expected credit loss allowance for trade receivables based on a provision matrix. The provision matrix takes into 
+account historical credit loss experience and is adjusted for forward looking information. The expected credit loss allowance is 
+based on the ageing of the receivables that are due and allowance rates used in the provision matrix. For all other financial assets, 
+expected credit losses are measured at an amount equal to the 12-months expected credit losses or at an amount equal to the 
+life time expected credit losses if the credit risk on the financial asset has increased significantly since initial recognition.
+(a)	 Investments
+	
+Investments consist of the following:
+	
+Investments – Non-current
+(` crore)
+As at  
+March 31, 2024
+As at  
+March 31, 2023
+Investment in subsidiaries
+Fully paid equity shares (unquoted)
+ 2,405 
+ 2,405 
+Investments designated at fair value through OCI
+Fully paid equity shares (unquoted)
+Taj Air Limited
+ 19 
+ 19 
+Less: Impairment in value of investments
+ (19)
+ (19)
+ 2,405 
+ 2,405 
+	
+Investments - Current
+(` crore)
+As at  
+March 31, 2024
+As at  
+March 31, 2023
+Investments carried at fair value through profit or loss
+Mutual fund units (quoted)
+ 749 
+ 1,147 
+Investments carried at fair value through OCI
+Government bonds and securities (quoted)
+ 24,746 
+ 26,128 
+Corporate bonds (quoted)
+ 3,406 
+ 3,110 
+Investments carried at amortised cost
+Certificate of deposits (quoted)
+ - 
+ 2,955 
+Commercial papers (quoted)
+ 939 
+ 2,398 
+ 29,840 
+ 35,738 
+	
+Government bonds and securities includes bonds pledged with bank for credit facility amounting to NIL and `1,650 crore as at 
+March 31, 2024 and 2023, respectively.
+	
+Aggregate value of quoted and unquoted investments is as follows:
+(` crore)
+As at  
+March 31, 2024
+As at  
+March 31, 2023
+Aggregate value of quoted investments
+ 29,840 
+ 35,738 
+Aggregate value of unquoted investments (net of impairment)
+ 2,405 
+ 2,405 
+Aggregate market value of quoted investments
+ 29,841 
+ 35,736 
+Aggregate value of impairment of investments
+ 19 
+ 19 
+	
+Market value of quoted investments carried at amortised cost is as follows:
+(` crore)
+As at  
+March 31, 2024
+As at  
+March 31, 2023
+Certificate of deposits
+ - 
+ 2,951 
+Commercial papers
+ 940 
+ 2,400 

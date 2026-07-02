@@ -1,0 +1,102 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+216
+Consolidated Financial Statements 2023-24
+	
+Changes in unearned and deferred revenue are as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Balance at the beginning of the year
+ 4,846 
+ 4,745 
+Revenue recognised that was included in the unearned and deferred revenue 
+balance at the beginning of the year
+ (4,178)
+ (3,071)
+Increase due to invoicing during the year, excluding amounts recognised as revenue 
+during the year
+ 3,469 
+ 3,088 
+Translation exchange difference
+ (15)
+ 84 
+Balance at the end of the year
+ 4,122 
+ 4,846 
+	
+Reconciliation of revenue recognised with the contracted price is as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Contracted price
+2,44,803
+2,28,932
+Reductions towards variable consideration components
+ (3,910)
+ (3,474)
+Revenue recognised
+2,40,893
+2,25,458
+	
+The reduction towards variable consideration comprises of volume discounts, service level credits, etc.
+13)	 Other income
+	
+Dividend income is recorded when the right to receive payment is established. Interest income is recognised using the effective 
+interest method.
+	
+Other income consist of the following:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Interest income
+ 3,781 
+3,248 
+Dividend income
+ 41 
+ 15 
+Net gain on disposal / fair valuation of investments  
+carried at fair value through profit or loss
+ 301 
+220 
+Net gain on sale of investments other than equity  
+shares carried at fair value through OCI
+ 11 
+ 4 
+Net gain on disposal of property, plant and equipment
+ 7 
+ 26 
+Net gain / (loss) on lease modification
+ 7 
+(2)
+Net foreign exchange gain / (loss)
+ 223 
+(159)
+Other income
+ 51 
+97 
+ 4,422 
+3,449 
+Interest income comprise:
+Interest on bank balances and bank deposits
+ 751 
+291 
+Interest on financial assets carried at amortised cost
+ 398 
+657 
+Interest on financial assets carried at fair value through OCI
+ 2,198 
+2,131 
+Other interest (including interest on tax refunds)
+434 
+ 169 
+Dividend income comprise:
+Dividend from mutual fund units and other investments
+ 41 
+ 15 

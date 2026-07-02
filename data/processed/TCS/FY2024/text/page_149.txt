@@ -1,0 +1,61 @@
+Integrated Annual Report 2023-24
+149
+Business Responsibility & Sustainability Report
+Leadership Indicators
+1.	
+Details of a business process being modified / introduced as a result of addressing human rights grievances/complaints.
+	
+Human rights are protected and upheld in TCS’ core value of ‘Respect for the individual’ and enshrined in the TCoC that guides 
+how TCS conducts itself in every community that it operates in. TCS has relevant in-house policies and procedures to reinforce 
+human rights, resulting in a good track record regarding human rights grievances or complaints. TCS continually gathers feedback 
+and keeps track of developments in the regulatory area to further strengthen existing processes.
+2.	
+Details of the scope and coverage of any human rights due-diligence conducted.
+	
+ TCS adopts a zero-tolerance approach to issues related to human rights. It follows all government regulations and regulatory 
+policies in the countries where it operates and comply to all applicable global and local laws including collective bargaining 
+agreements through its policies and standards. TCS executes the TCoC which takes care of Human Rights aspects. In vendor 
+management, TCS ensures due diligence for human rights under the ESG framework.
+3.	
+Is the premise/office of the entity accessible to differently abled visitors, as per the requirements of the Rights of Persons 
+with Disabilities Act, 2016?
+	
+Yes. All TCS-owned premises are accessible to differently abled visitors, as per the the RPWD 2016 Act.
+4.	
+Details on assessment of value chain partners:
+% of value chain partners (by value of business done with such partners) that were 
+assessed
+Sexual Harassment
+All value chain partners are expected to adhere to the applicable laws, TCOC and Supplier 
+Code of Conduct which does not tolerate any form of harassment, whether sexual, 
+physical, verbal, or psychological. However, TCS does not conduct any formal assessment 
+for the same.
+Discrimination at workplace
+100% of value chain partners were assessed.
+Child Labour
+Forced Labour / Involuntary Labour
+Wages
+5.	
+Provide details of any corrective actions taken or underway to address significant risks / concerns arising from the 
+assessments at Question 4 above.
+	
+There were no significant risks / concerns arising from the assessments.
+PRINCIPLE 6: Businesses should respect and make efforts to protect and restore the environment
+Essential Indicators
+1.	
+Details of total energy consumption (in Joules or multiples) and energy intensity, in the following format72:
+	
+Electricity from the grid is the most significant form of energy for TCS. Over the years, TCS has increased the share of Renewable 
+Electricity (RE) through “green-tariff” schemes offered by the state electricity providers, onsite rooftop solar generation and 
+procurement from third party producers in India. In certain countries, Energy Attribute Certificates (EAC) have been procured to 
+meet out carbon neutrality objectives in those geographies. The RE consumption as a percentage of total energy consumption has 
+increased from 55.2% in FY 2022-23 to 74% in FY 2023-24. Electricity consumption across TCS operations increased by  
+14.6% y-o-y on account of increased scale of operations in FY 2023-24 compared to previous year, due to more associates 
+returning to office. An inclusion of 14 locations globally in the reporting boundary during the current year attributed to a 2.8% 
+increase leading to an overall increase in electricity consumption. .
+	
+Other sources of energy include natural gas (mainly used for space heating/cooling, district heating and cooling, mostly in 
+overseas geographies), fuel used in company owned vehicles, cooking gas used in cafeteria and diesel used in diesel generators 
+(mainly used as a back-up source during power shortages).
+72	
+GRI 302-1, GRI 302-3

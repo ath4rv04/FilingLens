@@ -1,0 +1,113 @@
+82
+Management Discussion and Analysis
+Key Risks (R) / 
+Opportunity (O)
+Impact on the Company
+In case of risk or opportunity, approach to adapt 
+or mitigate10
+Financial 
+implications 
+of the risk or 
+opportunity11
+Currency volatility 
+(R)
+Impact On: Financial Capital
+•	
+Volatility in currency exchange 
+movements results in transaction and 
+translation exposure. TCS’ functional 
+currency is the Indian Rupee. 
+Appreciation / depreciation of the 
+Rupee against any major currency 
+could impact the reported revenue 
+in Rupee terms, the profitability and 
+result in collection losses / gains. It 
+can optically mislead revenues and 
+earnings, distorting stakeholder 
+perceptions of the underlying 
+business momentum and profitability.
+•	
+Currency hedging policy that is aligned with 
+market best practices, to limit impact of 
+short-term exchange volatility on receivables, 
+forecasted revenue and other current assets 
+and liabilities.
+•	
+Hedging strategies guided and monitored 
+periodically by the Risk Management 
+Committee of the Board.
+•	
+Management commentary based on constant 
+currency to enable a currency-neutral 
+understanding of business growth.
+Negative / 
+Positive
+Breach of data 
+protection laws (R 
+& O)
+Impact On: Financial Capital, Social 
+Capital, Intellectual Capital 
+Risk:
+•	
+Focus on privacy and protection 
+of personal data has increased 
+compliance risk.  
+•	
+Many privacy legislations (GDPR12 in 
+Europe & UKI, DPDPA13-India, etc.) 
+carry severe consequences for non-
+compliance or breach. 
+•	
+Increased adoption of AI models 
+dealing with personal data requires 
+enhanced safeguards.
+•	
+Violation of data protection laws 
+or security breaches can result 
+in substantive liabilities, fines or 
+penalties and reputational impact.
+•	
+Global privacy policy covering all geographies, 
+all areas of operations, and stakeholders, 
+sets out the privacy principles, operational 
+framework and guidance for deployment. 
+•	
+Unified global privacy framework PrivACE 
+adopted across the company to standardize 
+privacy practices while catering to local 
+requirements. Privacy Information 
+Management Systems (ISO 27701:2019) 
+adopted and certified.  
+•	
+Organization structure with the Global 
+Privacy Office to strategize, monitor and 
+guide deployment of data privacy framework.  
+Data Protection Officers appointed as 
+required by local regulations and Business 
+Privacy Leaders appointed to deploy the 
+privacy framework in all geographies, 
+functions and business units.
+•	
+Continuous monitoring and analysis of 
+changes to regulatory and legal landscape.
+•	
+Embedded ‘privacy by design’ and ‘privacy by 
+default’ principles in design and development 
+of services and products. 
+•	
+Data protection controls, industry standard 
+data masking and encryption technologies, 
+and robust risk response mechanisms to 
+protect personal data in the TCS ecosystem, 
+customer engagements and in case of cross-
+border transfers. 
+•	
+Vendors and third parties subjected to risk 
+based due diligence and contracted with 
+appropriate privacy obligations.
+Negative
+12	
+ General Data Protection Regulation 
+13	
+ Digital Personal Data Protection Act
+Integrated Annual Report 2023-24

@@ -1,0 +1,124 @@
+79
+Management Discussion and Analysis
+10	
+ GRI 3-3 
+11	
+ GRI 201-2
+Enterprise Risk Management
+TCS understands the importance of effectively managing and 
+mitigating risks to protect the company’s business, its clients, 
+to add value for all its stakeholders, and ensuring that the 
+company’s reputation is intact.
+The company follows a comprehensive enterprise risk 
+management framework (based on best practices from COSO 
+2017 and ISO 31000:2018) that encompasses risk identification, 
+risk assessment, risk response planning and actions, risk 
+monitoring and overall risk governance. Fostering a risk aware 
+culture and empowering leaders to take intelligent risks to 
+maximize value are crucial. TCS regularly conducts risk reviews, 
+assessments, and scenario planning to anticipate potential 
+challenges and develop mitigation plans. Key risk indicators 
+and control indicators are used to assess risks, provide early 
+warnings, and consider effectiveness of the mitigation actions, 
+respectively. Furthermore, the company engages with all 
+stakeholders, including customers, employees, suppliers, 
+partners and regulatory authorities, to ensure transparent and 
+collaborative risk management practices.
+TCS takes a holistic view of its enterprise risk profile, covering 
+strategic, operational, compliance, financial and catastrophic 
+risks, thus enabling informed decision-making.  Risks are 
+assessed and managed at various levels with a top-down and 
+bottom-up approach across the enterprise, business units, 
+geographies, business functions, customer relationships and 
+individual projects.
+By proactively managing and mitigating these risks, the 
+company’s aim is to ensure the long-term sustainability and 
+success of the company. TCS is confident that its robust 
+risk management initiatives, coupled with its commitment 
+to innovation and excellence, will enable the company to 
+navigate the challenges of the IT industry and capitalize on the 
+opportunities that lie ahead.
+Listed below are some of the key risks and opportunities, 
+anticipated impact on the company and mitigation strategies. 
+Key Risks (R) / 
+Opportunity (O)
+Impact on the Company
+In case of risk or opportunity, approach to adapt 
+or mitigate10
+Financial 
+implications 
+of the risk or 
+opportunity11
+Volatile global 
+political and 
+economic 
+environment (R)
+Impact On: Human Capital, Financial 
+Capital
+•	
+Geo-politics and macroeconomic 
+volatility can affect demand for the 
+company’s services. The Russia-Ukraine 
+war and the Israel-Hamas conflict in the 
+last 2 years has continued to lead to 
+supply chain disruptions, energy crises, 
+food and merchandise scarcities and 
+impact on inflation. 
+•	
+Persistent high inflation in major 
+economies could affect consumer 
+confidence. The current high interest 
+rate environment could result in 
+economic slowdowns, affecting not 
+only spending, but also squeezing 
+liquidity.
+•	
+All of these could affect clients’ 
+business outlook and result in 
+reduced demand for TCS’ services. It 
+could also increase TCS’ costs of doing 
+business. 
+•	
+In addition, there could be risks to 
+service delivery, business continuity, 
+cybersecurity, sanctions compliance 
+and human rights risks in geo-
+politically sensitive zones, all of which 
+could increase costs or affect the 
+company’s revenue growth. 
+•	
+Broad-based business mix, well diversified 
+across geographies and industry verticals.  
+•	
+Monitor changing geopolitical scenarios 
+and strengthen internal controls to further 
+safeguard against secondary risks.
+•	
+Country-level business continuity plans in 
+place to address potential conflicts in the 
+region.
+•	
+Offerings and value propositions targeting all 
+CxOs (in addition to the CIO) in the customer 
+organization.
+•	
+Focus on cost and optimization propositions, 
+including vendor consolidation initiatives 
+in the near term to improve their business 
+efficiency, when the customer’s discretionary 
+budgets are uncertain.
+•	
+Participate in the customer’s business 
+transformation initiatives through breadth 
+and depth of services and offerings. 
+•	
+Enter more long-term contracts.
+•	
+Proactively invest in infrastructure and 
+resourcing to meet anticipated customer 
+demand for flexible products, AI/GenAI 
+offerings, platforms-based solutions and 
+subscription-based services to gain market 
+share and new clients and markets.
+Negative
+Integrated Annual Report 2023-24

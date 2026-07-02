@@ -1,0 +1,127 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+271
+Standalone Financial Statements 2023-24
+	
+•	
+Exposure to credit risk 
+	
+	
+The carrying amount of financial assets and contract assets represents the maximum credit exposure. The maximum 
+exposure to credit risk was `90,407 crore and `90,655 crore as at March 31, 2024 and 2023, respectively, being the total of 
+the carrying amount of balances with banks, bank deposits, investments excluding equity and preference investments, trade 
+receivables, loans, contract assets and other financial assets.
+	
+	
+The Company’s exposure to customers is diversified and no single customer contributes to more than 10% of outstanding 
+trade receivables and contract assets as at March 31, 2024 and 2023.
+	
+•	
+Geographic concentration of credit risk
+	
+	
+Geographic concentration of trade receivables (gross and net of allowances) and contract assets is as follows:
+As at March 31, 2024
+As at March 31, 2023
+Gross%
+Net%
+Gross%
+Net%
+United States of America
+ 52.31 
+ 53.20 
+ 54.14 
+ 55.13 
+India
+ 13.22 
+ 11.68 
+ 12.03 
+ 10.37 
+United Kingdom
+ 16.47 
+ 16.78 
+ 15.48 
+ 15.80 
+	
+	
+Geographic concentration of trade receivables (gross and net of allowances) and contract assets is allocated based on the 
+location of the customers.
+	
+	
+The allowance for lifetime expected credit losses on trade receivables for the years ended March 31, 2024 and 2023 was `88 
+crore and `98 crore, respectively. The reconciliation of allowance for expected credit losses is as follows:
+(` crore)
+As at  
+March 31, 2024
+As at  
+March 31, 2023
+Balance at the beginning of the year
+ 1,099 
+ 1,137 
+Change during the year
+ 88 
+ 98 
+Bad debts written off
+(98)
+(137)
+Translation Exchange difference
+(1)
+1 
+Balance at the end of the year
+1,088 
+1,099 
+	
+Liquidity risk
+	
+Liquidity risk refers to the risk that the Company cannot meet its financial obligations. The objective of liquidity risk management 
+is to maintain sufficient liquidity and ensure that funds are available for use as per requirements. The Company consistently 
+generated sufficient cash flows from operations to meet its financial obligations including lease liabilities as and when they fall 
+due.
+	
+The tables below provide details regarding the contractual maturities of significant financial liabilities as at:
+(` crore)
+March 31, 2024
+Due in  
+1st year 
+Due in  
+2nd year 
+Due in 3rd to 
+5th year 
+Due after  
+5th year 
+Total 
+Non-derivative financial liabilities
+Trade payables
+ 14,599 
+ - 
+ - 
+ - 
+14,599 
+Lease liabilities
+ 1,421 
+ 1,264 
+ 2,671 
+ 2,696 
+8,052 
+Other financial liabilities
+ 6,182 
+ 39 
+ 262 
+ 19 
+6,502 
+22,202 
+1,303 
+2,933 
+2,715 
+29,153 
+Derivative financial liabilities
+ 109 
+ - 
+ - 
+ - 
+109 
+22,311 
+1,303 
+2,933 
+2,715 
+29,262 

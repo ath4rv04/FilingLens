@@ -1,0 +1,140 @@
+Integrated Annual Report 2023-24
+177
+Consolidated Financial Statements
+	
+	
+e.	
+The interim dividend declared and paid by the 
+Holding Company during the year and until the 
+date of this audit report is in accordance with 
+Section 123 of the Act.
+	
+	
+	
+The final dividend paid by the Holding Company 
+and its subsidiary companies incorporated in 
+India during the year in respect of the same 
+declared for the previous year is in accordance 
+with Section 123 of the Act to the extent it 
+applies to payment of dividend.
+	
+	
+	
+As stated in Note 30 to the financial statements, 
+the Board of Directors of the Holding Company 
+have proposed final dividend for the year which 
+is subject to the approval of the members at the 
+ensuing Annual General Meeting. The dividend 
+declared is in accordance with Section 123 of 
+the Act to the extent it applies to declaration of 
+dividend.
+	
+	
+f.	
+The reporting under Rule 11(g) of the Companies 
+(Audit and Auditors) Rules, 2014 is applicable 
+from 1 April 2023.
+	
+	
+	
+Based on our examination which included 
+test checks, and as communicated by the 
+respective auditor of three subsidiaries, except 
+for the instances mentioned below, the 
+Holding Company and its subsidiary companies 
+incorporated in India have used accounting 
+softwares for maintaining its books of account, 
+which have a feature of recording audit trail 
+(edit log) facility and the same has operated 
+throughout the year for all relevant transactions 
+recorded in the respective softwares:
+	
+	
+	
+i.	
+In case of the Holding Company and its 
+three subsidiary companies incorporated 
+in India, the feature of recording audit trail 
+(edit log) facility was not enabled at the 
+database level to log any direct data changes 
+for the accounting softwares used for 
+maintaining the books of account relating 
+to payroll and certain non-editable fields/
+tables of the accounting software used for 
+maintaining general ledger.
+	
+	
+	
+ii.	
+In case of the Holding Company, the feature 
+of recording audit trail (edit log) facility was 
+not enabled at the database level to log 
+any direct data changes for the accounting 
+software used for maintaining the books of 
+account relating to consolidation.
+	
+	
+	
+iii.	
+In case of the Holding Company and its 
+three subsidiary companies incorporated 
+in India, the feature of recording audit trail 
+(edit log) facility was not enabled at the 
+application layer of the accounting softwares 
+relating to revenue, trade receivables and 
+general ledger for the period 1 April 2023 to 
+13 November 2023 and relating to property, 
+plant and equipment for the period 1 April 
+2023 to 14 December 2023. Further, in case 
+of a subsidiary incorporated in India, the 
+feature of recording audit trail (edit log) 
+facility was not enabled at the application 
+layer of the accounting software relating 
+to payroll for the period 1 April 2023 to 15 
+February 2024.
+	
+	
+	
+iv.	
+In case of a subsidiary incorporated in India, 
+as communicated by the auditor of such 
+subsidiary, the feature of recording audit 
+trail (edit log) facility of the accounting 
+software used for maintaining general ledger 
+was not enabled for the period 1 April 2023 
+to 30 April 2023.
+	
+	
+	
+Further, for the periods where audit trail (edit log) 
+facility was enabled and operated throughout 
+the year for the respective accounting softwares, 
+we did not come across any instance of the audit 
+trail feature being tampered with.
+	
+C.	
+With respect to the matter to be included in the 
+Auditor’s Report under Section 197(16) of the Act:
+	
+	
+In our opinion and according to the information and 
+explanations given to us, the remuneration paid 
+during the current year by the Holding Company to 
+its directors is in accordance with the provisions of 
+Section 197 of the Act. The remuneration paid to any 
+director by the Holding Company is not in excess of 
+the limit laid down under Section 197 of the Act. The 
+subsidiary companies incorporated in India have not 
+paid any remuneration to its directors during the year. 
+The Ministry of Corporate Affairs has not prescribed 
+other details under Section 197(16) of the Act which 
+are required to be commented upon by us.
+For B S R & Co. LLP
+Chartered Accountants
+Firm’s Registration No: 101248W/W-100022
+Amit Somani
+Partner
+Place : Mumbai
+Membership No: 060154
+Date : 12 April 2024
+ICAI UDIN: 24060154BKFDHA1961

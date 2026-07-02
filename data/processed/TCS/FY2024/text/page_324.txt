@@ -1,0 +1,73 @@
+Integrated Annual Report 2023-24
+324
+Sustainability Disclosures
+All climate-related risks are embedded into entity’s overall risk management process. TCS has an internal application where identified risks 
+are baselined at the beginning of the year, tracked quarterly and updated with relevant progress. Each risk has an expiry date. Each risk 
+owner responds with the progress and at the end of the financial year ensures closing of the risk.
+Section 4: Metrics and targets
+Climate related metrics
+a.	
+Climate-related metrics – Scope 1,2 and 3 greenhouse gas (GHG) emissions in metric tons of CO2 equivalent are disclosed on 
+page number 152, 158 of the BRSR report. The emissions are in accordance with the GHG Protocol Corporate Accounting and 
+Reporting Standards. TCS has a robust environmental sustainability tool where all relevant environmental data are collected monthly, 
+validated, and internally assured periodically across geographies. All locations within the operational control of TCS are included in 
+the boundary of environmental data reporting (consolidated accounting group as per IFRS-S2). GHG emission factors are used from 
+the latest version of IEA, DEFRA, USEPA, GHG Protocol All Sector Tools and regional sources for specific geographies (e.g. CEA for 
+India) to estimate the GHG emissions. The approach, inputs and assumptions are detailed on Page number 152, 158 as part of the 
+BRSR section. The carbon emission data is independently assured by external assurance providers at the end of the financial year. 
+In FY 2024, scope 1 and 2 emissions have undergone reasonable assurance and scope 3 has been subject to limited assurance by 
+KPMG. TCS reports its scope 1, 2 and 3 emissions in the Integrated Annual Report and in CDP (Climate change) disclosures. 
+b.	
+Climate-related transition risks—Business activities vulnerable to climate-related transition risks; - Refer section Sustainability Risks - 
+Climate change and Environmental aspects (R & O), page number 86.
+c.	
+ Climate-related physical risks—Business activities vulnerable to climate-related physical risks; - Refer section Sustainability Risks - 
+Climate change and Environmental aspects (R & O), page number 86.
+d.	
+Climate-related opportunities—Business activities aligned with climate-related opportunities; - Refer section Sustainability Risks - 
+Climate change and Environmental aspects (R & O), page number 86.
+e.	
+Capital deployment—the amount of capital expenditure, financing or investment deployed towards climate-related risks and 
+opportunities; - Refer BRSR section in Principle 2 (Percentage of R&D and capital expenditure (capex) investments in specific 
+technologies to improve the environmental and social impacts of product and processes to total R&D and capex investments made 
+by the entity, respectively, Page number 135)
+f.	
+Internal carbon prices:
+	
+The organization has calculated an internal carbon price based on the total investments envisaged for energy efficiency programs, 
+transition to renewable energy and other investments towards emission reductions. Currently TCS does not apply this carbon price 
+to determine the feasibility of projects or to apply a carbon tax to generate funding for the projects. All these projects and initiatives 
+are driven through internal accruals since they align to overall company and Tata Group philosophy. Currently, TCS is not focusing on 
+offsetting to drive reductions and the company may take up the carbon cost/tax mechanism in the future to generate budgets for 
+purchase of offset instruments. In the coming years, the company may plan to consider applying a carbon tax to business travel (and 
+employee commuting-company provided transport) to bring out the “carbon” cost. This will help reduce Category 6 and 7 of Scope 
+3 emissions by either reducing travel or switching to carbon efficient means of travel and transportation (like EVs). The price for each 
+metric tonne of greenhouse gas emissions the entity uses to assess the costs of its greenhouse gas emissions is ₹ 2,365.
+	
+Business decision-making processes this internal carbon price is applied to are:
+	
+•	
+Capital expenditure 
+	
+•	
+Operations procurement 
+	
+•	
+Risk management 
+	
+•	
+Opportunity management
+	
+•	
+Value chain engagement
+Remuneration: Refer page number 103 for information on remuneration of the Board members. 
+Climate-related targets
+TCS’ climate related targets are mentioned along with its metrics, timeline, and performance in page 24, 25 of the Natural Capital section. 
+In May 2021, TCS set carbon target of 70% reduction of absolute Scope 1 + 2 emissions by 2025 (vs base year 2016) and Net Zero by 2030. 
+This target setting is aimed to mitigate the carbon emissions from its activities and enables adapting to climate change risks. The target 
+applies to the entity in entirety across geographies. TCS has already achieved 71% reduction in scope 1 and 2 emissions in FY 2023 (Vs 
+2016) and 80% reduction in FY 2024 (Vs 2016) thereby overachieving the targets much ahead of its timelines. 
+The performance against the targets is disclosed in this Integrated Annual Report in the Natural Capital Section on Page numbers 24 and 25. 
+TCS has made its commitment to SBTi targets. In June 2022, TCS has responded to SBTi’s urgent call for corporate climate action by 
+committing to align with 1.5°C and net-zero through the Business Ambition for 1.5°C campaign. This is published on SBTi website and can 
+be viewed at Companies taking action - Science Based Targets. TCS is working towards submitting the targets for validation by SBTi.

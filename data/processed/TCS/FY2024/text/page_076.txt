@@ -1,0 +1,103 @@
+76
+Management Discussion and Analysis
+7	
+Only industry specific drivers are listed. In addition, every industry vertical saw demand for TCS’ services arising from IT estate rationalization, 
+core platform simplification, application and data modernization, ERP modernization, cloud adoption and infrastructure modernization, hybrid 
+cloud strategies, hyper automation, cloud enablement, cloud migration, data democratization, data compliance and protection, IT infrastructure 
+modernization,  employee experience redesign, digital workplace transformation, cyber security, intelligent automation, business and IT 
+operating model transformation, agile and DevOps adoption, digital marketing and analytics, mergers, acquisitions and divestitures, supply chain 
+transformation, vendor consolidation and cost optimization. Also, there is an increasing interest in Gen AI led value chain transformation.
+Segmental Performance 
+The revenue break-up by Industry Vertical and Geography is provided below:
+Revenue by Industry Vertical
+Revenue by Geography
+Banking, Financial 
+Services and 
+Insurance 37.7% 
+Others 8.7%
+Life Sciences 
+and Healthcare 
+11.1%
+Manufacturing 
+9.8%
+Communication, Media 
+and Technology 16.4%
+Consumer 
+Business 16.3%
+Continental 
+Europe 14.9%
+Asia Paciﬁc 7.8%
+North America 
+51.1%
+India 5.6%
+Middle East 
+and Africa 2.1%
+Latin America 2.0%
+United 
+Kingdom 16.5%
+Segment revenues, year on year growth, a brief commentary and segment margins are provided below:
+Industry Vertical
+Segment 
+Revenue 
+FY 2024 
+(FY 2023) 
+` crore
+YoY 
+Revenue 
+Growth 
+%
+Key Demand Drivers7
+Segment 
+Margin 
+FY 2024 
+(FY 2023) 
+%
+Banking, Financial 
+Services and 
+Insurance
+90,928
+(86,127)
+5.6 •	
+Customer journey transformation, payment modernization, new 
+products and services creation with simultaneous transformation of 
+core systems, legacy modernization, and systems of engagement. 
+•	
+GenAI / AI for hyper personalization, fraud detection, AI-driven 
+advisory and customer support. 
+•	
+Sustainability and climate change initiatives, green lending, ESG 
+regulatory compliance.
+•	
+Service Reliability Engineering, implementation of future-ready target 
+operating model.
+25.9
+(25.9)
+Communication, 
+Media and 
+Technology
+39,391
+(37,653)
+4.6 Communication, Media and Information Services:
+•	
+5G and fiber rollout, digital product innovation, smart bundling, 
+network virtualization, product and platform engineering.
+•	
+Steady adoption of GenAI, autonomous networks, automated content 
+creation, contact center transformation, marketing personalization, 
+field operations productivity, software engineering, ecosystem play. 
+Technology and Services:
+•	
+Product innovation - Digital platform led businesses, Next-gen 
+communication tech (5G and Satellite Communication), AI platforms, 
+faster and efficient chips, cloudification of the engineering 
+environment.
+•	
+Enabling new business models - Everything-as-a-service (XaaS), 
+Subscription-based services (SaaS), transition to direct channels.
+•	
+Digital core transformation - Next generation cloud ERPs, PLM, CRM to 
+standardize, simplify and scale business, cloud data engineering and 
+analytics.
+27.7
+(28.3)
+Integrated Annual Report 2023-24

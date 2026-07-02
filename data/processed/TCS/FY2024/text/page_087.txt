@@ -1,0 +1,105 @@
+87
+Management Discussion and Analysis
+Key Risks (R) / 
+Opportunity (O)
+Impact on the Company
+In case of risk or opportunity, approach to adapt 
+or mitigate10
+Financial 
+implications 
+of the risk or 
+opportunity11
+Challenges and 
+Opportunities 
+with Disruptive 
+Technologies (R 
+& O)
+Impact On:  Human Capital, Financial 
+Capital, Social Capital, Intellectual Capital
+Risk:
+Disruptive cutting-edge technologies like 
+Quantum Computing, GenAI and large 
+language models, and Metaverse could 
+impact TCS’ business:
+•	
+GenAI, large language models 
+and Metaverse could lead to legal 
+liabilities through plagiarism, deep 
+fakes and privacy and copyright 
+infringement issues. 
+•	
+The efficacy of AI models depends 
+on the quality of the data they are 
+trained on. Accuracy, bias/fairness 
+risks could cause reputational damage 
+and legal liabilities.  
+•	
+GenAI technologies could disrupt 
+software development and testing 
+activities, changing customer 
+expectations in the short term. 
+•	
+Quantum Computing may increase 
+exposure to cyberattacks because 
+existing security infrastructure may 
+prove inadequate.
+•	
+Ensure controlled use of these technologies 
+through pilots/research.  
+•	
+Restricted access to GenAI technologies on 
+company network until proven safe. 
+•	
+Launched an effective Responsible AI 
+framework based on the core principles 
+of Safe, Secure, Accountable, Explainable and 
+Transparent.
+•	
+Work with government bodies, regulators 
+and academia to build consensus about 
+policies and guidelines for use of these 
+technologies.
+•	
+Embark on large-scale skilling of employees 
+to prepare for deployment on market-
+oriented products and services based on 
+these technologies.
+•	
+Participate as a member of industry specific 
+large language models consortia.
+•	
+Proactively invest in research around 
+embedding GenAI capabilities into software 
+development processes to boost productivity.
+•	
+Utilize the AI infrastructure and capabilities to 
+build and process GenAI applications, while 
+also upskilling TCS employees. 
+•	
+Leverage opportunities to market TCS’ own 
+GenAI tools and services as overall adoption 
+of the technology increases, focusing on 
+‘Assist, Augment and Transform’ use-cases. 
+•	
+Establish the company as a thought leader in 
+GenAI related technology work and actively 
+participate in use case creation and pilots. 
+Establish active partnerships with leading 
+LLM vendors.
+•	
+Develop niche skills to tap demand created 
+for Post Quantum Cryptography services 
+as customers seek Quantum safe security 
+algorithms. 
+Negative
+Opportunity:
+•	
+These technologies also have the 
+potential to reimagine existing 
+products and services and can also 
+open opportunities in the form of new 
+solutions using those technologies, 
+and new services needing newer 
+kinds of skills.
+Positive
+Integrated Annual Report 2023-24

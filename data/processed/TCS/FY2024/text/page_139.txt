@@ -1,0 +1,126 @@
+Integrated Annual Report 2023-24
+139
+Business Responsibility & Sustainability Report
+8.	
+Details of training given to employees50:
+Category
+FY 2023-24
+FY 2022-23*
+Total (A)
+On Health and 
+Safety Measures
+On Skill 
+Upgradation
+Total (D)
+On Health and 
+Safety Measures
+On Skill 
+Upgradation
+No. (B)
+% (B/A)
+No. (C)
+% (C/A)
+No. (E)
+% (E/D)
+No. (F)
+% (F/D)
+Employees
+Male
+3,87,448
+3,74,988
+96.8
+3,25,397
+84.0
+3,93,771
+3,88,587
+98.7
+3,49,717
+88.8
+Female
+2,14,098
+2,06,519
+96.5
+1,76,807
+82.6
+2,19,423
+2,13,293
+97.2
+1,93,281
+88.1
+Total
+6,01,546
+5,81,507
+96.7
+5,02,204
+83.5
+6,13,194
+6,01,880
+98.2
+5,42,998
+88.6
+	
+*For FY 2022-23 information mentioned are for TCS’ global operations, excluding non-wholly owned subsidiaries.
+9.	
+Details of performance and career development reviews of employees51:
+Category
+FY 2023-24
+FY 2022-23*
+Total (A)#
+No. (B)
+% (B/A)
+Total (C)
+No. (D)
+% (D/C)
+Employees
+Male
+3,42,187
+3,26,639
+95.5
+2,53,389
+2,48,055
+97.9
+Female
+1,86,739
+1,72,919
+92.6
+1,43,140
+1,36,061
+95.1
+Total
+5,28,926
+4,99,558
+94.4
+3,96,529
+3,84,116
+96.9
+	
+*For FY 2022-23 information mentioned are for TCS’ India operations, excluding non-wholly owned subsidiaries.
+	
+#	
+Column A represents employees eligible for annual performance review and excludes new joiners with less than a year in the 
+company.
+10.	 Health and safety management system:
+	
+a.	
+Whether an occupational health and safety management system has been implemented by the entity? (Yes/ No). If yes, 
+the coverage of such system52?
+	
+	
+Yes. TCS is certified to ISO 45001:2018 Occupational Health and Safety (OHS) Management System standard across 129 
+of its facilities worldwide in FY 2023-24. These certified locations constitute 84.9% of office footprint and 89.6% of people 
+footprint operating from these locations.*
+	
+	
+TCS has a well-defined OHS policy and supporting processes to ensure the safety and well-being of its employees. Safety 
+lead and lag indicators are measured across the organization and reported (refer table below for targets and performance). 
+The board-level Stakeholders’ Relationship Committee reviews the Company’s health and safety performance on a half 
+yearly basis. Over 89.6% of the workforce is represented in joint management-employee health and safety committees that 
+monitor, advise and drive occupational, health and safety initiatives.
+50	
+GRI 403-5, GRI 404-1, GRI 404-2 
+51	
+GRI 404-3 
+52	
+GRI 403-1 
+*TCS has offices that are spread across various geographies.  Delivery centers with >200 seats from India and >50 seats from overseas were considered 
+as a criteria for certification.

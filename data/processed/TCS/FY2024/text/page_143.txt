@@ -1,0 +1,47 @@
+Integrated Annual Report 2023-24
+143
+Business Responsibility & Sustainability Report
+5.	
+Details on assessment of value chain partners 61:
+% of value chain partners (by value of business done with such partners) that were assessed
+Health and safety practices
+TCS’ supply chain sustainability requirements are integrated with online procurement platform with 
+the ‘Sourcing module’ and ‘Risk module’. TCS’ HSE policies, procedures, guidelines, and Supplier 
+Code of Conduct (SCoC) are included in sourcing module in RFP template for digital acceptance by 
+all suppliers / vendors who are considered for evaluation.
+Some critical suppliers such as regulated waste disposal services (e-waste, hazardous waste, 
+battery wastes), bottled water suppliers, food suppliers for cafeteria and similar suppliers undergo 
+legal compliance due diligence and site inspection before initiating the negotiation process. The 
+procurement team ensures that SCoC acceptance is done by vendors and all compliances are in 
+place for which a tracking system is maintained.
+TCS also conducts periodic audits/review of processes/documents of on-boarded vendors who 
+have contractual agreement. 
+Working Conditions
+6.	
+Provide details of any corrective actions taken or underway to address significant risks / concerns arising from assessments of 
+health and safety practices and working conditions of value chain partners 61.
+	
+TCS conducts regular H&S audits for high-risk vendors such as caterers, transport vendors, and bottled water vendors. Any 
+findings during these audits are tracked to closure. For example, if any vehicle provided by a transport vendor is found non-
+compliant to the TCS safety standards and guidelines, it is immediately removed from the roster.
+PRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders
+Essential Indicators
+1.	
+Describe the processes for identifying key stakeholder groups of the entity 62.
+	
+TCS engages with a broad spectrum of stakeholders, to deepen its insights into their needs and expectations, and to develop 
+sustainable strategies for the short, medium and long term. Stakeholder engagement also helps to manage risks and 
+opportunities in business operations. The key stakeholders identified in consultation with the company’s management are: 
+customers, employees, shareholders, academic institutions, staffing firms, other suppliers, technology partners and collaborators, 
+industry bodies, governments, NGOs, local communities, regulators and society at large.
+	
+Some other stakeholders that TCS closely engages with – such as industry analysts, equity analysts, and the news media are 
+proxies for other named stakeholders i.e. customers, shareholders, and society at large, respectively.
+	
+Stakeholder interactions might be structured (e.g. surveys, account statements) or unstructured (town halls, 1x1 or group 
+meetings). Based on mutual convenience and need, the engagement may be scheduled as needed, or pre-scheduled on a 
+periodic basis, or ongoing (e.g. website, social media).
+61	
+GRI 414-2 
+62	
+GRI 2-29

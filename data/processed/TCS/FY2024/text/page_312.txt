@@ -1,0 +1,97 @@
+kL
+Acronym for the unit kilo-liters used to measure volume. It is a unit used to measure and report water usage in 
+TCS’ offices.
+KMP
+See Key Managerial Personnel
+kWh
+Acronym for kilowatt hours used as a unit of measurement of electricity
+Large Language 
+Models
+This is a language model used to train generative AI and consists of a neural network with many parameters 
+(typically billions of weights), trained on large volumes of unlabeled text.  By tracking words in sequences, it 
+learns both context and meaning in language, enabling it to generate text artifacts that look they were written by 
+humans. 
+LatAm
+Acronym for Latin America 
+Location 
+Independent Agile
+A method to orchestrate globally distributed stakeholders and talent into Agile teams for improved speed to 
+market in large transformational programs. It comprises processes, structure, and the technology that allows 
+enterprises to overcome location constraints and embrace Agile methods on a global scale. 
+Low-Code, No Code
+New software development platforms that offer a drag and drop user interface to allow business users to build 
+custom web or mobile applications without actually having to write the code. The difference between the 
+two is related to the extent of programming ability needed. The former might still require some amount of 
+programming, while the latter is entirely drag and drop. In addition to boosting innovation within the enterprise, 
+these platforms also drive-up productivity of programmers.
+Machine First™ 
+Delivery Model
+A model that integrates analytics, AI and automation deep within the enterprise to redefine how humans and 
+machines work together and to effectively deliver superior outcomes. 
+Machine Learning
+A type of artificial intelligence that provides computers with the ability to learn behaviors without being explicitly 
+programmed and relying on patterns and inference instead.
+Managed Services
+This is the practice of outsourcing to one service provider, also knowns as the Managed Services Provider (MSP), 
+the end-to-end responsibility for providing, or orchestrating the provision through third party providers of, 
+services around a range of processes and functions, in order to improve efficiency, service quality, agility and 
+scalability.
+Managed Services 
+Provider
+Service providers with the sole, end-to-end responsibility of providing Managed Services.
+Market 
+Capitalization
+The total market value of a company’s total outstanding equity shares at a point in time.
+Market Capitalization = Last Trading Price * Total number of outstanding shares
+MEA
+Acronym for Middle East and Africa 
+Metaverse
+A virtual 3D environment that a user can experience explore on a computer or VR headset. Users can interact 
+with each other in several ways, including social networking, gaming, and shopping.
+MFDM™
+Acronym for Machine First Delivery Model
+Minimum Viable 
+Product 
+The most basic version of a new product built in an agile development cycle, with the bare minimum functionality, 
+made available to users at the earliest to get user feedback and validate product value with minimum investment. 
+Once validated, its features and functionalities are continually augmented in subsequent iterative cycles. 
+MJ
+Acronym for Mega Joule used as a unit of measurement of energy (electricity as well as fuel use)
+Mobility
+Digital technology which includes - Information, convenience, and social media all combined together, and made 
+available across a variety of screen sizes and hand-held devices.
+MSP
+See Managed Services Provider
+MVP
+See Minimum Viable Product
+MWh
+Acronym for megawatt hours used as a unit of measurement of electricity. 1 MWh=1000kWh
+Natural Language 
+Processing
+Branch of Artificial Intelligence that deals with the interaction between computers and humans through natural 
+language, involving complex and challenging tasks such as speech recognition, natural language understanding, 
+and natural language generation.
+Net Zero
+Greenhouse gases emitted into the atmosphere due the company’s activity are minimized through a series 
+of initiatives and the residual emission is compensated by removal of equivalent amount of GHG emissions 
+elsewhere through carbon offsets.
+Non-Controlling 
+Interests
+The share of the net worth attributable to non-controlling shareholders of the subsidiaries.
+Non-discretionary 
+Spend
+Also known as Run the Business (RTB) spend, is that portion of the IT budget that covers the basic IT activities 
+required to keep a business running. Even in tough economic times, non-discretionary spend remains relatively 
+unaffected.
+Operating Model
+The manner in which processes are defined and activities are organized to create and deliver value to a target 
+audience. An IT operating model covers activities around new system development, application and infrastructure 
+support whereas business operating models address execution of actions specific to a business function. 
+Operating Model 
+Transformation
+Redefining individual processes by embedding AI, machine learning and other forms of automation to reduce the 
+need for human intervention, resulting in a leaner operating model that is faster, more agile and more resilient. 
+Such transformations – whether in IT or business – can be significantly accelerated by the use of TCS Cognix. 
+Integrated Annual Report 2023-24
+312
+Glossary

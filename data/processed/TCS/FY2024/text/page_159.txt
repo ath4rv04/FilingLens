@@ -1,0 +1,134 @@
+Integrated Annual Report 2023-24
+159
+Business Responsibility & Sustainability Report
+3.	
+With respect to the ecologically sensitive areas reported at Question 11 of Essential Indicators above, provide details 
+of significant direct & indirect impact of the entity on biodiversity in such areas along-with prevention and remediation 
+activities84.
+S/N
+Initiative undertaken
+Details of the initiative (Web-link, if any, 
+may be provided along-with summary)
+Outcome of the initiative
+Chandaka Wildlife sanctuary authority 
+has developed the trench followed 
+by 5 feet wall with fencing along 
+the border of the sanctuary so that 
+the possibility of elephants crossing 
+the trench is eliminated hence, any 
+impact of TCS operations on wildlife 
+is not expected. However, TCS has 
+undertaken following initiatives:
+•	
+Minimizing light pollution around 
+the wildlife sanctuary
+•	
+Internal initiatives within its 
+campus towards biodiversity 
+conservation and enhancement
+•	
+Internal initiatives towards water 
+and waste management
+•	
+Installation of inward facing low 
+intensity peripheral lights
+•	
+Plantation of native/ indigenous 
+plants, medicinal and spice garden, 
+butterfly garden
+•	
+Provision of organic waste 
+technologies - Vermicomposting and 
+organic waste converter
+•	
+Provision of rainwater harvesting 
+structure and sewage treatment 
+plant (STP)
+•	
+Inward direction peripheral lights 
+of low intensity to avoid any 
+impact on wildlife movement. 
+High mast lights in TCS parking 
+area are switched off after 11 pm.
+•	
+Protection of native/medicinal, 
+plant species as well as butterfly 
+species.
+•	
+Garden and food waste 
+vermicomposting and organic 
+waste composting technology 
+has been installed to generate 
+organic manure and it is reused 
+for landscaping.
+•	
+100% treatment and recycling of 
+wastewater inside the premises.
+•	
+Groundwater recharging pits for 
+enriching the water table.
+	
+As a proactive initiative, TCS has included ‘Urban Biodiversity’ conservation as an integral part of TCS Environmental Sustainability 
+Policy and its long-term plan for sustainable development. Biodiversity action plan is implemented across 18 TCS campuses in 
+India to conserve and enhance urban biodiversity. Biodiversity mapping for various flora and fauna species is conducted on an 
+annual basis. TCS campuses across India are home to over 600+ flora species and 200+ fauna species. 
+4.	
+If the entity has undertaken any specific initiatives or used innovative technology or solutions to improve resource efficiency, 
+or reduce impact due to emissions / effluent discharge / waste generated, please provide details of the same as well as 
+outcome of such initiatives, as per the following format:
+S/N
+Initiative undertaken
+Details of the initiative (Web-link, if any, 
+may be provided along-with summary)
+Outcome of the initiative
+1
+HVAC energy efficiency projects
+•	
+Energy efficient AHU’s
+•	
+VRF systems for 24x7 systems on 
+variable load
+2.83 Mn kWh energy savings
+2
+UPS based energy efficiency projects
+•	
+UPS consolidation and Modular UPS 0.801 Mn kWh energy savings
+3
+Energy efficiency due to green buildings
+•	
+Roof Underdeck Insulation
+•	
+Roof tiling to increase SRI (solar 
+reflective index)
+•	
+CTI Certified Cooling Towers
+•	
+Renewable Energy use 
+•	
+LED luminaires 
+Note : the above list is indicatively only
+6.63 Mn kWh energy savings
+4
+Energy Monitoring and Analytics (Clever 
+Energy + Resource Optimization Center)
+•	
+Set Point modulation
+•	
+Equipment Schedule Change
+•	
+Operational Optimization
+•	
+Alert based Monitoring
+6.04 Mn kWh avoided energy 
+consumption.
+5.	
+Does the entity have a business continuity and disaster management plan? Give details in 100 words/ web link.
+	
+The business continuity and disaster management function in TCS supports the strategic objective of the organization, protects 
+business interest, and proactively strengthens the organization’s ability to effectively respond to internal and external threats and 
+enable seamless, continued delivery of critical business operations, in the event of any disruption. The end-to-end framework is 
+effectively managed through defined policy, procedures, guidelines and through in-house developed tools that support planning 
+and communication with all stakeholders. The framework is fully compliant and certified to ISO 22301:2019, CMMI-SVC and is 
+integrated with TCS quality management system for consistent deployment across the organization.
+84	
+GRI 304-2, GRI 304-3

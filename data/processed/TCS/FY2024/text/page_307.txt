@@ -1,0 +1,48 @@
+Glossary
+5G
+Fifth generation wireless technology for digital cellular networks. 5G is expected to be much faster and enable 
+much higher volumes of data sharing than earlier generations of cellular networks. Its massive capacity and ultra-
+low latency are expected to usher in an era of hyper-connectivity, enabling newer use cases such as autonomous 
+cars, and accelerating the adoption of IoT. 
+ADM
+See Application Development and Maintenance
+Agile
+A collaborative approach for IT and business teams to develop software incrementally and faster. TCS has 
+pioneered the Location Independent Agile™ model that allows for deployment at scale, and helps globally 
+distributed organization execute large transformational programs quickly, while ensuring stability and quality.
+Agile Workspaces
+These are key enablers of TCS’ Location Independent Agile model, and represent the next generation work 
+environment that facilitate greater collaboration among teams. It is characterized by partition-less open offices, 
+informal seating, interactive surfaces for information capture, and modern collaboration devices for increased 
+productivity. 
+AgilityDebt™
+AgilityDebt™ is a simple index developed by TCS, which uniquely indicates the burden carried by an organization 
+that restricts its Agility. The index is arrived at based on a holistic Agile maturity assessment framework that 
+measures the gap against required Agile talent, roles, team composition, delivery practices, Agile culture, Agile 
+technology and DevOps enablers. TCS uses AgilityDebt™ to assess where the customer’s teams are in the Agile 
+journey, find the bottlenecks, and accelerate their Agile transformations.
+AI
+See Artificial Intelligence
+AI Assistant
+A software agent that uses AI technologies to perform tasks or services for an individual. These assistants can 
+understand and interpret human speech or text inputs, enabling them to execute commands, answer questions, 
+or assist with tasks like scheduling, reminding, or even controlling smart home devices.
+AI Copilot
+A virtual assistant that offers real-time guidance and feedback to enhance a human being’s work.
+Algo Retail™
+TCS’ proprietary approach and suite of intellectual property that enables retailers to seamlessly integrate and 
+orchestrate data flows across the retail value chain, harnessing the power of analytics, AI and machine learning in 
+the areas of personalization, pricing optimization, marketing, online search and commerce to unlock exponential 
+business value.
+Amortization
+Systematic allocation of the depreciable amount of an intangible asset over its useful life.
+Analytics
+In the enterprise context, this is the discovery, interpretation, and communication of meaningful patterns in 
+business data to predict and improve business performance.
+Annuity Contracts
+A long-term contract which can guarantee regular payments.
+APAC
+Acronym for Asia Pacific 
+Integrated Annual Report 2023-24
+307
+Glossary

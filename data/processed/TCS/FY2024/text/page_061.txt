@@ -1,0 +1,133 @@
+Integrated Annual Report 2023-24
+61
+Directors’ Report
+procurement has resulted in an increase in renewable 
+energy use to 74 percent of total energy use during the 
+year.
+	
+TCS is certified to ISO 50001:2018 standards for Energy 
+Management Systems (EnMS) across 22 campuses in India. 
+Out of these, 2 campuses were added under certification 
+in FY 2024, continuing our commitment to energy 
+conservation and management.
+	
+The above energy efficiency and renewable energy 
+procurement efforts helped achieve a year-on-year 
+reduction in absolute carbon footprint (across Scope 1 
+and Scope 2) of TCS’ global operations by 31 percent.  
+The company has achieved 80% reduction in absolute 
+emissions (Scope 1 and Scope 2) when compared to the 
+base year of FY 2016. The electricity consumption across 
+TCS operations increased by 14.6% in the current year 
+compared to FY 2023. This is due to increased scale of 
+operations considering increase in number of associates 
+returning to office and inclusion of 14 locations globally 
+in the reporting boundary, leading to a 2.8% increase in 
+electricity consumption. 
+	
+The Company has achieved carbon neutrality across Scope 
+1 and Scope 2 in Asia Pacific (including Japan), Europe, 
+North America, UK & Ireland, Latin America, Middle East & 
+Africa regions during the reporting year.
+	
+Continued focus on the above initiatives will enable the 
+company’s aspiration of achieving its carbon target of  
+Net Zero by 2030.
+	
+Technology absorption, adoption and innovation:
+	
+Research & Development (R&D): Specific areas in which 
+R&D was carried out by the Company
+	
+TCS Research and Innovation delivered significant value 
+to TCS’ customers, the research community and society at 
+large through numerous initiatives and impactful outcomes.
+	
+Inventing for Impact:
+	
+TCS Research continued to expand its foundational research 
+in computing and its intersection with the sciences with an 
+emphasis on AI, especially Large Language Models (LLM).
+	
+The exploration of innovative uses of GenAI has been a 
+focal point for TCS Research this year. TCS delved deep 
+into three key areas: (i) Generative design for scientific 
+and engineering applications, (ii) Transformation of 
+knowledge work, encompassing but not restricted to 
+software development and operations management, and 
+(iii) Reimagination of the user engagement paradigm across 
+diverse domains.
+	
+TCS explored use of GenAI to identify new molecules or 
+modifications of existing molecules that show promise of 
+being useful as new drugs (of medicinal value), as well as to 
+evaluate them for ease of synthesis and manufacturing. TCS 
+used GenAI to design alloys and materials while at the same 
+time using generative exploration of the chemistry and the 
+process route. The Company leveraged LLMs through the 
+lens of domain models to curate ontology (information 
+model) as well as failure/performance knowledge for large 
+manufacturing operations reducing the time needed for 
+such activities from months to days. The Munch Museum in 
+Oslo is exploring the use of GenAI with TCS to create a  
+co-drawing system for museum visitors. The use of GenAI in 
+all domains of human activity is exploding and TCS Research 
+is at the forefront of several such explorations.
+	
+The Company’s research on enterprise digital twins 
+witnessed accelerated growth due to a growing interest 
+and adoption of this technology across industries from 
+communications to airlines and retail. TCS’ strategy of 
+investing in robotics translated to a business initiative and 
+gained traction with customers leading to collaborative 
+partnerships with major robotics accelerators such as 
+the National Robotarium, UK and MassRobotics, US. The 
+software research teams continued with their focus on  
+self-healing and adaptive model-driven software 
+architecture, adapting to changes and uncertainties 
+seamlessly. 
+	
+TCS continues to explore and invest in foundation research 
+encompassing topics like computing for finance, building 
+digital twins for the human heart and brain, quantum 
+computing and nano sensing for future IoT and healthcare 
+applications, meta-material based reconfigurable intelligent 
+surfaces for next-generation wireless systems like 6G, 
+neuromorphic computing for low-power edge-AI,  
+post-quantum cryptography, and other emerging as well as 
+futuristic technologies.
+	
+TCS continues to contribute to standards in areas such as 
+environmental engineering, cyber security, cyber resilience, 
+Internet of Things, smart cities, software architecture, 
+quantum computing and communication, accessibility of 
+ICT for the differently abled, AI, Metaverse, Agile Devops, 
+e-Learning and FinTech-RegTech.
+	
+Our brand TCS Research won at the Global Social Media 
+Awards UK 2023 for ‘Best Use of LinkedIn’. The Global Social 
+Media Awards celebrates businesses around the world that 
+are crashing through the algorithms and channelizing the 
+chatter to create innovative, meaningful engagement that 
+produces tangible results. This recognition is a testament to 
+content innovation and motivates the Company to continue 
+to inspire and transform the world through impactful 
+stories of research and innovation.
+	
+Strengthening IP Base:
+	
+TCS launched new IP-based offerings and enhancements 
+of existing IP-based offerings. The Revenue Management 
+Solution strategically navigates CPG growth by leveraging 
+data and insights to optimize pricing, promotions, product 
+mix, and trade investments. TCS’ Observability Solution 
+ensures intelligent, secure, and proactive monitoring for 
+hybrid cloud applications, supporting diverse environments 
+from SAP to Oracle ERP to custom applications across  
+multi-cloud landscapes. The Company’s Cross Industry Digital 
+Commerce Platform provides multitude core capabilities, 
+industry specific capabilities and an ecosystem orchestration 
+capability to the Retail, CPG, Airline and Telecom industries.
+	
+TCS ADD™ Metadata Repository won two awards for 
+Excellence in Ancillary Pharma Services and Excellence 

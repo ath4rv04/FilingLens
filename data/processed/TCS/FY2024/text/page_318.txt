@@ -1,0 +1,54 @@
+Integrated Annual Report 2023-24
+318
+Sustainability Disclosures
+TCS Climate Related Disclosures
+In FY 2023, TCS’ climate related disclosures were aligned to the Taskforce for Climate-related Financial Disclosures (TCFD). Subsequently, 
+TCFD fulfilled its remit and was disbanded in October 2023. 
+The International Sustainability Standards Board (ISSB) released IFRS S2, Climate-related Disclosures, in January 2024, which is aligned 
+with the recommendations of TCFD. This year, TCS has disclosed information related to climate-related risk and opportunities aligned with 
+IFRS S2. IFRS S2 applies to disclosure of (1) climate related risks (physical and transitional), to which the entity is exposed and (2) climate 
+related opportunities available to the entity. 
+The disclosure requirements in IFRS S2 are structured around the core content related to the following sections: 
+Section 1: Governance
+Section 2: Strategy
+Section 3: Risk Management
+Section 4: Metrics and Targets
+Each of the above topics are addressed below.
+Section 1: Governance
+TCS has a Board level Stakeholder Relationship Committee (SRC) that oversees different aspects of climate-related risks and opportunities. 
+Stakeholder Relationship Committee (SRC)
+•	
+The SRC is chaired by an independent director and comprises of 3 members including the CEO. It reviews the climate change 
+strategy, approach, and performance of the organization with respect to sustainability and climate change. 
+•	
+The SRC formally meets twice every year to review policies and sustainability performance, including climate change and carbon 
+performance. The board oversight helps drive the program effectively with greater accountability. 
+•	
+The CEO, as a part of the SRC, is directly responsible for the efficient operations of the facility and hence is better able to review 
+performance and drive improvement. The updates are provided by the Chief Human Resources Officer (CHRO) and is supported by 
+the Head - Environmental Sustainability, Health and Safety (ESHS) who oversees the environment and climate change implementation 
+at the organisation. 
+•	
+TCS’ carbon reduction goal to reduce its absolute greenhouse gas emissions across Scope 1 and Scope 2 by 70% by 2025 (over 2016 
+base year), and to achieve net zero emissions by 2030, was reviewed and approved by the committee.
+•	
+Statement by Senior management: Refer page number 132 in BRSR for N G Subramaniam, COO & Executive Director’s statement. 
+•	
+During the half yearly meetings, the SRC monitors the progress towards the carbon targets and the carbon reduction initiatives that 
+have been implemented and planned.
+Competency: 
+TCS has a competent team working on Environmental Sustainability. TCS’ Head - Environmental Sustainability, Health, and Safety (ESHS) is 
+a Doctorate in Environmental Science and Engineering and has over 30 years of post-doctoral experience in environmental sustainability 
+and climate change.  The ESHS team has recruited professionals who have the requisite qualification and experience in climate change 
+and environmental sustainability. The team has undergone training in advanced topics and regularly participates in external training 
+programs and sessions on the emerging frameworks and regulatory requirements around climate change.
+TCS is also a member of the Confederation of Indian Industries (CII) and National Association of Software and Services Companies 
+(NASSCOM), and the company participates as panelist, assessor, or speaker in their training and capacity building workshops on climate 
+change with the perspective of spreading know-how on ESG, climate change mitigation and adaptation strategies among other industries. 
+Remuneration: Refer page number 103 for information on remuneration of the Board members.
+Apart from the SRC, TCS also has the Risk Management Committee (RMC) that is responsible for risk management oversight at the 
+corporate level.
+Risk Management Committee (RMC)
+•	
+The RMC is chaired by an independent director and comprises of 5 members including one additional independent director, 2 
+executive directors, i.e. CEO, COO, and one company executive, CFO. 

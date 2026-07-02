@@ -1,0 +1,447 @@
+89
+Management Discussion and Analysis
+Performance Trend – 10 years 
+(` Crore)
+ Ind AS 
+ Indian GAAP 
+FY 2024*
+FY 2024
+FY 2023
+FY 2022
+FY 2021*
+FY 2021
+FY 2020
+FY 2019
+FY 2018
+FY 2017
+FY 2016
+FY 2015#
+FY 2015
+Revenue from operations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total revenue from 
+operations
+240,893
+240,893
+225,458
+191,754
+164,177
+164,177
+156,949
+146,463
+123,104
+117,966
+108,646
+94,648
+94,648
+Revenue by geographic 
+segments
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Americas
+127,939
+127,939
+124,336
+100,072
+84,278
+84,278
+82,000
+77,562
+66,145
+66,091
+60,011
+51,053
+51,053
+Europe
+75,624
+75,624
+67,436
+61,142
+52,346
+52,346
+48,037
+43,456
+34,155
+30,038
+29,092
+26,730
+26,730
+India
+13,562
+13,562
+11,271
+9,805
+8,449
+8,449
+8,964
+8,393
+7,921
+7,415
+6,729
+6,108
+6,108
+Others
+23,768
+23,768
+22,415
+20,735
+19,104
+19,104
+17,948
+17,052
+14,883
+14,422
+12,814
+10,757
+10,757
+Cost
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Employee cost
+140,131
+140,131
+127,522
+107,554
+91,814
+91,814
+85,952
+78,246
+66,396
+61,621
+55,348
+48,296
+50,924
+Other operating cost
+36,466
+37,424
+38,677
+31,143
+25,817
+27,035
+28,888
+28,711
+24,192
+24,034
+22,621
+19,242
+19,242
+Total cost (excluding interest 
+& depreciation)
+176,597
+177,555
+166,199
+138,697
+117,631
+118,849
+114,840
+106,957
+90,588
+85,655
+77,969
+67,538
+70,166
+Profitability
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EBIT
+59,311
+58,353
+54,237
+48,453
+42,481
+41,263
+38,580
+37,450
+30,502
+30,324
+28,789
+25,311
+22,683
+Profit before tax
+63,038
+61,997
+56,907
+51,687
+44,978
+43,760
+42,248
+41,563
+34,092
+34,513
+31,840
+28,437
+25,809
+Profit after tax attributable 
+to shareholders of the 
+Company
+46,585
+45,908
+42,147
+38,327
+33,388
+32,430
+32,340
+31,472
+25,826
+26,289
+24,270
+21,912
+19,852
+Financial Position
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Equity share capital
+362
+362
+366
+366
+370
+370
+375
+375
+191
+197
+197
+196
+196
+Reserves and surplus
+90,805
+90,127
+90,058
+88,773
+87,014
+86,063
+83,751
+89,071
+84,937
+86,017
+70,875
+52,499
+50,439
+Gross block of property, 
+plant and equipment
+33,853
+33,853
+32,344
+30,300
+28,658
+28,658
+26,444
+24,522
+22,720
+20,891
+19,308
+16,624
+16,624
+Total investments 
+31,762
+31,762
+37,163
+30,485
+29,373
+29,373
+26,356
+29,330
+36,008
+41,980
+22,822
+1,662
+1,662
+Net current assets
+67,558
+66,880
+66,712
+65,959
+66,076
+65,125
+63,177
+70,047
+63,396
+65,804
+47,644
+30,726
+28,495
+Earnings per share in `
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EPS - as reported
+127.74
+125.88
+115.19
+103.62
+89.27
+86.71
+86.19
+83.05
+134.19
+133.41
+123.18
+111.87
+101.35
+EPS - adjusted for Bonus 
+Issue
+127.74
+125.88
+115.19
+103.62
+89.27
+86.71
+86.19
+83.05
+67.10
+66.71
+61.59
+55.94
+50.68
+Headcount (number)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Headcount (including 
+subsidiaries) as on March 
+31st
+601,546
+601,546
+614,795
+592,195
+488,649
+488,649
+448,464
+424,285
+394,998
+387,223
+353,843
+319,656
+319,656
+Note: The company transitioned into Ind AS from April 1, 2015.
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim.
+# Excludes the impact of one-time employee reward.
+Overview of Funds Invested 
+Funds invested exclude earmarked balances with banks and equity shares measured at fair value through other comprehensive 
+income.
+(` Crore)
+FY 2024
+FY 2023
+FY 2024
+FY 2023
+FY 2024
+FY 2023
+Current
+Non-current
+Total funds invested
+Investments in mutual funds, 
+Government securities and others
+31,481
+36,897
+249
+230
+31,730
+37,127
+Deposits with banks
+10,011
+8,223
+2,248
+1,334
+12,259
+9,557
+Inter-corporate deposits
+170
+846
+-
+170
+170
+1,016
+Cash and bank balances
+2,804
+2,124
+-
+-
+2,804
+2,124
+Total
+44,466
+48,090
+2,497
+1,734
+46,963
+49,824
+Total invested funds include ₹2,576 crore and ₹2,080 crore for FY 2024 and FY 2023, respectively, pertaining to trusts and TCS 
+Foundation held for specified purposes.
+Integrated Annual Report 2023-24

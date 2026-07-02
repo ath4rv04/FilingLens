@@ -1,0 +1,76 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+215
+Consolidated Financial Statements 2023-24
+	
+Contract assets are recognised when there are excess of revenues earned over billings on contracts. Contract assets are classified 
+as unbilled receivables (only act of invoicing is pending) when there is unconditional right to receive cash, and only passage of 
+time is required, as per contractual terms. 
+	
+Unearned and deferred revenue (“contract liability”) is recognised when there are billings in excess of revenues.
+	
+The billing schedules agreed with customers include periodic performance based payments and / or milestone based progress 
+payments. Invoices are payable within contractually agreed credit period.
+	
+In accordance with Ind AS 37, the Group recognises an onerous contract provision when the unavoidable costs of meeting the 
+obligations under a contract exceed the economic benefits to be received. 
+	
+Contracts are subject to modification to account for changes in contract specification and requirements. The Group reviews 
+modification to contract in conjunction with the original contract, basis which the transaction price could be allocated to a new 
+performance obligation, or transaction price of an existing obligation could undergo a change. In the event transaction price is 
+revised for existing obligation, a cumulative adjustment is accounted for.
+	
+The Group disaggregates revenue from contracts with customers by nature of services, industry verticals and geography.
+	
+Revenue disaggregation by nature of services is as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Consultancy services
+2,38,135
+2,23,332
+Sale of equipment and software licences
+ 2,758 
+ 2,126 
+2,40,893
+2,25,458
+	
+Revenue disaggregation by industry vertical and geography has been included in segment information (Refer note 19).
+	
+While disclosing the aggregate amount of transaction price yet to be recognised as revenue towards unsatisfied (or partially 
+satisfied) performance obligations, along with the broad time band for the expected time to recognise those revenues, the 
+Group has applied the practical expedient in Ind AS 115. Accordingly, the Group has not disclosed the aggregate transaction price 
+allocated to unsatisfied (or partially satisfied) performance obligations which pertain to contracts where revenue recognised 
+corresponds to the value transferred to customer typically involving time and material, outcome based and event based contracts. 
+	
+Unsatisfied (or partially satisfied) performance obligations are subject to variability due to several factors such as terminations, 
+changes in scope of contracts, periodic revalidations of the estimates, economic factors (changes in currency rates, tax laws etc). 
+The aggregate value of transaction price allocated to unsatisfied (or partially satisfied) performance obligations is `1,65,314 crore 
+out of which 47.69% is expected to be recognised as revenue in the next year and the balance thereafter. No consideration from 
+contracts with customers is excluded from the amount mentioned above.
+	
+Changes in contract assets are as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Balance at the beginning of the year
+ 5,831 
+ 4,419 
+Invoices raised that were included in the contract assets balance at the beginning of 
+the year
+ (3,933)
+ (3,305)
+Increase due to revenue recognised during the year, excluding amounts billed during 
+the year
+ 4,182 
+ 4,519 
+Translation exchange difference
+ 61 
+ 198 
+Balance at the end of the year
+ 6,141 
+ 5,831 

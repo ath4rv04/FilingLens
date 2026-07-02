@@ -1,0 +1,395 @@
+90
+Management Discussion and Analysis
+Ratio Analysis – 10 years 
+ Ind AS 
+ Indian GAAP 
+Units FY 2024* FY 2024 FY 2023 FY 2022 FY 2021*  FY 2021  FY 2020  FY 2019  FY 2018  FY 2017  FY 2016 FY 2015#  FY 2015 
+Ratios - Financial Performance
+Employee Cost / Total Revenue 
+%
+58.2
+58.2
+56.6
+56.1
+55.9
+55.9
+54.8
+53.4
+53.9
+52.2
+50.9
+51.0
+53.8
+Other Operating Cost / Total Revenue 
+%
+15.1
+15.5
+17.1
+16.2
+15.7
+16.5
+18.4
+19.6
+19.7
+20.4
+20.9
+20.4
+20.3
+Total cost (excluding interest & 
+depreciation) / Total Revenue 
+%
+73.3
+73.7
+73.7
+72.3
+71.6
+72.4
+73.2
+73.0
+73.6
+72.6
+71.8
+71.4
+74.1
+EBIT / Total Revenue 
+%
+24.6
+24.2
+24.1
+25.3
+25.9
+25.1
+24.6
+25.6
+24.8
+25.7
+26.5
+26.7
+24.0
+Profit Before Tax / Total Revenue 
+%
+26.2
+25.7
+25.2
+27.0
+27.4
+26.7
+26.9
+28.4
+27.7
+29.3
+29.3
+30.0
+27.3
+Tax / Total Revenue 
+%
+6.8
+6.6
+6.5
+6.9
+7.0
+6.8
+6.2
+6.8
+6.7
+6.9
+6.9
+7.2
+6.6
+Effective Tax Rate - Tax / PBT 
+%
+25.8
+25.6
+25.7
+25.6
+25.5
+25.6
+23.2
+24.1
+24.1
+23.6
+23.6
+23.5
+23.7
+Profit After Tax / Total Revenue 
+%
+19.3
+19.1
+18.7
+20.0
+20.3
+19.8
+20.6
+21.5
+21.0
+22.3
+22.3
+23.2
+21.0
+Ratios - Growth
+Total Revenue 
+%
+6.8
+6.8
+17.6
+16.8
+4.6
+4.6
+7.2
+19.0
+4.4
+8.6
+14.8
+15.7
+15.7
+EBIT
+%
+9.4
+7.6
+11.9
+14.1
+10.1
+7.0
+3.0
+22.8
+0.6
+5.3
+13.7
+6.3
+(4.7)
+Profit After Tax 
+%
+10.5
+8.9
+10.0
+14.8
+3.2
+0.3
+2.8
+21.9
+(1.8)
+8.3
+22.3
+14.3
+3.6
+Ratios - Balance Sheet
+Debt (excluding lease liabilities) - Equity 
+Ratio
+Times
+-
+-
+-
+-
+-
+-
+-
+-
+0.0
+0.0
+0.0
+0.0
+0.0
+Current Ratio
+Times
+2.5
+2.5
+2.5
+2.6
+3.0
+2.9
+3.3
+4.2
+4.6
+5.5
+4.1
+3.9
+2.4
+Days Sales Outstanding (DSO) in ` terms
+Days
+68
+68
+67
+65
+67
+67
+71
+68
+74
+70
+81
+79
+79
+Days Sales Outstanding (DSO) in US$ 
+terms
+Days
+67
+67
+65
+64
+68
+68
+67
+69
+74
+73
+80
+78
+78
+Invested Funds / Capital Employed
+%
+47.7
+47.3
+50.4
+57.4
+52.6
+53.1
+47.7
+55.2
+55.6
+55.8
+45.8
+42.3
+43.9
+Capital Expenditure / Total Revenue 
+%
+1.1
+1.1
+1.4
+1.5
+1.9
+1.9
+2.0
+1.5
+1.5
+1.7
+1.8
+3.1
+3.1
+Operating Cash Flows / Total Revenue 
+%
+18.7
+18.4
+18.6
+20.8
+23.6
+23.6
+20.6
+19.5
+20.4
+21.4
+17.6
+20.5
+20.5
+Free Cash Flow / Operating Cash Flow 
+Ratio  
+%
+94.1
+94.0
+92.7
+92.6
+91.9
+91.9
+90.5
+92.5
+92.8
+92.3
+89.7
+84.8
+84.8
+Depreciation of Property, Plant and 
+Equipment / Average Gross Block of 
+Property, Plant and Equipment
+%
+8.4
+8.4
+9.2
+9.1
+8.7
+8.7
+8.6
+8.5
+9.1
+9.5
+10.0
+11.7
+11.7
+Ratios - Per Share
+EPS - adjusted for Bonus
+`
+127.74
+125.88
+115.19
+103.62
+89.27
+86.71
+86.19
+83.05
+67.10
+66.71
+61.59
+55.94
+50.68
+Price Earnings Ratio, end of year
+Times
+30.3
+30.8
+27.8
+36.1
+35.6
+36.6
+21.2
+24.1
+21.2
+18.2
+20.4
+22.8
+25.1
+Dividend Per Share
+`
+73.00
+73.00
+115.00
+43.00
+38.00
+38.00
+73.00
+30.00
+50.00
+47.00
+43.50
+79.00
+79.00
+Dividend Per Share - adjusted for Bonus
+`
+73.00
+73.00
+115.00
+43.00
+38.00
+38.00
+73.00
+30.00
+25.00
+23.50
+21.75
+39.50
+39.50
+Market Capitalization / Total Revenue 
+Times
+5.8
+5.8
+5.2
+7.1
+7.2
+7.2
+4.4
+5.1
+4.4
+4.1
+4.6
+5.3
+5.3
+Note: The company transitioned into Ind AS from April 1, 2015.
+*Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim.
+# Excludes the impact of one-time employee reward.
+Integrated Annual Report 2023-24

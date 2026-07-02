@@ -1,0 +1,134 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+189
+Consolidated Financial Statements 2023-24
+	
+The Group has made an irrevocable election to present 
+subsequent changes in the fair value of equity investments 
+not held for trading in other comprehensive income.
+	
+Financial assets at fair value through profit or loss
+	
+Financial assets are measured at fair value through profit 
+or loss unless they are measured at amortised cost or at 
+fair value through other comprehensive income on initial 
+recognition. The transaction costs directly attributable 
+to the acquisition of financial assets and liabilities at fair 
+value through profit or loss are immediately recognised in 
+statement of profit and loss. 
+	
+Financial liabilities
+	
+Financial liabilities are measured at amortised cost using 
+the effective interest method.
+	
+Equity instruments
+	
+An equity instrument is a contract that evidences residual 
+interest in the assets of the company after deducting all of 
+its liabilities. Equity instruments issued by the Group are 
+recognised at the proceeds received net of direct issue cost.
+	
+Derivative accounting
+	
+•	
+Instruments in hedging relationship
+	
+	
+The Group designates certain foreign exchange 
+forward, currency options and futures contracts as 
+hedge instruments in respect of foreign exchange risks. 
+These hedges are accounted for as cash flow hedges.
+	
+	
+The Group uses hedging instruments that are 
+governed by the financial risk management policy as 
+approved by the Risk Management Committee. The 
+policy provides principles on the use of such financial 
+derivatives consistent with the risk management 
+strategy of the company and its subsidiaries. While 
+determining the appropriate hedge ratio, the Group 
+takes into consideration the prevailing macro-
+economic conditions, the availability and liquidity of 
+the hedging instruments, tolerance levels for hedge 
+ineffectiveness and the costs of hedging. The hedging 
+activities are reviewed by the Risk Management 
+Committee every quarter and future course of action 
+is determined.
+	
+	
+The hedge instruments are designated and 
+documented as hedges at the inception of the 
+contract. The Group determines the existence of 
+an economic relationship between the hedging 
+instrument and hedged item based on the currency, 
+amount and timing of their respective cash flows. 
+The effectiveness of hedge instruments to reduce 
+the risk associated with the exposure being hedged 
+is assessed and measured at inception and on an 
+ongoing basis. If the hedged future cash flows are no 
+longer expected to occur, then the amounts that have 
+been accumulated in other equity are immediately 
+reclassified in net foreign exchange gains in the 
+statement of profit and loss.
+	
+	
+The effective portion of change in the fair value of the 
+designated hedging instrument is recognised in the 
+other comprehensive income and accumulated under 
+the heading cash flow hedging reserve.
+	
+	
+The Group separates the intrinsic value and time value 
+of an option and designates as hedging instruments 
+only the change in intrinsic value of the option. 
+The change in fair value of the intrinsic value and 
+time value of an option is recognised in the other 
+comprehensive income and accounted as a separate 
+component of equity. Such amounts are reclassified 
+into the statement of profit and loss when the related 
+hedged items affect profit and loss.
+	
+	
+Hedge accounting is discontinued when the hedging 
+instrument expires or is sold, terminated or no 
+longer qualifies for hedge accounting. Any gain or 
+loss recognised in other comprehensive income and 
+accumulated in equity till that time remains and is 
+recognised in statement of profit and loss when the 
+forecasted transaction ultimately affects profit and 
+loss. Any gain or loss is recognised immediately in the 
+statement of profit and loss when the hedge becomes 
+ineffective.
+	
+•	
+Instruments not in hedging relationship
+	
+	
+The Group enters into contracts that are effective 
+as hedges from an economic perspective, but they 
+do not qualify for hedge accounting. The change in 
+the fair value of such instrument is recognised in the 
+statement of profit and loss.
+	
+Impairment of financial assets (other than at fair value)
+	
+The Group assesses at each date of balance sheet whether 
+a financial asset or a group of financial assets is impaired. 
+Ind AS 109 requires expected credit losses to be measured 
+through a loss allowance. The Group recognises lifetime 
+expected losses for all contract assets and / or all trade 
+receivables that do not constitute a financing transaction. 
+In determining the allowance for expected credit losses, 
+the Group has used a practical expedient by computing 
+the expected credit loss allowance for trade receivables 
+based on a provision matrix. The provision matrix takes into 
+account historical credit loss experience and is adjusted 
+for forward looking information. The expected credit loss 
+allowance is based on the ageing of the receivables that 
+are due and allowance rates used in the provision matrix. 
+For all other financial assets, expected credit losses are 
+measured at an amount equal to the 12-months expected 
+credit losses or at an amount equal to the life time 
+expected credit losses if the credit risk on the financial 
+asset has increased significantly since initial recognition.

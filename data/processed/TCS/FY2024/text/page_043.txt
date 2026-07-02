@@ -1,0 +1,108 @@
+Integrated Annual Report 2023-24
+43
+Notice
+	
+5.	
+Your User ID details are given below:
+Manner of holding shares i.e. Demat 
+(NSDL or CDSL) or Physical
+Your User ID is:
+a)	
+For Members who hold shares in 
+demat account with NSDL
+8 Character DP ID followed by 8 Digit Client ID 
+For example if your DP ID is IN300*** and Client ID is 12****** then your User ID 
+is IN300***12******
+b)	
+For Members who hold shares in 
+demat account with CDSL
+16 Digit Beneficiary ID
+For example if your Beneficiary ID is 12************** then your User ID is 
+12**************
+c)	
+For Members holding shares in 
+Physical Form
+EVEN Number followed by Folio Number registered with the Company
+For example if EVEN is 123456 and folio number is 001*** then User ID is 
+123456001***
+	
+6.	
+Password details for shareholders other than Individual shareholders are given below: 
+	
+	
+a)	
+If you are already registered for e-voting, then you can use your existing password to login and cast your vote.
+	
+	
+b)	
+If you are using NSDL e-voting system for the first time, you will need to retrieve the ‘initial password’ which was 
+communicated to you by NSDL. Once you retrieve your ‘initial password’, you need to enter the ‘initial password’ and 
+the system will force you to change your password.
+	
+	
+c)	
+How to retrieve your ‘initial password’?
+	
+	
+	
+(i)	
+If your e-mail ID is registered in your demat account or with the Company, your ‘initial password’ is communicated 
+to you on your e-mail ID. Trace the e-mail sent to you from NSDL in your mailbox from evoting@nsdl.com.  
+Open the e-mail and open the attachment i.e. a .pdf file. Open the .pdf file. 
+	
+	
+	
+	
+The password to open the .pdf file is your 8 digit client ID for NSDL account, last 8 digits of client ID for CDSL account 
+or folio number for shares held in physical form. The .pdf file contains your ‘User ID’ and your ‘initial password’. 
+	
+	
+	
+(ii)	 In case you have not registered your e-mail address with the Company/Depository, please follow instructions 
+mentioned below in this notice.
+	
+7.	
+If you are unable to retrieve or have not received the “Initial password” or have forgotten your password:
+	
+	
+a)	
+ Click on “Forgot User Details/Password?”(If you are holding shares in your demat account with NSDL or CDSL) option 
+available on www.evoting.nsdl.com.
+	
+	
+b)	
+“Physical User Reset Password?” (If you are holding shares in physical mode) option available on  
+www.evoting.nsdl.com.
+	
+	
+c)	
+If you are still unable to get the password by aforesaid two options, you can send a request at evoting@nsdl.com 
+mentioning your demat account number/folio number, PAN, name and registered address.
+	
+	
+d)	
+Members can also use the OTP based login for casting the votes on the e-voting system of NSDL.
+	
+8.	
+After entering your password, tick on Agree to “Terms and Conditions” by selecting on the check box.
+	
+9.	
+Now, you will have to click on “Login” button.
+	
+10.	 After you click on the “Login” button, home page of e-voting will open.
+	
+Details on Step 2 are given below:
+	
+How to cast your vote electronically on NSDL e-voting system?
+	
+1.	
+After successful login at Step 1, you will be able to see all the companies’ “EVEN” in which you are holding shares and whose 
+voting cycle and general meeting is in active status.
+	
+2.	
+Select “EVEN” of Company, which is 128475 for which you wish to cast your vote during the remote e-voting period and 
+casting your vote during the General Meeting. For joining virtual meeting, you need to click on “VC/OAVM” link placed under 
+“Join Meeting”.
+	
+3.	
+Now you are ready for e-voting as the voting page opens.

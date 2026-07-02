@@ -1,0 +1,73 @@
+Integrated Annual Report 2023-24
+153
+Business Responsibility & Sustainability Report
+	
+During the year, several initiatives were aligned to achieve the carbon targets which included those in building and IT 
+infrastructure. Initiatives in building infrastructure included energy efficiencies in HVAC systems, Uninterrupted Power Supply 
+(UPS), and chillers.
+	
+•	
+HVAC system upgradation by installation of latest technology VRF systems which works on inverter technology.
+	
+•	
+Use of High Efficiency VFD based chillers.
+	
+•	
+Replacement of R-22 based & fixed compressor-based HVAC equipment with inverter technology-based equipment
+	
+•	
+Modular UPS which can modulate its capacity based on load and helps provide 90-95% efficiency, even at lower loads.
+	
+•	
+Life cycle based replacement of HVAC equipment like chillers, pumps and cooling towers has helped reduce our energy 
+consumption.
+	
+•	
+Energy optimization in our operations through iOT based solutions, remote monitoring, analytics and automated feedback 
+mechanism
+	
+•	
+As our commitment to energy conservation and management, 2 additional campuses in India were certified to ISO 
+50001:2018 standards for Energy Management Systems (EnMS) in FY 2023-24, making it to a total of 22 campuses certified 
+to ISO 50001:2018 across TCS India.
+	
+Green IT:
+	
+Initiatives in green Information Technology (IT) focused on data center and IT device consolidation and optimization to reduce 
+the carbon footprint. The areas covered under green IT initiatives include IT energy optimization in data centers and equipment 
+rooms. TCS’ data centers at Yantra Park (Thane) and Siruseri (Chennai) have a weighted average PUE of 1.7. Apart from the two 
+main data centers, TCS also has 54 equipment rooms for business as usual (BAU) activities, wherein the weighted average PUE has 
+reduced from 1.88 in FY 2022-23 to 1.76 in FY 2023-24.
+	
+The data centre at Yantra Park uses 100% Renewable Energy (RE) while the one at Siruseri uses 73% RE. The power consumed by 
+the data centers at Yantra Park and Siruseri were 5.52 MWh and 1.65 MWh respectively during the reporting year FY 2023-24. In 
+addition to the above, green attributes are considered in every IT asset procurement.
+	
+TCS’ IoT-based Real-time Energy Management System (TCS Clever Energy™) initiative involves real time monitoring to optimize 
+the operational energy efficiency across all offices. The smart, scalable, analytics driven IoT solution uses TCS Connected Universe 
+Platform (TCUP) IoT platform, which forms the backbone, enabling visualization of data acquired from various locations and 
+facilities’ energy meters and sensors. Other energy optimization initiatives include:
+	
+•	
+IT Equipment optimization (rack consolidation, server consolidation and procurement of energy efficient devices)
+	
+•	
+UPS optimization (right sizing of UPS, replacement of old technology UPS with modular UPS)
+	
+•	
+Cooling optimization (switching off excess capacity cooling units, maintaining return set temperature at 24 +/- 1 deg C, 
+replacing old with new technology cooling units) 
+	
+•	
+Leakage reduction (proper alignment of racks and perforated tiles, partitioning to reduce cooling area, cold aisle 
+containment, blanking panel, active tiles and soft partitioning
+	
+Renewable Energy:
+	
+The roof top solar photo voltaic installations this year remained at 10.2 MWp contributing to 3 percent of total electricity use in 
+FY 2023-24. A rooftop solar PV of 260 KWp has been planned for implementation in early FY 2024-25. The Company increased 
+its renewable energy procurement through a) switch over to green tariffs for its operations in Ahmedabad, Kolkata, Chennai, 
+Kochi and Trivandrum branches, b) Green energy units procurement through Power Purchase Agreements (PPA) at two locations 
+in Chennai viz. Ambattur and Chennai One, Magnum, which cumulatively added about 6.5 million green units to the renewable 
+energy portfolio). The renewable energy procurement has resulted in an increase in renewable energy use to 74 percent of total 
+energy use.

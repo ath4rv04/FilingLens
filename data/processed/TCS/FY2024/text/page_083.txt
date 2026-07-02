@@ -1,0 +1,103 @@
+83
+Management Discussion and Analysis
+Key Risks (R) / 
+Opportunity (O)
+Impact on the Company
+In case of risk or opportunity, approach to adapt 
+or mitigate10
+Financial 
+implications 
+of the risk or 
+opportunity11
+•	
+Mandatory trainings, workshops and 
+continuous awareness campaigns through 
+privacy day events.
+•	
+Periodic reviews and internal and external 
+audits for assurance.
+•	
+TCS’ data security solutions leverage 
+advanced data protection techniques to meet 
+diverse global regulatory requirements and 
+elevate data privacy for customer’s business
+Opportunity:
+•	
+Enterprises are increasing their 
+investments in enhancing Data 
+Privacy, given the regulatory 
+landscape in every industry, 
+presenting a fast-growing business 
+opportunity for TCS.
+Positive
+Cyber Attacks  
+(R & O)
+Impact On: Financial Capital, Social 
+Capital, Intellectual Capital 
+Risk:
+•	
+Risks of cyber-attacks are on the rise 
+due to the fast-evolving nature of the 
+threat. There is also an increased risk 
+due to various pandemic-themed 
+cyber threats and attack due to geo-
+political drivers.
+•	
+Security breach could result in 
+reputational damage, penalties, 
+and legal and financial liabilities, 
+in addition to impact on business 
+operations.
+•	
+Best in class enterprise-wide training and 
+awareness programs using simulations and 
+the enterprise-wide communication and 
+collaboration platforms accessed through 
+mobile or desktop channels.
+•	
+Use of advanced AI/ML based tools 
+to detect and prevent incursions with 
+advanced quarantine capabilities, including 
+perimeter security controls with enhanced 
+internal vulnerability detection, data leak 
+prevention tools, defined and tested incident 
+management and recovery process in 
+compliance with industry best practices.
+•	
+Continued reinforcement of stringent 
+security policies and procedures (certified 
+against ISO 27001) including enhanced 
+security measures and awareness building to 
+combat phishing attempts and soliciting for 
+fraudulent causes or charities through social 
+media, text or calls.
+•	
+Close collaboration with Computer 
+Emergency Response Team (CERT) and 
+other private cyber intelligence agencies, 
+and enhanced awareness of emerging cyber 
+threats, to proactively block IPs used by 
+threat actors. 
+•	
+Strict access controls including non-
+persistent passwords (OTP) for secure 
+access to enterprise applications/ network, 
+special handling of privileged administrator 
+accounts, rigorous access management on all 
+cloud deployments.
+•	
+Encryption of data, data back-up and 
+recovery mechanisms for ensuring business 
+continuity.
+•	
+Ability to isolate TCS enterprise network 
+from client network and defined escalation 
+mechanisms.
+•	
+Periodic rigorous testing to validate 
+effectiveness of controls through vulnerability 
+assessment and penetration testing. Internal 
+and external audits, red/purple teaming, 
+“breach and attack” simulation.
+Negative
+Integrated Annual Report 2023-24

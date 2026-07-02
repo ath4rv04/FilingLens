@@ -1,0 +1,100 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+270
+Standalone Financial Statements 2023-24
+	
+•	
+Foreign currency exchange rate risk
+	
+	
+The fluctuation in foreign currency exchange rates may have potential impact on the statement of profit and loss and other 
+comprehensive income and equity, where any transaction references more than one currency or where assets / liabilities 
+are denominated in a currency other than the functional currency of the Company. Considering the countries and economic 
+environment in which the Company operates, its operations are subject to risks arising from fluctuations in exchange rates in 
+those countries. 
+	
+	
+The Company, as per its risk management policy, uses derivative instruments primarily to hedge foreign exchange. Further, 
+any movement in the functional currency of the various operations of the Company against major foreign currencies may 
+impact the Company’s revenue in international business.
+	
+	
+The Company evaluates the impact of foreign exchange rate fluctuations by assessing its exposure to exchange rate risks. It 
+hedges a part of these risks by using derivative financial instruments in line with its risk management policies.
+	
+	
+The foreign exchange rate sensitivity is calculated by aggregation of the net foreign exchange rate exposure and a 
+simultaneous parallel foreign exchange rates shift of all the currencies by 10% against the functional currency of the 
+Company.
+	
+	
+The following analysis has been worked out based on the net exposures of the Company as of the date of balance sheet 
+which could affect the statement of profit and loss and other comprehensive income and equity. Further the exposure as 
+indicated below is mitigated by some of the derivative contracts entered into by the Company as disclosed in note 6(l).
+	
+	
+The following table sets forth information relating to unhedged foreign currency exposure as at March 31, 2024:
+(` crore)
+USD
+EUR
+GBP
+Others
+Net financial assets
+ 4,243 
+ 507 
+ 379 
+ 2,143 
+Net financial liabilities
+ (11,238)
+ (760)
+ (2,215)
+ (1,530)
+	
+	
+10% appreciation / depreciation of the functional currency of the Company with respect to various foreign currencies would 
+result in increase / decrease in the Company’s profit before taxes by approximately `847 crore for the year ended  
+March 31, 2024.
+	
+	
+The following table sets forth information relating to unhedged foreign currency exposure as at March 31, 2023:
+(` crore)
+USD
+EUR
+GBP
+Others
+Net financial assets
+ 2,747 
+ 91 
+ 436 
+ 2,736 
+Net financial liabilities
+ (12,419)
+ (723)
+ (1,923)
+ (1,108)
+	
+	
+10% appreciation / depreciation of the functional currency of the Company with respect to various foreign currencies would 
+result in increase / decrease in the Company’s profit before taxes by approximately `1,016 crore for the year ended  
+March 31, 2023.
+	
+•	
+Interest rate risk
+	
+	
+The Company’s investments are primarily in fixed rate interest bearing investments. Hence, the Company is not significantly 
+exposed to interest rate risk.
+	
+Credit risk
+	
+Credit risk is the risk of financial loss arising from counterparty failure to repay or service debt according to the contractual terms 
+or obligations. Credit risk encompasses of both, the direct risk of default and the risk of deterioration of creditworthiness as well 
+as concentration of risks. Credit risk is controlled by analysing credit limits and creditworthiness of customers on a continuous 
+basis to whom the credit has been granted after obtaining necessary approvals for credit. Refer note 4 for methods, assumptions 
+and information used to measure expected credit losses.
+	
+Financial instruments that are subject to credit risk consist of trade receivables, loans, investments, derivative financial 
+instruments, cash and cash equivalents, bank deposits and other financial assets. Bank deposits include an amount of `2,500 
+crore held with two banks having high credit rating which are individually in excess of 10% or more of the Company’s total bank 
+deposits as at March 31, 2024. None of the other financial instruments of the Company result in material concentration of credit 
+risk.

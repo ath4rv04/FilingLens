@@ -1,0 +1,71 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+205
+Consolidated Financial Statements 2023-24
+	
+The Group measures the lease liability at the present value of the lease payments that are not paid at the commencement 
+date of the lease. The lease payments are discounted using the interest rate implicit in the lease, if that rate can be readily 
+determined. If that rate cannot be readily determined, the Group uses incremental borrowing rate. For leases with reasonably 
+similar characteristics, the Group, on a lease-by-lease basis, may adopt either the incremental borrowing rate specific to the lease 
+or the incremental borrowing rate for the portfolio as a whole. The lease payments shall include fixed payments, variable lease 
+payments, residual value guarantees, exercise price of a purchase option where the Group is reasonably certain to exercise that 
+option and payments of penalties for terminating the lease, if the lease term reflects the lessee exercising an option to terminate 
+the lease. The lease liability is subsequently remeasured by increasing the carrying amount to reflect interest on the lease 
+liability, reducing the carrying amount to reflect the lease payments made and remeasuring the carrying amount to reflect any 
+reassessment or lease modifications or to reflect revised in-substance fixed lease payments. The Group recognises the amount 
+of the re-measurement of lease liability due to modification as an adjustment to the right-of-use asset and statement of profit 
+and loss depending upon the nature of modification. Where the carrying amount of the right-of-use asset is reduced to zero 
+and there is a further reduction in the measurement of the lease liability, the Group recognises any remaining amount of the re-
+measurement in statement of profit and loss.
+	
+The Group has elected not to apply the requirements of Ind AS 116 - Leases to short-term leases of all assets that have a lease 
+term of 12 months or less and leases for which the underlying asset is of low value. The lease payments associated with these 
+leases are recognised as an expense on a straight-line basis over the lease term.
+	
+Group as a lessor
+	
+At the inception of the lease the Group classifies each of its leases as either an operating lease or a finance lease. The Group 
+recognises lease payments received under operating leases as income on a straight-line basis over the lease term. In case of a 
+finance lease, finance income is recognised over the lease term based on a pattern reflecting a constant periodic rate of return on 
+the lessor’s net investment in the lease. When the Group is an intermediate lessor it accounts for its interests in the head lease 
+and the sub-lease separately. It assesses the lease classification of a sub-lease with reference to the right-of-use asset arising from 
+the head lease, not with reference to the underlying asset. If a head lease is a short-term lease to which the Group applies the 
+exemption described above, then it classifies the sub-lease as an operating lease. 
+	
+If an arrangement contains lease and non-lease components, the Group applies Ind AS 115 - Revenue from contracts with 
+customers to allocate the consideration in the contract.
+	
+The details of the right-of-use assets held by the Group is as follows:
+(` crore)
+Additions for  
+the year ended 
+March 31, 2024
+Net carrying  
+amount as at  
+March 31, 2024
+Leasehold land
+ - 
+ 929 
+Buildings
+ 1,928 
+ 6,631 
+Leasehold improvements
+ - 
+ 25 
+Computer equipment
+ 125 
+ 202 
+Software licences
+ - 
+ 60 
+Vehicles
+ 18 
+ 34 
+Office equipment
+ 1 
+ 3 
+Furniture and fixtures
+ 2 
+ 2 
+ 2,074 
+ 7,886 

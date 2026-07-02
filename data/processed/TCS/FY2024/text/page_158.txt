@@ -1,0 +1,87 @@
+Integrated Annual Report 2023-24
+158
+Business Responsibility & Sustainability Report
+2.	
+Please provide details of total Scope 3 emissions & its intensity, in the following format83:
+Parameter
+Unit
+FY 2023-24
+FY 2022-23*
+Total Scope 3 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, 
+PFCs, SF6, NF3, if available)
+Metric tonnes of 
+CO2 Equivalent
+4,98,509
+3,66,606
+Category 1 – Purchased goods & services
+tCO2e
+14,457
+2,515
+Category 2 – Capital goods
+tCO2e
+20,299
+18,549
+Category 3 – Fuel and energy related activities (not included in Scope 1 or 2) tCO2e
+35,495
+32,094
+Category 4 – Upstream transportation and distribution
+tCO2e
+2,620
+5,107
+Category 5 – Waste generated in operations
+tCO2e
+1,179
+1,070
+Category 6 – Business travel
+tCO2e
+1,17,310
+89,907
+Category 7 – Employee commuting
+tCO2e
+3,07,149
+2,17,364
+Total Scope 3 emissions per rupee of turnover
+tCO2e/rupee 
+turnover
+0.00000021
+0.00000016
+Total Scope 3 emission intensity (Optional) – the relevant metric may be 
+selected by the entity
+(tCO2e/Per FTE)
+0.79
+0.60
+	
+*Data excludes accounting for <2% headcount, where TCS does not have operational control.
+	
+Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external agency? (Y/N) If yes, 
+name of the external agency.
+	
+Yes. This data has been subject to independent assurance by KPMG
+83	
+GRI 305-3, GRI 305-4; There are some inclusions and modifications in estimating scope 3 carbon emissions during FY 2024 when compared to FY 
+2023. Scope 3 emissions: 
+Category 1 & 2: Emission factors (spend based) for purchased and capital goods are taken from the latest available US EPA (Supply Chain GHG 
+Emission Factors for US Commodities and Industries v1.1.1) information for computer equipment, electrical equipment, office equipment, 
+vehicles, and furniture items. The US EPA emission factors for categories 1 & 2 were adopted in FY23 and used in FY24 as well. There is a 
+significant increase in Category 1 due to a new contract. Increase in category 2 is due to Return to Office (RTO)  
+Category 3: The well to tank (WTT) emissions from the fuel used in stationary and mobile combustion such as diesel in DG sets and owned 
+vehicles, LPG or PNG in cafeteria, natural gas for space heating/ cooling, fuel used in hired vehicles (cabs/ buses) are included in this category 
+since  FY 2023 and the same has been continued in FY2024 as well. There is an increase in emissions due to use of IEA emission factors for WTT 
+and T&D in FY24. In FY23 the Company had used the DEFRA emission factors.  
+Category 4: Until FY 2022, TCS had included only emissions from transportation of IT assets considering its relative significance compared to other 
+supplies. While the Company continues to capture emissions from transportation of IT assets based on spend based emission factors, emissions 
+related to transportation of non -IT supplies were included. The non – IT supplies covered to estimate category 4 emissions include cafeteria/ 
+canteen supplies, water supplies through tankers, housekeeping material, and other stationary supplies. Emission factors are taken from DEFRA 
+2023 for the transport emissions based on vehicle type and weight. There is a significant decrease in this category as the actual data were taken 
+from the locations in FY24 compared to FY23 which was based on pilot study at few locations. The Company has also moved the waste disposal 
+related transport emissions from Category 4 to 5 in FY24. . 
+Category 5: No change in approach in FY 2024. The emissions are based on disposal mechanisms (e.g., recycling, reuse, landfill) for different 
+categories of waste (plastic, metal, e-waste, batteries, food waste, garden waste etc.,) and have been computed based on emission factors from 
+DEFRA 2023. Slight increase in emission due to increased RTO and also due to inclusion of waste disposal related transportation under this 
+category.  
+Category 6: In FY 2022, business travel included emissions from air and rail. In FY 2023 and FY 2024, business travel emissions also include hotel 
+stays at various geographies during business travel. Relevant emission factors are taken from DEFRA 2023.  There is an increase in emissions due 
+to increase in business travel and accommodation due to resumption and RTO. 
+Category 7: In FY 2024, the employee commute related carbon emission includes those from TCS hired vehicles for transport of employees, 
+personal employee commute, public employee commute & work from home (WFH) emissions. There is an increase in employee commute due to 
+RTO in FY 2023-24 compared to previous year.

@@ -1,0 +1,169 @@
+1	
+Requirement 7: Publish a GRI Content Index
+* MD&A: Management Discussion and Analysis, CG: Corporate Governance Report, BRSR: Business Responsibility and Sustainability Report
+GRI Content Index1
+TCS’ Integrated Annual Report 2023-24, which includes the Board and Management Commentary, Compliance Reports, Financial 
+Statements, and the Business Responsibility and Sustainability Report, is with reference to the Global Reporting Initiative (GRI) Standard. 
+The Report also conforms to the United Nations Global Compact (UNGC) principles and forms the basis of the company’s Communication 
+on Progress (CoP) with the UNGC.
+The following table provides the mapping of disclosures for FY 2024 against the GRI standard requirements. 
+GRI Standard Disclosure and Description
+Section *
+Page No.
+GRI 2: General Disclosures 2021
+1.	
+The organization and its reporting practices
+	
+2-1 Organizational details
+•	
+BRSR
+127
+	
+2-2 Entities included in the organization’s sustainability reporting
+•	
+BRSR
+128, 129
+	
+2-3 Reporting period, frequency and contact point
+•	
+BRSR
+127
+	
+2-4 Restatements of information
+•	
+BRSR
+127
+	
+2-5 External assurance
+•	
+BRSR
+128, 132
+2.	
+Activities and workers
+	
+2-6 Activities, value chain and other business relationships
+•	
+BRSR
+128
+	
+2-7 Employees
+•	
+BRSR
+128
+	
+2-8 Workers who are not employees
+•	
+BRSR
+128
+3.	
+Governance
+	
+2-9 Governance structure and composition
+•	
+CG
+•	
+BRSR
+93, 94
+132
+	
+2-10 Nomination and selection of the highest governance body
+•	
+CG
+93, 94
+	
+2-11 Chair of the highest governance body
+•	
+CG
+94
+	
+2-12 Role of the highest governance body in overseeing the management of 
+impacts
+•	
+CG
+94, 95
+	
+2-13 Delegation of responsibility for managing impacts
+•	
+CG
+•	
+BRSR
+102
+132
+	
+2-14 Role of the highest governance body in sustainability reporting
+•	
+CG
+95, 147
+	
+2-15 Conflicts of interest
+•	
+CG
+94
+	
+2-16 Communication of Critical Concerns
+•	
+BRSR
+130, 138, 
+142, 147, 
+148, 162, 
+164
+	
+2-17 Collective knowledge of the highest governance body
+•	
+BRSR
+132
+	
+2-18 Evaluation of the performance of the highest governance body
+•	
+Directors’ Report
+•	
+CG
+58
+95
+	
+2-19 Remuneration policies
+•	
+CG 
+•	
+BRSR
+102
+147
+	
+2-20 Process to determine remuneration
+•	
+CG
+95, 100, 
+102
+	
+2-21 Annual total compensation ratio
+•	
+BRSR
+147
+4.	
+Strategy, policies and practices
+	
+2-22 Statement on sustainable development strategy
+•	
+Letter from the CEO
+•	
+MD&A
+•	
+BRSR
+8
+70
+132, 146
+	
+2-23 Policy commitments
+•	
+BRSR
+131, 133, 
+148, 165
+	
+2-24 Embedding policy commitments
+•	
+BRSR
+131, 148
+	
+Integrated Annual Report 2023-24
+325
+Sustainability Disclosures

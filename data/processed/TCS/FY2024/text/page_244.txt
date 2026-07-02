@@ -1,0 +1,169 @@
+Integrated Annual Report 2023-24
+244
+Standalone Financial Statements
+statements - Refer income tax liabilities disclosed 
+in the balance sheet along with Note 19 to the 
+standalone financial statements.
+	
+	
+b.	
+The Company did not have any long-term 
+contracts including derivative contracts for which 
+there were any material foreseeable losses.
+	
+	
+c.	
+There has been no delay in transferring amounts, 
+required to be transferred, to the Investor 
+Education and Protection Fund by the Company.
+	
+	
+d.	
+(i)	
+The management has represented that, 
+to the best of its knowledge and belief, as 
+disclosed in the Note 21 to the standalone 
+financial statements, no funds have been 
+advanced or loaned or invested (either 
+from borrowed funds or share premium 
+or any other sources or kind of funds) by 
+the Company to or in any other person(s) 
+or entity(ies), including foreign entities 
+(“Intermediaries”), with the understanding, 
+whether recorded in writing or otherwise, 
+that the Intermediary shall directly or 
+indirectly lend or invest in other persons or 
+entities identified in any manner whatsoever 
+by or on behalf of the Company (“Ultimate 
+Beneficiaries”) or provide any guarantee, 
+security or the like on behalf of the Ultimate 
+Beneficiaries.
+	
+	
+	
+(ii)	 The management has represented that, 
+to the best of its knowledge and belief, as 
+disclosed in the Note 21 to the standalone 
+financial statements, no funds have been 
+received by the Company from any person(s) 
+or entity(ies), including foreign entities 
+(“Funding Parties”), with the understanding, 
+whether recorded in writing or otherwise, 
+that the Company shall directly or indirectly, 
+lend or invest in other persons or entities 
+identified in any manner whatsoever by or 
+on behalf of the Funding Parties (“Ultimate 
+Beneficiaries”) or provide any guarantee, 
+security or the like on behalf of the Ultimate 
+Beneficiaries.
+	
+	
+	
+(iii)	 Based on the audit procedures performed 
+that have been considered reasonable and 
+appropriate in the circumstances, nothing 
+has come to our notice that has caused us to 
+believe that the representations under  
+sub-clause (i) and (ii) of Rule 11(e), as 
+provided under (i) and (ii) above, contain any 
+material misstatement.
+	
+	
+e.	
+The interim dividend declared and paid by the 
+Company during the year and until the date of 
+this audit report is in accordance with Section 
+123 of the Act.
+	
+	
+	
+The final dividend paid by the Company during 
+the year, in respect of the same declared for the 
+previous year is in accordance with Section 123 
+of the Act to the extent it applies to payment of 
+dividend.
+	
+	
+	
+As stated in note 26 to the standalone financial 
+statements, the Board of Directors of the 
+Company has proposed final dividend for the year 
+which is subject to the approval of the members 
+at the ensuing Annual General Meeting. The 
+dividend declared is in accordance with Section 
+123 of the Act to the extent it applies to 
+declaration of dividend.
+	
+	
+f.	
+The reporting under Rule 11(g) of the Companies 
+(Audit and Auditors) Rules, 2014 is applicable 
+from 1 April 2023. 
+	
+	
+	
+Based on our examination which included test 
+checks, except for the instances mentioned 
+below, the Company has used accounting 
+softwares for maintaining its books of account, 
+which have a feature of recording audit trail 
+(edit log) facility and the same has operated 
+throughout the year for all relevant transactions 
+recorded in the respective software:
+	
+	
+	
+i.	
+The feature of recording audit trail (edit log) 
+facility was not enabled at the database 
+level to log any direct data changes for the 
+accounting softwares used for maintaining 
+the books of account relating to payroll, 
+consolidation process and certain non-
+editable fields/tables of the accounting 
+software used for maintaining general 
+ledger.
+	
+	
+	
+ii.	
+The feature of recording audit trail (edit log) 
+facility was not enabled at the application 
+layer of the accounting softwares relating 
+to revenue, trade receivables and general 
+ledger for the period 1 April 2023 to 13 
+November 2023 and relating to property, 
+plant and equipment for the period 1 April 
+2023 to 14 December 2023.
+	
+	
+	
+Further, for the periods where audit trail (edit 
+log) facility was enabled and operated throughout 
+the year for the respective accounting software, 
+we did not come across any instance of the audit 
+trail feature being tampered with.
+	
+C.	
+With respect to the matter to be included in the 
+Auditor’s Report under Section 197(16) of the Act:
+	
+	
+In our opinion and according to the information and 
+explanations given to us, the remuneration paid by 
+the Company to its directors during the current year 
+is in accordance with the provisions of Section 197 
+of the Act. The remuneration paid to any director is 
+not in excess of the limit laid down under Section 197 
+of the Act. The Ministry of Corporate Affairs has not 
+prescribed other details under Section 197(16) of the 
+Act which are required to be commented upon by us.
+For B S R & Co. LLP
+Chartered Accountants
+Firm’s Registration No.: 101248W/W-100022
+Amit Somani
+Partner
+Place: Mumbai
+Membership No.: 060154
+Date: 12 April 2024
+ICAI UDIN: 24060154BKFDGZ4646

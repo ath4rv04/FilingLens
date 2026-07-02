@@ -1,0 +1,92 @@
+Deep Learning
+Subset of machine learning that uses neural networks with many layers (deep neural networks) to analyze various 
+factors and make decisions.
+Depreciation
+Systematic allocation of the depreciable amount of an asset over its useful life.
+DevOps
+Represents a new way of working to rapidly deploy new releases of a software in production using high levels of 
+automation and tooling. TCS recommends adoption of DevOps, along with Agile for speed to market.
+Digital
+Represents technologies such as Social Media, Mobility, Analytics, Big Data, Cloud, Artificial Intelligence and 
+Internet of Things. 
+Digital Divide
+Digital Divide refers to the unequal spread of technology and the opportunities it affords between different 
+socioeconomic groups in a society.
+Digital Twin 
+A digital replica of a physical entity. For instance, a digital twin of a factory is a virtual model of the factory built 
+using its data, process, people information. Impact of any change in a process in the real factory can be studied by 
+simulating the change in the digital twin.  
+Discretionary Spend Also known as Change the Business (CTB) spend, it is that portion of the IT budget which is used to fund projects 
+that are not, strictly speaking, essential for day to day operations, but are more transformational in nature. 
+In uncertain economic times, when businesses are forced to cut spends in response to decline in income, 
+discretionary spend is often the first to be scrutinized. However, what is considered discretionary is subjective and 
+may differ considerably amongst businesses even within the same sector.
+Distributed Ledger 
+Technology
+See Blockchain
+Dividend
+One form of distribution of profits earned by the Company and is usually declared as an amount per equity 
+share held by the Shareholders. TCS has a policy of declaring quarterly interim dividends and the final dividend is 
+approved by the shareholders in the Annual General Meeting.
+DLT
+See Distributed Ledger Technology
+EACs
+Energy Attribute Certificates (EACs) are market-based instruments that can be used by the bearer to claim 
+renewable energy consumption. Each EAC is equivalent to 1 MWh of electricity.
+Earnings Per Share 
+(EPS)
+The amount of a given period’s Net profit attributable to a single share after deducting any preference dividend 
+and related taxes.
+EPS = [Net profit attributable to shareholders of the company – Preference dividend, if any] / Weighted average 
+number of equity shares outstanding during the period
+Edge Computing
+Computing and storage that is located on servers on the edge of the network, in close proximity to the users, but 
+not through an on-premises data center; usually reserved for low latency use cases.
+Effective Tax Rate 
+(ETR)
+The proportion of the Profit Before Tax that is provided towards income taxes.
+ETR = Tax expense / Profit Before Tax
+EIA
+Acronym for Environmental Impact Assessment. It is an environmental impact study which needs to be conducted 
+as per Ministry of Environment and Forest (MoEF) requirements for new construction/ expansion projects.
+Engineering and 
+Industrial Services
+Consists of next generation product engineering, manufacturing operations transformation, services 
+transformation, embedded software and Internet of Things.
+Enterprise Agile
+The adoption of Agile methods across all the business functions of the enterprise, designed to empower 
+employees, foster collaboration and drive a culture of continuous innovation at scale. 
+Environment, Social 
+and Governance
+Environment, social and governance (ESG) is a system for how to measure the sustainability of a company in three 
+specific categories: environment, social and governance.
+EPEAT
+Acronym for Electronic Product Environmental Assessment Tool
+EPS
+See Earnings Per Share
+ESG
+See Environment, Social and Governance
+ETR
+See Effective Tax rate
+Fair Value
+The price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between 
+market participants at the measurement date.
+Fine Tuning
+Process of slightly adjusting or tweaking the parameters of an existing model, which has already been pre-trained 
+on a large dataset, to perform a specific task.
+Fintech
+Businesses that use technology to make financial services more efficient. Some fintech developments have 
+improved traditional services, for example mobile banking apps, while others have revolutionized services such as 
+pay per mile car insurance, or created new products, such as Bitcoin.
+Framework
+A kind of intellectual property, consisting of software which provides generic functionality for a certain business 
+use case, and which is customized for a specific customer’s needs with additional code. Use of such pre-built code 
+reduces time to market and results in more stable, reliable solutions.
+Free Cash Flow
+Represents the cash a company generates through its operations, less the capital expenditure.
+Free cash flow = Cash flow from operating activities – Capital expenditure
+FTE
+Acronym Full Time Equivalent
+Integrated Annual Report 2023-24
+310
+Glossary

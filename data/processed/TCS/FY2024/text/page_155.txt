@@ -1,0 +1,116 @@
+Integrated Annual Report 2023-24
+155
+Business Responsibility & Sustainability Report
+Parameter
+FY 2023-24
+FY 2022-23#
+Waste intensity per rupee of turnover 
+(Total waste generated (MT) / Revenue from operations)
+0.0000000028
+0.0000000022
+Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) 
+(Total waste generated (MT) / Revenue from operations adjusted for PPP)
+0.0000000638
+0.0000000511
+Waste intensity in terms of physical output (waste in tonnes/FTE)
+0.011
+0.008
+For each category of waste generated, total waste recovered through recycling, re-using or other recovery operations (in 
+metric tonnes)
+Category of waste
+(i)	
+Recycled **
+	
+- Battery
+274.0
+422.0
+	
+- E-waste
+246.0
+424.0
+	
+- Hazardous waste
+24.1
+25.0
+	
+- Non-Hazardous waste
+3,038.0
+1,685.0
+	
+- Plastic Waste
+65.2
+46.0
+	
+- Construction & Demolition waste
+63.0
+-
+(ii)	
+Re-used
+	
+- Construction & Demolition waste
+1.0
+0.2
+	
+- Non-Hazardous waste
+288.0
+-
+(iii)	 Other recovery operations
+-
+-
+Total
+3,999.3
+2,602.2
+For each category of waste generated, total waste disposed by nature of disposal method (in metric tonnes)
+Category of waste
+(i)	
+Incineration
+	
+- Biomedical waste
+0.8
+0.8
+	
+- Non-hazardous waste
+128.0
+61.7
+	
+- Hazardous waste
+2.4
+-
+(ii)	
+Landfilling
+	
+- Non-hazardous waste
+1,318.0
+1,612.0
+	
+- Construction & demolition waste
+936.0
+591.0
+(iii)	 Other disposal operations
+Total
+2,385.2
+2,265.5
+	
+#Data excludes accounting for <2% headcount, where TCS does not have operational control.
+	
+** 100% of the regulated waste (e-waste, battery waste) is disposed through recycling. The generated quantities, if remaining at 
+the end of the financial year for disposal, are stored at the facilities and recycled through approved/ authorized vendors.
+	
+In FY 2023-24 waste data reported on a consolidated level where TCS have operational control. Therefore, the construction & 
+demolition (C&D) waste from new construction or under construction sites are revised. The data for FY 2022-23 is accordingly 
+restated.
+	
+All non hazardous waste categories have been restated for FY 2022-23 to make it consistent with the categories reported in 
+FY 2023 -24.
+	
+Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external agency? (Y/N) If yes, 
+name of the external agency.
+	
+Yes. This data has been subject to independent assurance by KPMG
+10.	 Briefly describe the waste management practices adopted in your establishments. Describe the strategy adopted by your 
+company to reduce usage of hazardous and toxic chemicals in your products and processes and the practices adopted to 
+manage such wastes.78
+	
+NA
+78	
+GRI 306-2; GRI 3-3

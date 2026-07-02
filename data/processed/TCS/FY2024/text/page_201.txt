@@ -1,0 +1,92 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+201
+Consolidated Financial Statements 2023-24
+	
+Credit risk
+	
+Credit risk is the risk of financial loss arising from counterparty failure to repay or service debt according to the contractual terms 
+or obligations. Credit risk encompasses of both, the direct risk of default and the risk of deterioration of creditworthiness as well 
+as concentration of risks. Credit risk is controlled by analysing credit limits and creditworthiness of customers on a continuous 
+basis to whom the credit has been granted after obtaining necessary approvals for credit. Refer note 5 for methods, assumptions 
+and information used to measure expected credit losses.
+	
+Financial instruments that are subject to credit risk consist of trade receivables, loans, investments, derivative financial 
+instruments, cash and cash equivalents, bank deposits and other financial assets. Inter-corporate deposits of `170 crore are with 
+a financial institution having a high credit-rating assigned by credit-rating agencies. Bank deposits include an amount of `5,197 
+crore held with two banks having high credit rating which are individually in excess of 10% or more of the Group’s total bank 
+deposits as at March 31, 2024. None of the other financial instruments of the Group result in material concentration of credit risk.
+	
+•	
+Exposure to credit risk
+	
+	
+The carrying amount of financial assets and contract assets represents the maximum credit exposure. The maximum 
+exposure to credit risk was `2,96,130 crore and `1,09,258 crore as at March 31, 2024 and 2023, respectively, being the total 
+of the carrying amount of balances with banks, bank deposits, investments, trade receivables, loans, contract assets and 
+other financial assets.
+	
+	
+The Group’s exposure to customers is diversified and no single customer contributes to more than 10% of outstanding trade 
+receivables and contract assets as at March 31, 2024 and 2023.
+	
+•	
+Geographic concentration of credit risk
+	
+	
+Geographic concentration of trade receivables (gross and net of allowances) and contract assets is as follows:
+As at March 31, 2024
+As at March 31, 2023
+Gross%
+Net%
+Gross%
+Net%
+United States of America
+ 42.07 
+ 42.67 
+ 43.65 
+ 44.31 
+India
+ 18.68 
+ 17.44 
+ 15.45 
+ 14.06 
+United Kingdom
+ 16.56 
+ 16.86 
+ 16.05 
+ 16.37 
+	
+	
+Geographical concentration of trade receivables (gross and net of allowances) and contract assets is allocated based on the 
+location of the customers.
+	
+	
+The allowance for lifetime expected credit losses on trade receivables for the years ended March 31, 2024 and 2023, was 
+`98 crore and `126 crore respectively. The reconciliation of allowance for expected credit losses is as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Balance at the beginning of the year
+ 1,213 
+ 1,333 
+Change during the year
+ 98 
+ 126 
+Bad debts written off
+ (118)
+ (253)
+Translation exchange difference
+ (3)
+ 7 
+Balance at the end of the year
+ 1,190 
+ 1,213 
+	
+Liquidity risk
+	
+Liquidity risk refers to the risk that the Group cannot meet its financial obligations. The objective of liquidity risk management is 
+to maintain sufficient liquidity and ensure that funds are available for use as per requirements. The Group consistently generated 
+sufficient cash flows from operations to meet its financial obligations including lease liabilities as and when they fall due.

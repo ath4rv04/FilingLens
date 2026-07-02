@@ -1,0 +1,142 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+256
+Standalone Financial Statements 2023-24
+1)	
+Corporate information
+	
+Tata Consultancy Services Limited (referred to as “TCS 
+Limited” or “the Company”) provides IT services, consulting 
+and business solutions and has been partnering with many 
+of the world’s largest businesses in their transformation 
+journeys. The Company offers a consulting-led, cognitive 
+powered, integrated portfolio of IT, business and 
+engineering services and solutions. This is delivered 
+through its unique Location-Independent Agile delivery 
+model recognised as a benchmark of excellence in software 
+development.
+	
+The Company is a public limited company incorporated and 
+domiciled in India. The address of its corporate office is TCS 
+House, Raveline Street, Fort, Mumbai - 400001. As at  
+March 31, 2024, Tata Sons Private Limited, the holding 
+company owned 71.74% of the Company’s equity share 
+capital.
+	
+The Board of Directors approved the standalone financial 
+statements for the year ended March 31, 2024 and 
+authorised for issue on April 12, 2024.
+2)	
+Statement of compliance
+	
+These standalone financial statements have been prepared 
+in accordance with the Indian Accounting Standards 
+(referred to as “Ind AS”) as prescribed under section 133 of 
+the Companies Act, 2013 read with the Companies (Indian 
+Accounting Standards) Rules as amended from time to 
+time.
+3)	
+Basis of preparation
+	
+These standalone financial statements have been prepared 
+on historical cost basis except for certain financial 
+instruments and defined benefit plans which are measured 
+at fair value or amortised cost at the end of each reporting 
+period. Historical cost is generally based on the fair value of 
+the consideration given in exchange for goods and services. 
+Fair value is the price that would be received to sell an 
+asset or paid to transfer a liability in an orderly transaction 
+between market participants at the measurement date. 
+All assets and liabilities have been classified as current and 
+non-current as per the Company’s normal operating cycle. 
+Based on the nature of services rendered to customers 
+and time elapsed between deployment of resources 
+and the realisation in cash and cash equivalents of the 
+consideration for such services rendered, the Company has 
+considered an operating cycle of 12 months.
+	
+The statement of cash flows has been prepared under 
+indirect method, whereby profit or loss is adjusted for the 
+effects of transactions of a non-cash nature, any deferrals 
+or accruals of past or future operating cash receipts or 
+payments and items of income or expense associated 
+with investing or financing cash flows. The cash flows from 
+operating, investing and financing activities of the Company 
+are segregated. The Company considers all highly liquid 
+investments that are readily convertible to known amounts 
+of cash and are subject to an insignificant risk of changes in 
+value to be cash equivalents.
+	
+These standalone financial statements have been prepared 
+in Indian Rupee (`) which is the functional currency of the 
+Company. Foreign currency transactions are recorded at 
+exchange rates prevailing on the date of the transaction. 
+Foreign currency denominated monetary assets and 
+liabilities are retranslated at the exchange rate prevailing 
+on the balance sheet dates and exchange gains and losses 
+arising on settlement and restatement are recognised in 
+the statement of profit and loss. Non-monetary assets and 
+liabilities that are measured in terms of historical cost in 
+foreign currencies are not retranslated.
+	
+The material accounting policy information related to 
+preparation of the standalone financial statements have 
+been discussed in the respective notes.
+4)	
+Use of estimates and judgements	
+	
+The preparation of standalone financial statements 
+in conformity with the recognition and measurement 
+principles of Ind AS requires management of the Company 
+to make estimates and judgements that affect the reported 
+balances of assets and liabilities, disclosures of contingent 
+liabilities as at the date of standalone financial statements 
+and the reported amounts of income and expenses for the 
+periods presented.
+	
+Estimates and underlying assumptions are reviewed on 
+an ongoing basis. Revisions to accounting estimates are 
+recognised in the period in which the estimates are revised 
+and future periods are affected.
+	
+The Company uses the following critical accounting 
+judgements, estimates and assumptions in preparation of 
+its standalone financial statements:
+	
+(a)	 Revenue recognition
+	
+	
+Revenue for fixed-price contracts is recognised using 
+percentage-of-completion method. The Company 
+estimates the future cost-to-completion of the 
+contracts which is used to determine degree of 
+completion of the performance obligation.
+	
+	
+The Company exercises judgement for identification of 
+performance obligations, determination of transaction 
+price, ascribing the transaction price to each distinct 
+performance obligation and in determining whether 
+the performance obligation is satisfied at a point in 
+time or over a period of time. These judgements have 
+been explained in detail under the revenue note (Refer 
+note 10).
+	
+(b)	 Useful lives of property, plant and equipment
+	
+	
+The Company reviews the useful life of property, 
+plant and equipment at the end of each reporting 
+period. This reassessment may result in change in 
+depreciation expense in future periods (Refer note 
+8(a)).
+	
+(c)	 Impairment of investments in subsidiaries
+	
+	
+The Company reviews its carrying value of investments 
+carried at cost (net of impairment, if any) annually, 
+or more frequently when there is indication for 
+impairment. If the recoverable amount is less than its 
+carrying amount, the impairment loss is accounted for 
+in the statement of profit and loss.

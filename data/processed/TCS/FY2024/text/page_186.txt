@@ -1,0 +1,130 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+186
+Consolidated Financial Statements 2023-24
+1)	
+Corporate information
+	
+Tata Consultancy Services Limited (“the Company”) and 
+its subsidiaries (collectively together with employee 
+welfare trusts referred to as “the Group”) provide IT 
+services, consulting and business solutions and have been 
+partnering with many of the world’s largest businesses 
+in their transformation journeys. The Group offers a 
+consulting-led, cognitive powered, integrated portfolio of 
+IT, business and engineering services and solutions. This is 
+delivered through its unique Location-Independent Agile 
+delivery model recognised as a benchmark of excellence in 
+software development.
+	
+The Company is a public limited company incorporated and 
+domiciled in India. The address of its corporate office is TCS 
+House, Raveline Street, Fort, Mumbai - 400001. As at March 
+31, 2024, Tata Sons Private Limited, the holding company 
+owned 71.74% of the Company’s equity share capital. 
+	
+The Board of Directors approved the consolidated financial 
+statements for the year ended March 31, 2024 and 
+authorised for issue on April 12, 2024.
+2)	
+Statement of compliance
+	
+These consolidated financial statements have been 
+prepared in accordance with the Indian Accounting 
+Standards (referred to as “Ind AS”) prescribed under 
+section 133 of the Companies Act, 2013 read with the 
+Companies (Indian Accounting Standards) Rules as 
+amended from time to time.
+3)	
+Basis of preparation
+	
+These consolidated financial statements have been 
+prepared on historical cost basis except for certain financial 
+instruments and defined benefit plans which are measured 
+at fair value or amortised cost at the end of each reporting 
+period. Historical cost is generally based on the fair value of 
+the consideration given in exchange for goods and services. 
+Fair value is the price that would be received to sell an 
+asset or paid to transfer a liability in an orderly transaction 
+between market participants at the measurement date. All 
+assets and liabilities have been classified as current and 
+non-current as per the Group’s normal operating cycle. 
+Based on the nature of services rendered to customers 
+and time elapsed between deployment of resources 
+and the realisation in cash and cash equivalents of the 
+consideration for such services rendered, the Group has 
+considered an operating cycle of 12 months.   
+	
+The statement of cash flows has been prepared under 
+indirect method, whereby profit or loss is adjusted for the 
+effects of transactions of a non-cash nature, any deferrals 
+or accruals of past or future operating cash receipts or 
+payments and items of income or expense associated 
+with investing or financing cash flows. The cash flows 
+from operating, investing and financing activities of the 
+Group are segregated. The Group considers all highly liquid 
+investments that are readily convertible to known amounts 
+of cash and are subject to an insignificant risk of changes in 
+value to be cash equivalents.
+	
+The functional currency of the Company and its Indian 
+subsidiaries is the Indian Rupee (`). The functional currency 
+of foreign subsidiaries is the currency of the primary 
+economic environment in which the entity operates. 
+Foreign currency transactions are recorded at exchange 
+rates prevailing on the date of the transaction. Foreign 
+currency denominated monetary assets and liabilities 
+are retranslated at the exchange rate prevailing on the 
+balance sheet dates and exchange gains and losses arising 
+on settlement and restatement are recognised in the 
+statement of profit and loss. Non-monetary assets and 
+liabilities that are measured in terms of historical cost in 
+foreign currencies are not retranslated.
+	
+The material accounting policy information related to 
+preparation of the consolidated financial statements have 
+been discussed in the respective notes.
+4)	
+Basis of consolidation
+	
+The Company consolidates all entities which are controlled 
+by it.
+	
+The Company establishes control when; it has power over 
+the entity, is exposed, or has rights, to variable returns 
+from its involvement with the entity and has the ability to 
+affect the entity’s returns by using its power over relevant 
+activities of the entity.
+	
+Entities controlled by the Company are consolidated from 
+the date control commences until the date control ceases.
+	
+The results of subsidiaries acquired, or sold, during the year 
+are consolidated from the effective date of acquisition and 
+up to the effective date of disposal, as appropriate.
+	
+The financial statements of the Group companies are 
+consolidated on a line-by-line basis and all inter-company 
+transactions, balances, income and expenses are 
+eliminated in full on consolidation.
+	
+Changes in the Company’s interests in subsidiaries that do 
+not result in a loss of control are accounted for as equity 
+transactions. The carrying amount of the Company’s 
+interests and the non-controlling interests are adjusted 
+to reflect the changes in their relative interests in the 
+subsidiaries. Any difference between the amount by which 
+the non-controlling interests are adjusted and the fair value 
+of the consideration paid or received is recognised directly 
+in equity and attributed to shareholders of the Company.
+	
+Assets and liabilities of entities with functional currency 
+other than the functional currency of the Company have 
+been translated using exchange rates prevailing on the 
+balance sheet date. Statement of profit and loss of such 
+entities has been translated using weighted average 
+exchange rates. Translation adjustments have been 
+reported as foreign currency translation reserve in the 
+statement of changes in equity. When a foreign operation 
+is disposed off in its entirety or partially such that control, 
+significant influence or joint control is lost, the cumulative 

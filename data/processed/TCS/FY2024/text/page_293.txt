@@ -1,0 +1,76 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+293
+Standalone Financial Statements 2023-24
+15)	 Income taxes
+	
+Income tax expense comprises current tax expense and the net change in the deferred tax asset or liability during the year. 
+Current and deferred taxes are recognised in statement of profit and loss, except when they relate to items that are recognised 
+in other comprehensive income or directly in equity, in which case, the current and deferred tax are also recognised in other 
+comprehensive income or directly in equity, respectively.
+	
+Current income taxes
+	
+The current income tax expense includes income taxes payable by the Company having its branches in India and overseas where it 
+operates. The current tax payable by the Company in India is Indian income tax payable on income after taking credit for tax relief 
+available for export operations in Special Economic Zones (SEZs).
+	
+Current income tax payable by overseas branches of the Company is computed in accordance with the tax laws applicable in the 
+jurisdiction in which the respective branch operates. The taxes paid are generally available for set off against the Indian income 
+tax liability of the Company’s worldwide income.
+	
+Advance taxes and provisions for current income taxes are presented in the balance sheet after off-setting advance tax paid and 
+income tax provision arising in the same tax jurisdiction and where the relevant tax paying unit intends to settle the asset and 
+liability on a net basis.
+	
+Deferred income taxes
+	
+Deferred income tax is recognised using the balance sheet approach. Deferred income tax assets and liabilities are recognised 
+for deductible and taxable temporary differences arising between the tax base of assets and liabilities and their carrying amount, 
+except when the deferred income tax arises from the initial recognition of an asset or liability in a transaction that is not a 
+business combination, affects neither accounting nor taxable profit or loss at the time of the transaction.
+	
+Deferred income tax assets are recognised to the extent that it is probable that taxable profit will be available against which the 
+deductible temporary differences and the carry forward of unused tax credits and unused tax losses can be utilised.
+	
+The carrying amount of deferred income tax assets is reviewed at each reporting date and reduced to the extent that it is no 
+longer probable that sufficient taxable profit will be available to allow all or part of the deferred income tax asset to be utilised.
+	
+Deferred tax assets and liabilities are measured using substantively enacted tax rates expected to apply to taxable income in the 
+years in which the temporary differences are expected to be received or settled.
+	
+For operations carried out in SEZs, deferred tax assets or liabilities, if any, have been established for the tax consequences of those 
+temporary differences between the carrying values of assets and liabilities and their respective tax bases that reverse after the tax 
+holiday ends.
+	
+Deferred tax assets and liabilities are offset when they relate to income taxes levied by the same taxation authority and the 
+relevant entity intends to settle its current tax assets and liabilities on a net basis.
+	
+Deferred tax assets include Minimum Alternate Tax (MAT) paid in accordance with the tax laws in India, to the extent it would be 
+available for set off against future current income tax liability. Accordingly, MAT is recognised as deferred tax asset in the balance 
+sheet when the asset can be measured reliably and it is probable that the future economic benefit associated with the asset will 
+be realised.
+	
+The income tax expense consists of the following:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Current tax
+Current tax expense for current year
+ 14,422 
+ 13,623 
+Current tax benefit pertaining to prior years
+ (244)
+ (677)
+ 14,178 
+ 12,946 
+Deferred tax
+Deferred tax benefit for current year
+ (135)
+ (362)
+ (135)
+ (362)
+ 14,043 
+ 12,584 

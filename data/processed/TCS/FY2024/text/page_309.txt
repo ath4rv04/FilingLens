@@ -1,0 +1,99 @@
+Cash Flow
+Inflows and outflows of cash and cash equivalents.
+Cash Flow from 
+Operating Activities
+Primarily derived from the principal revenue producing activities. Therefore, they generally result from the 
+transactions and other events that enter into the determination of profit or loss. 
+CBO
+See Cognitive Business Operations
+CC
+See Constant Currency
+Chatbots
+Computer programs designed to simulate conversation with human users, especially over the internet. They are 
+typically used in dialog systems for various practical purposes like customer service or information acquisition.
+Cloud
+See Cloud Computing
+Cloud Computing
+The delivery of easily provisionable computing resources – servers, storage, databases, networking, software, 
+analytics and more – over the internet, consumed on a pay-as-you-go basis.
+Cloud Native
+A cloud native application consists of discrete, reusable components known as microservices that are designed to 
+integrate into any cloud environment.
+CMT
+Acronym for Communication, Media and Technology
+CMMI-SVC
+Acronym for Capability Maturity Model® Integration For Services
+Cognitive 
+Automation
+The use of AI and machine learning to automate relatively more complex tasks that require reasoning capability 
+and contextual awareness. TCS’ ignio™ a leading cognitive automation software product in the market today.
+Cognitive Business 
+Operations (CBO)
+An integrated offering where TCS takes responsibility for the outcome of an entire slice of the customers’ 
+operations including the business processes and the underlying IT infrastructure, and uses cognitive automation 
+to transform that operational stack.
+Cognitive 
+Computing
+See Artificial Intelligence
+COIN
+See Co-Innovation Network 
+Co-Innovation 
+Network
+This is an extended, global innovation ecosystem curated by TCS, to harness the innovation efforts of start-ups 
+and academia, and incorporate them into transformational solutions built by TCS for its customers.
+Compounded 
+Annual Growth 
+Rate (CAGR)
+The annual growth rate between any two points in time, assuming that it has been compounding during that 
+period.
+Connected Clinical 
+Trials (CCT) 
+Platform
+Part of the TCS ADD suite, CCT is an innovative software-as-a-service platform that enables life sciences 
+companies to significantly transform patient engagement in clinical trials and improve adherence to protocols, as 
+well as the efficiency and accountability of clinical trials. 
+Constant Currency
+The basis for restating the current period’s metric at exchange rates applicable for the reference period and 
+reporting growth over the reference period. 
+Contextual 
+Knowledge
+This is tacit knowledge pertaining to, and specific to, the granular nuances of a customer’s business and IT 
+landscape, acquired on the job over a period of time. TCS teams use their contextual knowledge to design 
+technology solutions that are uniquely tailored for that customer, and therefore, a potential source of competitive 
+differentiation.
+Conversational AI
+Conversational artificial intelligence (AI) refers to technologies, like chatbots or virtual agents, which users can 
+talk to. They use large volumes of data, machine learning, and natural language processing to help imitate human 
+interactions, recognizing speech and text inputs and translating their meanings across various languages.
+Core Banking 
+System
+A back-end system that processes daily banking transactions and posts updates to accounts and other financial 
+records; typically includes deposit, loan and credit processing capabilities, with interfaces to general ledger 
+systems and reporting tools.
+Core 
+Transformation
+Modernization initiatives that target the one or more elements of the organization’s operations stack consisting 
+of business processes, software systems and underlying infrastructure, usually to enable greater agility, scalability, 
+resilience and a superior customer experience. These are typically large in scale and scope, and entail the 
+integrated delivery of multiple capabilities.
+ CO2e
+Acronym for “Carbon dioxide equivalent”. It is a standard unit for accounting greenhouse gas (GHG) emissions 
+from carbon dioxide or another greenhouse gases, such as SOX, NOX, methane, etc.
+CPG
+Acronym for Consumer Packaged Goods
+Cyber Security
+Technologies, processes and practices designed to protect networks, computers, programs and data from attack, 
+damage or unauthorized access. 
+Data Mining
+Data mining is the practice of obtaining valuable information from data sets. The data can be in any form, such as 
+text, audio, or video data.
+Data mining aims to find actionable insights in the data that can improve business decisions or solve problems. 
+For instance, data mining can discover customer buying patterns and target ads towards people who would likely 
+purchase a product.
+Days’ Sales 
+Outstanding (DSO)
+A popular way of depicting the Trade Receivable relative to the company’s Revenue. 
+DSO = Trade Receivable * 365 / LTM Revenue
+Integrated Annual Report 2023-24
+309
+Glossary

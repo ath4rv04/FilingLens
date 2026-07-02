@@ -1,0 +1,86 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+225
+Consolidated Financial Statements 2023-24
+	
+Deferred tax assets include Minimum Alternate Tax (MAT) paid in accordance with the tax laws in India, to the extent it would be 
+available for set off against future current income tax liability. Accordingly, MAT is recognised as deferred tax asset in the balance 
+sheet when the asset can be measured reliably and it is probable that the future economic benefit associated with the asset will 
+be realised.
+	
+The income tax expense consists of the following:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Current tax
+Current tax expense for current year
+16,284 
+ 15,389 
+Current tax benefit pertaining to prior years
+(420)
+(632)
+ 15,864 
+ 14,757 
+Deferred tax
+Deferred tax expense / (benefit) for current year
+3 
+(130)
+Deferred tax expense / (benefit) pertaining to prior years
+31 
+(23)
+34 
+(153)
+ 15,898 
+ 14,604 
+	
+The reconciliation of estimated income tax expense at Indian statutory income tax rate to income tax expense reported in 
+consolidated statement of profit and loss is as follows:
+(` crore)
+Year ended  
+March 31, 2024
+Year ended  
+March 31, 2023
+Profit before tax
+ 61,997 
+56,907 
+Indian statutory income tax rate
+34.94%
+34.94%
+Expected income tax expense
+ 21,664 
+19,887 
+Tax effect of adjustments to reconcile expected income tax expense to reported 
+income tax expense
+Tax holidays
+(6,407)
+(5,112)
+Income exempt from tax
+(522)
+(236)
+Undistributed earnings in branches and subsidiaries
+111 
+276 
+Tax on income at different rates
+ 891 
+508 
+Tax pertaining to prior years
+(389)
+(655)
+Effect of tax rate change under new regime
+441 
+ - 
+Others (net)
+109 
+(64)
+Total income tax expense
+ 15,898 
+14,604 
+	
+Tata Consultancy Services Limited benefits from the tax holiday available for units set up under the Special Economic Zone Act, 
+2005. These tax holidays are available for a period of fifteen years from the date of commencement of operations. Under the 
+SEZ scheme, the unit which begins providing services on or after April 1, 2005 will be eligible for deductions of 100% of profits or 
+gains derived from export of services for the first five years, 50% of such profits or gains for a further period of five years and 50% 
+of such profits or gains for the balance period of five years subject to fulfilment of certain conditions. From April 1, 2011, profits 
+from units set up under SEZ scheme are subject to Minimum Alternate Tax (MAT).

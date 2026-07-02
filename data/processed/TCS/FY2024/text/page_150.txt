@@ -1,0 +1,115 @@
+Integrated Annual Report 2023-24
+150
+Business Responsibility & Sustainability Report
+	
+Details of total energy consumption [(in Mega Joules (MJ)] and energy intensity are provided below:
+Parameter
+FY 2023-24
+FY 2022-23# 
+From renewable sources
+Total electricity consumption (A)
+1,26,61,08,110
+83,03,88,643
+Total fuel consumption (B)
+NIL
+NIL
+Energy consumption through other sources (C)
+1,80,187
+1,54,994
+Total energy consumed from renewable sources (A+B+C)
+1,26,62,88,297
+83,05,43,637
+From non-renewable sources
+Total electricity consumption (D)
+37,58,00,721
+60,24,10,331
+Total fuel consumption (E)72
+6,70,93,957
+7,20,62,111
+Energy consumption through other sources (F)
+NIL
+NIL
+Total energy consumed from non-renewable sources (D+E+F)
+44,28,94,678
+67,44,72,442
+Total energy consumed (A+B+C+D+E+F)
+1,70,91,82,976
+1,50,50,16,079
+Energy intensity per rupee of turnover 
+(Total energy consumed (MJ) / Revenue from operations)
+0.000710
+0.000668
+Energy intensity per rupee turnover adjusted for Purchasing Power Parity (PPP)  
+(Total energy consumed (MJ) / Revenue from operations adjusted for PPP)*
+0.016234
+0.015273
+Energy intensity in terms of physical output [(MJ)/ Full Time Employee (FTE)]
+2,715.2
+2,454.4
+	
+#Data excludes accounting for <2% headcount, where TCS does not have operational control.
+	
+*The revenue from operations has been adjusted for PPP based on the latest PPP conversion factor published for the year 2022 
+by World Bank for India which is 22.88.
+	
+Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external agency? (Y/N) If yes, 
+name of the external agency.
+	
+Yes. Independent assurance has been carried out by KPMG.
+2.	
+Does the entity have any sites / facilities identified as designated consumers (DCs) under the Performance, Achieve and 
+Trade (PAT) Scheme of the Government of India? (Y/N) If yes, disclose whether targets set under the PAT scheme have been 
+achieved. In case targets have not been achieved, provide the remedial action taken, if any.
+	
+NA
+3.	
+Provide details of the following disclosures related to water73, in the following format:
+	
+The sources of freshwater at TCS include third party water (88.5%), groundwater (8.7%) and rainwater harvested (2.8%). TCS 
+optimizes water consumption through conservation, sewage treatment and reuse, and utilization of harvested rainwater. All 
+newer campuses have been designed for higher water efficiencies, treatment and recycling of sewage, and rainwater harvesting. 
+The detailed break up is given below:
+Parameter
+FY 2023-24
+FY 2022-23# 
+Water withdrawal by source [in kilolitres (KL)]
+(i)	
+Surface water
+NIL
+NIL
+(ii)	
+Groundwater
+2,56,802
+1,73,539
+(iii)	 Third party water
+26,06,339
+20,58,419
+(iv)	 Seawater / desalinated water
+NIL
+NIL
+(v)	
+Others – Rainwater utilized
+83,437
+56,730
+Total volume of water withdrawal (i + ii + iii + iv + v)
+29,46,578
+22,88,688
+Total volume of water consumption (KL)
+24,67,342
+20,82,781
+Water intensity Per Rupee of turnover  
+(Total water consumption (KL) / Revenue from operations)
+0.000001
+0.000001
+Water intensity Per Rupee of turnover adjusted for Purchasing Power Parity 
+(PPP)  
+(Total water consumption (KL) / Revenue from operations adjusted for PPP)
+0.000023
+0.000021
+Water intensity in terms of physical output (Water Consumed in KL/FTE)
+3.9
+3.4
+	
+#Data excludes accounting for <2% headcount, where TCS does not have operational control.
+73	
+GRI 303-3, GRI 303-5

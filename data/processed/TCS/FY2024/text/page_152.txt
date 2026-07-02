@@ -1,0 +1,105 @@
+Integrated Annual Report 2023-24
+152
+Business Responsibility & Sustainability Report
+7.	
+Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format75:
+	
+The Scope 1 emissions are from direct GHG sources like fuel used in company owned vehicles, diesel generators and cafeteria, 
+fugitive emissions of refrigerants, and fuel used for space heating. Scope 1 accounts for about 23% of the Scope 1 + Scope 2 
+carbon footprint in FY 2023-24. The balance 77% are from indirect emissions, referred to as Scope 2 emissions, associated with 
+purchased electricity. The breakup is provided as required in the table below.
+Parameter
+Unit
+FY 2023-24
+FY 2022-23#
+Total Scope 1 emissions (Break-up of the GHG into CO2, CH4, 
+N2O, HFCs, PFCs, SF6, NF3, if available)
+Metric tonnes of 
+CO2 equivalent
+21,949.0
+20,972.0
+- CO2
+tCO2e
+6,600.0
+4,780.0
+- CH4
+tCO2e
+5.4
+2.7
+- N2O
+tCO2e
+34.5
+39.8
+- HFC
+tCO2e
+15,309.0
+16,150.0
+Total Scope 2 emissions (Break-up of the GHG into CO2, CH4, 
+N2O, HFCs, PFCs, SF6, NF3, if available)
+Metric tonnes of 
+CO2 equivalent
+73,722.0
+1,17,265.0
+Total Scope 1 and Scope 2 emission intensity per rupee of 
+turnover 
+(Total Scope 1 and Scope 2 GHG emissions (tCO2e) / Revenue 
+from operations)
+tCO2e/rupee 
+turnover
+0.00000004
+0.00000006
+Total Scope 1 and Scope 2 emission intensity per rupee of 
+turnover adjusted for Purchasing Power Parity (PPP)  
+(Total Scope 1 and Scope 2 GHG emissions (tCO2e) / Revenue 
+from operations adjusted for PPP)
+tCO2e/rupee 
+turnover 
+adjusted for PPP
+0.00000091
+0.00000140
+Total Scope 1 and Scope 2 emission intensity in terms of 
+physical output
+tCO2e/FTE
+0.15
+0.20
+	
+#Data excludes accounting for <2% headcount, where TCS does not have operational control.
+	
+Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external agency? (Y/N) If yes, 
+name of the external agency.
+	
+Yes.  Independent assurance has been carried out by KPMG.
+8.	
+Does the entity have any project related to reducing Green House Gas emission? If Yes, then provide details76.
+	
+Yes. TCS has taken up the target to reduce its absolute Scope 1 and Scope 2 carbon footprint by 70% by 2025 and become net 
+zero by 2030. To achieve these targets, the green-house gas management approach has four key levers – green infrastructure, 
+green IT, IT-enabled operational efficiencies, and renewable energy.
+	
+Commitment to Science Based Targets initiative (SBTi)
+	
+In June 2022, TCS has responded to SBTi’s urgent call for corporate climate action by committing to align with 1.5°C and net-zero 
+through the Business Ambition for 1.5°C campaign. This is published on SBTi website and can be viewed at Companies taking 
+action - https://sciencebasedtargets.org/companies-taking-action. TCS is working on the next steps to developing company targets 
+for validation by SBTi.
+	
+Green Infrastructure and IT enabled operational efficiency:
+	
+All new campuses owned by TCS are designed according to green building standards for energy and resource efficiency. They have 
+roof-top solar photovoltaic installations to reduce the carbon footprint. The total Built Up Area occupied by TCS has increased 
+YoY from 36.6 Mn to 38.23 million sq.ft. in FY 2023-24. With the increasing footprint, TCS is committed to expand consciously its 
+green footprint, to align with its sustainability goals. In FY 2023-24, TCS got Platinum IGBC certification for 2 additional existing 
+buildings namely Sholinganallur, Chennai and Deccan Park, Hyderabad. The % green certified area over built up area was 64.6% in  
+FY 2022-23 and has increased to 67.3% this year. This accounts for 39 TCS offices and campuses with over 25.74 million sq.ft of 
+area under certified green building by Indian Green Building Council.
+75	
+GRI 305-1; GRI 305-2, GRI 305-4. Scope 1 emissions have been calculated using the emissions factors published by the DEFRA conversion factors 
+2023. For Scope 2 emissions – for India, the source is the emission factor is the CO2 Baseline Database for the Indian Power Sector, User Guide, 
+Version 19.0, December 2023, published by the Central Electricity Authority of India. This emission factor [(0.716 tCO2/ MWh) by CEA includes 
+the captive power injection into the grid and is adjusted for RE transactions through open access (in power exchanges)]. As TCS, India procures 
+electricity from the India grid, which is a mix of conventional and renewable energy, the emission factor of 0.716 tCO2/ MWh is considered more 
+appropriate. For Australia, Canada, North America, and UK emission factors specific to the region published by local authorities are used. For 
+other countries IEA v6 emission factors (01/2024) and GHG protocol v19 (04/2023) – eGRID 2021 have been used as appropriate to the source of 
+electricity procured.
+76	
+GRI 305-5

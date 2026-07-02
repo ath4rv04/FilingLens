@@ -1,0 +1,141 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+210
+Consolidated Financial Statements 2023-24
+	
+(c)	 Other intangible assets
+	
+	
+Intangible assets purchased including acquired in business combination, are measured at cost as at the date of acquisition, 
+as applicable, less accumulated amortisation and accumulated impairment, if any.
+	
+	
+Intangible assets consist of rights under licensing agreement and software licences and customer-related intangibles. 
+	
+	
+Following table summarises the nature of intangibles and their estimated useful lives:
+Type of asset
+Useful lives
+Rights under licensing agreement and software licences
+Lower of licence period and 2-5 years
+Customer-related intangibles
+3 years
+	
+	
+Intangible assets are amortised on a straight-line basis over the period of its economic useful life.
+	
+	
+Intangible assets with finite life are evaluated for recoverability whenever there is any indication that their carrying amounts 
+may not be recoverable. If any such indication exists, the recoverable amount (i.e. higher of the fair value less cost to sell and 
+the value-in-use) is determined on an individual asset basis unless the asset does not generate cash flows that are largely 
+independent of those from other assets. In such cases, the recoverable amount is determined for the cash generating unit 
+(CGU) to which the asset belongs. 
+	
+	
+If the recoverable amount of an asset (or CGU) is estimated to be less than its carrying amount, the carrying amount of the 
+asset (or CGU) is reduced to its recoverable amount. An impairment loss is recognised in the statement of profit and loss.
+	
+	
+Intangible assets consist of the following:
+(` crore)
+Rights under licensing 
+agreement and 
+software licences
+Customer-related 
+intangibles
+Total
+Cost as at April 1, 2023
+ 1,892 
+ 126 
+ 2,018 
+Additions
+ 131 
+ - 
+ 131 
+Disposals / Derecognised
+ (18)
+ - 
+ (18)
+Translation exchange difference
+ (1)
+ 1 
+ - 
+Cost as at March 31, 2024
+ 2,004 
+ 127 
+ 2,131 
+Accumulated amortisation as at April 1, 2023
+ (1,025)
+ (126)
+ (1,151)
+Amortisation
+ (479)
+ - 
+(479)
+Disposals / Derecognised
+ 11 
+ - 
+ 11 
+Translation exchange difference
+ (1)
+ (1)
+ (2)
+Accumulated amortisation as at March 31, 2024
+ (1,494)
+ (127)
+ (1,621)
+Net carrying amount as at March 31, 2024
+ 510 
+ - 
+ 510 
+(` crore)
+Rights under licensing 
+agreement and 
+software licences
+Customer-related 
+intangibles
+Total
+Cost as at April 1, 2022
+ 1,697 
+ 121 
+ 1,818 
+Additions
+ 262 
+ - 
+ 262 
+Disposals / Derecognised
+ (73)
+ - 
+ (73)
+Translation exchange difference
+ 6 
+ 5 
+ 11 
+Cost as at March 31, 2023
+ 1,892 
+ 126 
+ 2,018 
+Accumulated amortisation as at April 1, 2022
+ (596)
+ (121)
+ (717)
+Amortisation
+ (496)
+ - 
+ (496)
+Disposals / Derecognised
+ 73 
+ - 
+ 73 
+Translation exchange difference
+ (6)
+ (5)
+ (11)
+Accumulated amortisation as at March 31, 2023
+ (1,025)
+ (126)
+ (1,151)
+Net carrying amount as at March 31, 2023
+ 867 
+ - 
+ 867 

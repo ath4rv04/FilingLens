@@ -1,0 +1,147 @@
+Notes forming part of Standalone Financial Statements
+Integrated Annual Report 2023-24
+267
+Standalone Financial Statements 2023-24
+	
+The carrying value of financial instruments by categories as at March 31, 2023 is as follows:
+(` crore)
+Fair value 
+through 
+profit or loss 
+Fair value 
+through other 
+comprehensive 
+income 
+Derivative 
+instruments 
+in hedging 
+relationship 
+Derivative 
+instruments 
+not in hedging 
+relationship 
+Amortised 
+cost 
+Total carrying 
+value 
+Financial assets
+Cash and cash equivalents
+ - 
+ - 
+ - 
+ - 
+1,462 
+1,462 
+Bank deposits
+ - 
+ - 
+ - 
+ - 
+2,428 
+2,428 
+Earmarked balances with 
+banks
+ - 
+ - 
+ - 
+ - 
+653 
+653 
+Investments (other than in 
+subsidiary)
+1,147 
+29,238 
+ - 
+ - 
+ 5,353 
+35,738 
+Trade receivables
+	
+Billed
+ - 
+ - 
+ - 
+ - 
+35,659 
+35,659 
+	
+Unbilled
+ - 
+ - 
+ - 
+ - 
+7,460 
+7,460 
+Loans
+ - 
+ - 
+ - 
+ - 
+335 
+335 
+Other financial assets
+ - 
+ - 
+37 
+153 
+1,899 
+2,089 
+1,147 
+29,238 
+37 
+153 
+55,249 
+85,824 
+Financial liabilities
+Trade payables
+ - 
+ - 
+ - 
+ - 
+13,768 
+13,768 
+Lease liabilities
+ - 
+ - 
+ - 
+ - 
+5,659 
+5,659 
+Other financial liabilities
+ - 
+ - 
+ - 
+141 
+7,147 
+7,288 
+ - 
+ - 
+ - 
+141 
+26,574 
+26,715 
+	
+Carrying amounts of cash and cash equivalents, trade receivables, loans and trade payables as at March 31, 2024 and 2023, approximate the fair 
+value due to their nature. Carrying amounts of bank deposits, earmarked balances with banks, other financial assets and other financial liabilities 
+which are subsequently measured at amortised cost also approximate the fair value due to their nature in each of the periods presented. Fair 
+value measurement of lease liabilities is not required. Fair value of investments carried at amortised cost is `940 crore and `5,351 crore as at 
+March 31, 2024 and 2023 respectively.
+(k)	 Fair value hierarchy 
+	
+The fair value hierarchy is based on inputs to valuation techniques that are used to measure fair value that are either observable 
+or unobservable and consists of the following three levels:
+	
+•	
+Level 1 – Inputs are quoted prices (unadjusted) in active markets for identical assets or liabilities.
+	
+•	
+Level 2 – Inputs are other than quoted prices included within Level 1 that are observable for the asset or liability, either 
+directly (i.e. as prices) or indirectly (i.e. derived from prices).
+	
+•	
+Level 3 – Inputs are not based on observable market data (unobservable inputs). Fair values are determined in whole or in 
+part using a valuation model based on assumptions that are neither supported by prices from observable current market 
+transactions in the same instrument nor are they based on available market data.
+	
+The cost of unquoted investments included in Level 3 of fair value hierarchy approximate their fair value because there is a wide 
+range of possible fair value measurements and the cost represents estimate of fair value within that range.

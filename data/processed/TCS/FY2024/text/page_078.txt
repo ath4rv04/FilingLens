@@ -1,0 +1,122 @@
+78
+Management Discussion and Analysis
+8	
+ IMF World Economic Outlook Update, April 2024 
+9	
+ Gartner
+Industry Vertical
+Segment 
+Revenue 
+FY 2024 
+(FY 2023) 
+` crore
+YoY 
+Revenue 
+Growth 
+%
+Key Demand Drivers7
+Segment 
+Margin 
+FY 2024 
+(FY 2023) 
+%
+Manufacturing
+23,491
+(21,236)
+10.6 •	
+Sustainable fuels, sustainable transportation, sustainable materials, 
+circular economy.
+•	
+Connected Autonomous Vehicles, Advanced Driver Assistance Systems.
+•	
+Resilient supply chain, parts track and trace, D2C.
+•	
+Vertical farming, precision agriculture. 
+•	
+Battery technology, Electric vehicles.
+•	
+Connected assets and smart plants, factory twin, plant safety and 
+modernization, energy efficiency and decarbonization, emission 
+tracking and monitoring.
+•	
+GenAI as an enabler across the value chain, specifically in the areas 
+such as sales cycles, product design and development. 
+30.9
+(27.5)
+Others
+20,981
+(18,331)
+14.5 •	
+Renewable integrations in the grid and associated system changes.
+•	
+Asset performance management.
+•	
+Accommodate the next generation of field workers.
+22.3
+(21.1)
+Business Outlook
+Global growth estimated at 3.2 percent in 2023 is projected to 
+continue at the same pace in 2024 and 20258. With disinflation 
+and steady growth, the likelihood of a hard landing seems to 
+have receded, and risks to global growth seem broadly balanced. 
+The uncertainty seen through last year is expected to persist 
+for the next few quarters. Capex investments are projected to 
+remain subdued as enterprises focus on maximizing returns 
+from existing investments, resulting in muted spending on 
+infrastructure, software, and services. Cessation of hostilities 
+and successful control of inflation can be the triggers for 
+recovery which will stimulate global demand. This, in turn, 
+should prompt customers to resume spending on discretionary 
+products and services.
+Despite challenges, spending on IT services has been resilient so far. 
+Cloud technologies have become the mainstay of an enterprise’s 
+agenda and key to achieving sustainable growth. As a unifying 
+digital hub that brings multiple other technologies to life, cloud has 
+accelerated digital and business transformation over the last fiscal. 
+The higher level of uncertainty in the business environment has 
+made clients more receptive to proactive proposals around IT and 
+business operating model transformations that can not only deliver 
+significant efficiencies but also help them become more agile and 
+resilient. All this has resulted in a record order book for FY 2024, at 
+US$42.7 billion. Global IT Spending is expected to increase 8% in 
+20249, with enterprises emphasizing on organizational efficiency 
+and optimization. 
+Last year saw GenAI seemingly at the heart of every strategic 
+discussion. Fueled by cloud, this combination of AI capabilities 
+is creating new possibilities and new opportunities. Firms will 
+continue to invest heavily in technology to enhance efficiency, 
+security, and customer experience. Rise in spend is expected in 
+cloud computing, ecosystem play and GenAI leading to better 
+resilience and new customer value creation. Cybersecurity 
+will remain a top priority, driving demand for advanced threat 
+detection and prevention solutions. 
+All the above factors provide growth visibility over the medium 
+to long term amid near-term uncertainty. If the delayed 
+decision-making and cash conservation seen in some segments 
+through FY 2024 continues into the next fiscal year, it could lead 
+to a moderation in growth in FY 2025.
+Key demand drivers expected to power the company’s growth in 
+FY 2025 include:
+•	
+Technology transformation:  IT infrastructure 
+modernization, cloud enablement, application and data 
+estate modernization, cloud migration and transformation; 
+data centre and collocated data support; SaaS adoption; 
+digital workplace; digital twins; cyber security; ERP 
+modernization; low-code no-code; 5G/Edge and AI 
+adoption. 
+•	
+Business Transformation: Customer experience 
+transformation using personalization, omnichannel 
+implementation, immersive experiences using XR/
+Metaverse; product and business model innovation; supply 
+chain modernization; M&A integration / divestitures; 
+sustainability, new business model enablement, by 
+harnessing GenAI.
+•	
+Operations: Plain vanilla outsourcing, vendor consolidation 
+and multi-services deals; AI/ML-led transformation of IT 
+/ business operations for greater resilience and leaner 
+operating models; managed services models and real time 
+operation visibility. 
+Integrated Annual Report 2023-24

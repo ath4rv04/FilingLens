@@ -1,0 +1,96 @@
+Function Point
+A function point is a granular building block of a software, based on a functional view of that system, represented 
+by a code snippet whose logic helps the user accomplish something. The concept is used while estimating the 
+effort for building a new application, by decomposing it into its constituent function points of varying levels of 
+complexity. 
+Furlough
+A temporary cessation of work without pay for the employees, usually implemented by organizations facing under 
+difficult economic conditions, and in lieu of laying off employees. 
+Gamification
+The process of adding games or game-like elements to any activity in order to enrich experiences and encourage 
+user participation.
+GDPR
+Acronym for General Data Protection Regulation, a European Union regulation for data protection and privacy. 
+Generative AI
+Generative AI describes any type of artificial intelligence (AI) that is is capable of generating new content, 
+including text, images, video, audio, simulations, code or synthetic data.  It involves the use of machine learning 
+algorithms to learn patterns across a large data set and generate new content based on those patterns.
+GHGs
+Acronym for Greenhouse Gas. These are gases that trap heat in the atmosphere leading to global warming and 
+climate change.
+Global Capability 
+Centers (GCC) / 
+Captive units
+Captive units include both MNC-owned units that undertake work for the parents’ global operations and the 
+company owned units of domestic firms, set up in offshore locations offering cheaper labor pool, helping the 
+parent to reduce its operational costs.
+Green-Tariff
+Green tariffs are specialized retail tariffs that electricity distribution companies (discoms) charge for the sale of 
+Renewable Energy (RE) to their consumers. Businesses can sign up for these tariffs and claim RE consumption, 
+while discoms procure electricity on their behalf from RE project developers.
+Growth and 
+Transformation
+Initiatives launched to improve the enterprise’s revenues, leveraging technology to adopt new business models, 
+drive new revenue streams, enhance customer experience or target new customer segments. This is in contrast 
+to traditional outsourcing engagements where the focus is on improving efficiency and saving costs.
+G&T
+See Growth and Transformation
+Hallucination
+Tendency of large language models to make things up or provide output that seems plausible but is factually 
+incorrect or unverifiable.
+HVAC
+Acronym for Heating Ventilation and Air Conditioning System
+Hybrid Cloud
+An enterprise IT infrastructure model that combines private clouds, public clouds and on premise data centers, to 
+meet the compute and storage needs of the business. 
+IFRS S2
+IFRS S2 is an international ESG reporting framework that requires an entity to disclose information about its 
+climate-related risks and opportunities that is useful to users of general-purpose financial reports in making 
+decisions relating to providing resources to the entity.
+Note: IFRS is acronym of International Financial Reporting Standards
+Innovation Days
+Focused workshops with a TCS customer where researchers and business leaders from both organizations 
+participate to explore emerging technologies for specific customer problems. 
+Innovation Forum
+TCS’ thought leadership event that is held in major and emerging markets. It brings together researchers from 
+academia, innovators from the start-up ecosystem, technology watchers, futurists and customers to brainstorm 
+around emerging technologies.
+Inorganic Growth
+Growth in revenue due to mergers, acquisitions or takeovers, rather than due to an increase in the company’s 
+own business activity. 
+Intellectual 
+Property 
+An asset that is the result of a creative design or idea, such as patents, copyrights, reusable code, software 
+products and platforms, and gives the owner exclusive rights over its usage, such that no one can copy or reuse 
+the creation without the owner’s permission.
+Interactive 
+Technology
+Allows for a two-way flow of information through an interface between the user and the technology; the user 
+usually communicates a request for data or action to the technology with the technology returning the requested 
+data or result of the action back to the user.
+Internet of Things
+A network of interconnected machines or devices embedded with sensors, software, network connectivity, and 
+necessary electronics to generate and share run-time data that can be studied and used to monitor or control 
+remotely, predict failure, and optimize the design of those machines / devices.
+Invested Funds
+Funds that are highly liquid in nature and can be readily converted into cash.
+Invested funds = Cash and cash equivalents + Investments + Deposits with banks + Inter-corporate deposits.
+Involuntary 
+Attrition
+A reduction in the workforce due to the employer’s decision to terminate employment, instead of the employees’ 
+decision to leave.  
+IoT
+See Internet of Things
+IP
+See Intellectual Property
+ISO
+Acronym for International Organization for Standardization
+ISSB
+Acronym for International Sustainability Standards Board
+Key Managerial 
+Personnel
+At TCS, this refers to the Chief Executive Officer & Managing Director, Chief Operating Officer & Executive 
+Director, Chief Financial Officer and the Company Secretary. 
+Integrated Annual Report 2023-24
+311
+Glossary

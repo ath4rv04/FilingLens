@@ -1,0 +1,133 @@
+Notes forming part of Consolidated Financial Statements
+Integrated Annual Report 2023-24
+188
+Consolidated Financial Statements 2023-24
+	
+(i)	
+Leases
+	
+	
+The Group evaluates if an arrangement qualifies to 
+be a lease as per the requirements of Ind AS 116. 
+Identification of a lease requires significant judgement. 
+The Group uses significant judgement in assessing the 
+lease term (including anticipated renewals) and the 
+applicable discount rate. 
+	
+	
+The Group determines the lease term as the 
+noncancellable period of a lease, together with both 
+periods covered by an option to extend the lease 
+if the Group is reasonably certain to exercise that 
+option; and periods covered by an option to terminate 
+the lease if the Group is reasonably certain not to 
+exercise that option. In assessing whether the Group 
+is reasonably certain to exercise an option to extend a 
+lease, or not to exercise an option to terminate a lease, 
+it considers all relevant facts and circumstances that 
+create an economic incentive for the Group to exercise 
+the option to extend the lease, or not to exercise the 
+option to terminate the lease. The Group revises the 
+lease term if there is a change in the noncancellable 
+period of a lease. 
+	
+	
+The discount rate is generally based on the 
+incremental borrowing rate specific to the lease being 
+evaluated or for a portfolio of leases with similar 
+characteristics.
+6)	
+Recent pronouncements
+	
+Ministry of Corporate Affairs (“MCA”) notifies new 
+standards or amendments to the existing standards under 
+Companies (Indian Accounting Standards) Rules as issued 
+from time to time. For the year ended March 31, 2024, 
+MCA has not notified any new standards or amendments to 
+the existing standards applicable to the Group. 
+7)	
+Business combinations
+	
+The Group accounts for its business combinations under 
+acquisition method of accounting. Acquisition related costs 
+are recognised in the consolidated statement of profit 
+and loss as incurred. The acquiree’s identifiable assets, 
+liabilities and contingent liabilities that meet the condition 
+for recognition are recognised at their fair values at the 
+acquisition date.
+	
+Purchase consideration paid in excess of the fair value 
+of net assets acquired is recognised as goodwill. Where 
+the fair value of identifiable assets and liabilities exceed 
+the cost of acquisition, after reassessing the fair values 
+of the net assets and contingent liabilities, the excess is 
+recognised as capital reserve.
+	
+The interest of non-controlling shareholders is initially 
+measured either at fair value or at the non-controlling 
+interests’ proportionate share of the acquiree’s identifiable 
+net assets. The choice of measurement basis is made on an 
+acquisition-by-acquisition basis. Subsequent to acquisition, 
+the carrying amount of non-controlling interests is the 
+amount of those interests at initial recognition plus the 
+non-controlling interests’ share of subsequent changes in 
+equity of subsidiaries.
+	
+Business combinations arising from transfers of interests in 
+entities that are under common control are accounted at 
+historical cost. The difference between any consideration 
+given and the aggregate historical carrying amounts of 
+assets and liabilities of the acquired entity is recorded in 
+shareholders’ equity.
+8)	
+Financial assets, financial liabilities and equity 
+instruments
+	
+Financial assets and liabilities are recognised when the 
+Group becomes a party to the contractual provisions of 
+the instrument. Financial assets and liabilities are initially 
+measured at fair value, except for trade receivables which 
+are initially measured at transaction price. Transaction 
+costs that are directly attributable to the acquisition or 
+issue of financial assets and financial liabilities (other than 
+financial assets and financial liabilities at fair value through 
+profit or loss) are added to or deducted from the fair 
+value measured on initial recognition of financial asset or 
+financial liability. 
+	
+The Group derecognises a financial asset only when the 
+contractual rights to the cash flows from the asset expire, 
+or when it transfers the financial asset and substantially all 
+the risks and rewards of ownership of the asset to another 
+entity. The Group derecognises financial liabilities when, 
+and only when, the Group’s obligations are discharged, 
+cancelled or have expired.
+	
+Cash and cash equivalents
+	
+The Group considers all highly liquid investments, which 
+are readily convertible into known amounts of cash that are 
+subject to an insignificant risk of change in value to be cash 
+equivalents. Cash and cash equivalents consist of balances 
+with banks which are unrestricted for withdrawal and 
+usage.
+	
+Financial assets at amortised cost
+	
+Financial assets are subsequently measured at amortised 
+cost if these financial assets are held within a business 
+whose objective is to hold these assets in order to collect 
+contractual cash flows and the contractual terms of the 
+financial assets give rise on specified dates to cash flows 
+that are solely payments of principal and interest on the 
+principal amount outstanding.
+	
+Financial assets at fair value through other 
+comprehensive income
+	
+Financial assets are measured at fair value through other 
+comprehensive income if these financial assets are held 
+within a business whose objective is achieved by both 
+collecting contractual cash flows on specified dates that are 
+solely payments of principal and interest on the principal 
+amount outstanding and selling financial assets.

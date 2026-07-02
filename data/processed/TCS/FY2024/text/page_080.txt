@@ -1,0 +1,131 @@
+80
+Management Discussion and Analysis
+Key Risks (R) / 
+Opportunity (O)
+Impact on the Company
+In case of risk or opportunity, approach to adapt 
+or mitigate10
+Financial 
+implications 
+of the risk or 
+opportunity11
+Ability to attract 
+and retain top 
+talent; short 
+supply of emerging 
+technical skills (R)
+Impact On: Human Capital, Intellectual 
+Capital
+•	
+The company’s ability to attract, 
+develop, motivate, and retain talent is 
+critical to its business success. 
+•	
+Inability to scale up experienced 
+professionals with niche digital/AI/
+GenAI skills from the market or lack of 
+these skills in-house, can also impact 
+TCS’ ability to grow.
+•	
+Talent scarcity can lead to poaching of 
+the company’s employees and result 
+in higher attrition. This can disrupt 
+ongoing projects, slow down planned 
+ramp ups and affect revenue growth.
+•	
+Commitment to organic talent development, 
+best in class learning and development, 
+career growth linkage to cross-skilling / 
+upskilling, preference to internal talent for 
+new leadership positions, all incentivize and 
+improved retention.
+•	
+Massive re-skilling program #IamGenAIReady 
+to train employees on AI/GenAI and other 
+emerging technologies to be ready for 
+deployment in customer projects.
+•	
+Focused employee engagement program 
+which includes bringing all employees ‘Back 
+to Office’, to increase a sense of belonging 
+and foster the TCS culture.
+•	
+Leverage top employer brand and social 
+networking sites and talent sourcing channels 
+to tap into the passive pool.
+•	
+Reduce talent acquisition cycle time to improve 
+joining rates through innovative practices.
+•	
+Engage in various markets through 
+investments in STEM/GoIT programs, campus 
+engagements, local hiring and building 
+reputation to attract local talent.
+Negative
+Restrictions on 
+global mobility, 
+location strategies 
+(R)
+Impact On: Human Capital, Intellectual 
+Capital
+•	
+Distributed software development 
+models require the free movement 
+of people across countries and any 
+restrictions in key markets pose a 
+threat to the global mobility of skilled 
+professionals. 
+•	
+Restrictions due to legislations which 
+limit the availability of work visas, or 
+which apply onerous eligibility criteria 
+or costs, may lead to project delays 
+and increased cost of doing business. 
+•	
+Material reduction in dependency on work 
+visas through increased hiring of local talent 
+including freshers, use of contractors, local 
+mobility and training in all major markets.
+•	
+Use of Location Independent Agile to 
+promote systematic collaboration and reduce 
+the need for co-location. 
+•	
+Ongoing monitoring of the global 
+environment, working with advisors, 
+partners, trade bodies, research institutes 
+and governments to promote local talent 
+building efforts, specifically in STEM 
+initiatives.
+•	
+Greater brand visibility through event 
+sponsorships, community outreach, 
+showcasing of investments, innovation 
+capabilities and employment generation.
+Negative
+Business model 
+changes in 
+customer 
+environment (R 
+& O)
+Impact On: Financial Capital, Intellectual 
+Capital
+Risk:
+•	
+Rapidly evolving technologies are 
+changing technology consumption 
+patterns, creating new classes 
+of buyers within the enterprise, 
+giving rise to entirely new business 
+models and therefore new kinds of 
+competitors.
+•	
+Investments in innovation and differentiated 
+capabilities at scale on emerging technologies 
+through large scale reskilling, external 
+hiring, R&I, solution development and IP 
+asset creation leveraging deep contextual 
+knowledge across customer specific domain, 
+technologies, and processes. 
+Negative
+Integrated Annual Report 2023-24

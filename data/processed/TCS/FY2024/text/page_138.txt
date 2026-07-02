@@ -1,0 +1,113 @@
+Integrated Annual Report 2023-24
+138
+Business Responsibility & Sustainability Report
+3.	
+Accessibility of workplaces
+	
+Are the premises / offices of the entity accessible to differently abled employees and workers, as per the requirements of the 
+Rights of Persons with Disabilities Act, 2016 (RPWD 2016 Act)? If not, whether any steps are being taken by the entity in this 
+regard.
+	
+Yes. All TCS-owned premises have accessibility provided as per the RPWD 2016 Act.
+4.	
+Does the entity have an equal opportunity policy as per the Rights of Persons with Disabilities Act, 2016? If so, provide a web-
+link to the policy. –
+	
+Yes. The Tata Code of Conduct can be accessed at: https://www.tcs.com/tata-code-of-conduct. Additionally, there is a Disability 
+Inclusion Policy, governing TCS’ India operations mapped to the RPWD 2016 Act, governing TCS’ India operations, available to 
+employees on the Company’s local intranet.
+5.	
+Return to work and Retention rates of permanent employees that took parental leave 47.
+Gender
+Permanent employees
+Return to work rate (%)
+Retention rate (%)
+Male
+100.0
+92.9
+Female
+99.9
+93.0
+Total
+99.9
+92.9
+	
+•	
+Return to work: Rate of employees who joined back from their parental leave in FY 2023-24.
+	
+•	
+Retention Rate: Of the employees “Returned to Work”, % of employees those who are employed with TCS at the end of FY 2023-24.
+	
+•	
+Parental leave includes maternity, paternity and adoption leave.
+6.	
+Is there a mechanism available to receive and redress grievances48 for the following categories of employees and workers? If 
+yes, give details of the mechanism in brief.
+Yes/No  
+(If Yes, then give details of the mechanism in brief)
+Permanent Employees
+Yes, employees can use the “Employee Concerns” application to log their grievances in TCS 
+internal portal, which is addressed by the respective stakeholders within the stipulated timelines
+Other than Permanent 
+Employees
+Yes, non-permanent employees can raise the grievances through e-mail to the concerned 
+stakeholders.
+7.	
+ Membership of employees and worker in association(s) or Unions recognised by the listed entity49:
+Category
+FY 2023-24#
+FY 2022-23*
+Total 
+employees 
+in 
+respective 
+category (A)
+No. of employees in 
+respective category, 
+who are part of 
+association(s)or 
+Union (B)
+% (B / A) Total 
+employees 
+in 
+respective 
+category (C)
+No. of employees in 
+respective category, 
+who are part of 
+association(s) or 
+Union (D)
+% (D/ C)
+Total Permanent Employees
+6,01,546
+6,997
+1.2
+5,23,842
+55
+0.01
+Male
+3,87,448
+4,698
+1.2
+3,34,825
+55
+0.02
+Female
+2,14,098
+2,299
+1.1
+1,89,017
+0
+0.00
+	
+*	
+For FY 2022-23 information mentioned are for TCS’ India operations, excluding non-wholly owned subsidiaries.
+	
+#	
+Numbers mentioned above are based on voluntary disclosures by employees.
+47	
+GRI 401-3 
+48	
+GRI 2-16, GRI 2-25, GRI 2-26 
+49	
+GRI 2-30

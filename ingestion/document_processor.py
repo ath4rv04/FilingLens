@@ -3,6 +3,7 @@ from pathlib import Path
 from ingestion.metadata import extract_metadata
 from ingestion.pdf_renderer import render_pdf
 from ingestion.text_extractor import extract_text
+from embeddings.chunker import Chunker
 
 
 class DocumentProcessor:
@@ -45,3 +46,12 @@ class DocumentProcessor:
         )
 
         print("Processing complete!")
+        
+        chunker = Chunker()
+
+        chunker.process_folder(
+            self.output / "text",
+            self.output / "chunks",
+            self.company,
+            self.year,
+        )

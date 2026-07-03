@@ -1,13 +1,18 @@
-from ingestion.pdf_renderer import render_pdf
-from ingestion.metadata import extract_metadata
-from ingestion.text_extractor import extract_text
+import argparse
 
+from ingestion.document_processor import DocumentProcessor
 
-PDF = "data/raw/TCS/FY2024/annual_report.pdf"
-BASE = "data/processed/TCS/FY2024"
+parser = argparse.ArgumentParser()
 
-render_pdf(PDF, f"{BASE}/pages")
-extract_text(PDF, f"{BASE}/text")
-extract_metadata(PDF, f"{BASE}/metadata.json")
+parser.add_argument(
+    "--input",
+    required=True,
+)
 
-print("Pipeline completed successfully!")
+args = parser.parse_args()
+
+processor = DocumentProcessor(args.input)
+
+processor.process()
+
+print("Done!")

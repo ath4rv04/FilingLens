@@ -4,8 +4,8 @@ import json
 from dataclasses import asdict
 from filinglens.models.document_chunk import DocumentChunk
 
-class Chunker:
 
+class Chunker:
     def __init__(self):
 
         self.splitter = RecursiveCharacterTextSplitter(
@@ -27,17 +27,13 @@ class Chunker:
         output_folder.mkdir(parents=True, exist_ok=True)
 
         for txt_file in sorted(text_folder.glob("*.txt")):
-
             page = int(txt_file.stem.split("_")[1])
 
-            text = txt_file.read_text(
-                encoding="utf-8"
-            )
+            text = txt_file.read_text(encoding="utf-8")
 
             chunks = self.splitter.split_text(text)
 
             for i, chunk in enumerate(chunks):
-
                 document_chunk = DocumentChunk(
                     id=f"{company}_{year}_page_{page}_chunk_{i}",
                     company=company,
@@ -46,13 +42,12 @@ class Chunker:
                     chunk=i,
                     text=chunk,
                 )
-                
+
                 with open(
                     output_folder / f"{document_chunk.id}.json",
                     "w",
                     encoding="utf-8",
                 ) as f:
-
                     json.dump(
                         asdict(document_chunk),
                         f,

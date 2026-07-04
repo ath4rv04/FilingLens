@@ -26,4 +26,6 @@ CHUNK_OVERLAP = 200
 
 QDRANT_COLLECTION = "filings"
 
+QDRANT_URL = "http://localhost:6333"
+
 VECTOR_DIMENSION = 1024

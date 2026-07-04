@@ -18,12 +18,7 @@ class DocumentProcessor:
         self.company = self.pdf_path.parent.parent.name
         self.year = self.pdf_path.parent.name
 
-        self.output = (
-            Path("data")
-            / "processed"
-            / self.company
-            / self.year
-        )
+        self.output = Path("data") / "processed" / self.company / self.year
 
     def process(self):
         print(f"Processing: {self.pdf_path.name}")
@@ -46,7 +41,7 @@ class DocumentProcessor:
         )
 
         print("Processing complete!")
-        
+
         chunker = Chunker()
 
         chunker.process_folder(

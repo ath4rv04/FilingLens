@@ -4,7 +4,6 @@ from tqdm import tqdm
 from filinglens.utils.logging import get_logger
 
 
-
 def render_pdf(pdf_path: str, output_dir: str):
     pdf = fitz.open(pdf_path)
 

@@ -12,7 +12,7 @@ def extract_text(pdf_path: str, output_dir: str):
         text = page.get_text()
 
         with open(
-            output_dir / f"page_{page_no+1:03d}.txt",
+            output_dir / f"page_{page_no + 1:03d}.txt",
             "w",
             encoding="utf-8",
         ) as f:

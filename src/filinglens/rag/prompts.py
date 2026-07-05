@@ -7,31 +7,65 @@ from filinglens.rag.context import ContextBlock
 
 @dataclass(slots=True)
 class RagPrompt:
+    """Container for chat prompts."""
+
     system: str
     user: str
 
 
 class RagPromptBuilder:
-    """Builds source-grounded analyst QA prompts."""
+    """Build analyst-grade prompts for FilingLens."""
 
-    system_prompt = (
-        "You are FilingLens-IN, an analyst-grade financial filing assistant. "
-        "Answer only from the supplied context. Cite sources with bracketed "
-        "numbers like [1]. If the context is insufficient, say what is missing."
-    )
+    SYSTEM_PROMPT = """
+You are FilingLens-IN, an expert financial filing analysis assistant.
 
-    def build(self, question: str, context_blocks: list[ContextBlock]) -> RagPrompt:
+Rules:
+
+1. Answer ONLY using the supplied context.
+2. Never invent facts.
+3. Every factual statement must cite one or more sources like [1].
+4. If the answer cannot be determined from the context,
+   explicitly say so.
+5. Prefer concise analyst-style writing.
+6. Preserve financial terminology exactly.
+7. If numbers conflict, mention the conflict and cite both.
+""".strip()
+
+    def build(
+        self,
+        question: str,
+        context_blocks: list[ContextBlock],
+    ) -> RagPrompt:
+
         context = "\n\n".join(
-            block.render(index) for index, block in enumerate(context_blocks, start=1)
+            block.render(i)
+            for i, block in enumerate(
+                context_blocks,
+                start=1,
+            )
         )
+
         if not context:
-            context = "No retrieved context was available."
+            context = "No context available."
+
+        user_prompt = f"""
+Question
+
+{question.strip()}
+
+Context
+
+{context}
+
+Instructions
+
+• Answer the question.
+• Use citations like [1].
+• If information is missing, explain what is missing.
+• Do not use outside knowledge.
+""".strip()
 
         return RagPrompt(
-            system=self.system_prompt,
-            user=(
-                f"Question:\n{question.strip()}\n\n"
-                f"Context:\n{context}\n\n"
-                "Answer with concise reasoning and citations."
-            ),
+            system=self.SYSTEM_PROMPT,
+            user=user_prompt,
         )

@@ -5,22 +5,28 @@ from typing import Any
 from filinglens.embeddings.embedder import EmbeddingService
 from filinglens.retrieval.models import RetrievalResult
 from filinglens.vectorstore import QdrantVectorStore
-
+from filinglens.embeddings.embedder import (
+    EmbeddingService,
+    get_embedding_service,
+)
 
 class DenseRetriever:
-    """Dense retriever backed by Qdrant."""
 
     def __init__(
         self,
         *,
-        embedder: EmbeddingService,
         vector_store: QdrantVectorStore,
+        embedder: EmbeddingService | None = None,
     ) -> None:
-        self.embedder = embedder
+
+        self.embedder = embedder or get_embedding_service()
         self.vector_store = vector_store
 
     def search(self, query: str, *, top_k: int = 5) -> list[RetrievalResult]:
-        query_vector = self.embedder.embed(query)
+        query_vector = self.embedder.embed(
+            query,
+            show_progress_bar=False,
+        )[0]
         results = self.vector_store.search(query_vector, top_k=top_k)
 
         return [

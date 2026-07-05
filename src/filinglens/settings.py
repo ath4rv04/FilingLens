@@ -16,6 +16,8 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 
 EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
 
+EMBEDDING_BATCH_SIZE = 64
+
 # ---------- Chunking ----------
 
 CHUNK_SIZE = 1000
@@ -29,3 +31,11 @@ QDRANT_COLLECTION = "filings"
 QDRANT_URL = "http://localhost:6333"
 
 VECTOR_DIMENSION = 1024
+
+# ---------- Rendering ----------
+
+IMAGE_SCALE = 2
+
+# ---------- Text Extraction ----------
+
+SCANNED_PAGE_THRESHOLD = 20

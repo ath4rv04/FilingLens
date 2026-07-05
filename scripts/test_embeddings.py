@@ -1,14 +1,19 @@
-from filinglens.embeddings.embedder import EmbeddingService
-from sklearn.metrics.pairwise import cosine_similarity
+from filinglens.embeddings.embedder import get_embedding_service
 
-embedder = EmbeddingService()
+embedder = get_embedding_service()
+
+print(f"Device: {embedder.device}")
+print(f"Dimension: {embedder.embedding_dimension}")
 
 texts = [
-    "Revenue increased",
-    "Sales grew",
-    "The weather is sunny",
+    "Revenue increased by 15%",
+    "Sales grew by 15%",
+    "The weather is sunny today",
 ]
 
-vectors = embedder.embed(texts)
+embeddings = embedder.embed(
+    texts,
+    show_progress_bar=True,
+)
 
-print(cosine_similarity(vectors))
+print("Embedding shape:", embeddings.shape)

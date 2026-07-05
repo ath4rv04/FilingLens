@@ -1,24 +1,42 @@
 from pathlib import Path
+
 import fitz
 from tqdm import tqdm
+
+from filinglens.settings import IMAGE_SCALE
 from filinglens.utils.logging import get_logger
 
+logger = get_logger(__name__)
 
-def render_pdf(pdf_path: str, output_dir: str):
-    pdf = fitz.open(pdf_path)
+
+def render_pdf(pdf_path: str | Path, output_dir: str | Path):
 
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    for page_num in tqdm(range(len(pdf)), desc="Rendering Pages"):
-        page = pdf.load_page(page_num)
+    with fitz.open(pdf_path) as pdf:
 
-        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
+        page_count = len(pdf)
 
-        image_path = output_dir / f"page_{page_num + 1:03d}.png"
+        for page_num in tqdm(
+            range(page_count),
+            desc="Rendering Pages",
+        ):
 
-        pix.save(image_path)
+            page = pdf.load_page(page_num)
 
-    logger = get_logger(__name__)
+            pix = page.get_pixmap(
+                matrix=fitz.Matrix(
+                    IMAGE_SCALE,
+                    IMAGE_SCALE,
+                )
+            )
 
-    logger.info("Rendered %d pages", len(pdf))
+            image_path = (
+                output_dir
+                / f"page_{page_num + 1:03d}.png"
+            )
+
+            pix.save(image_path)
+
+    logger.info("Rendered %d pages.", page_count)

@@ -1,3 +1,9 @@
-from filinglens.vectorstore.qdrant_store import QdrantSearchResult, QdrantVectorStore
+from filinglens.vectorstore.qdrant_store import (
+    QdrantVectorStore,
+    SearchResult,
+)
 
-__all__ = ["QdrantSearchResult", "QdrantVectorStore"]
+__all__ = [
+    "QdrantVectorStore",
+    "SearchResult",
+]

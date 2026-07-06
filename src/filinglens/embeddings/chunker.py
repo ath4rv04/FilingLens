@@ -37,7 +37,6 @@ class Chunker:
         chunk_count = 0
 
         for txt_file in sorted(text_folder.glob("*.txt")):
-
             page = int(txt_file.stem.split("_")[1])
 
             text = txt_file.read_text(
@@ -54,7 +53,6 @@ class Chunker:
             chunks = self.splitter.split_text(text)
 
             for i, chunk_text in enumerate(chunks):
-
                 document_chunk = DocumentChunk(
                     id=f"{company}_{year}_page_{page}_chunk_{i}",
                     company=company,
@@ -64,17 +62,13 @@ class Chunker:
                     text=chunk_text,
                 )
 
-                output_path = (
-                    output_folder
-                    / f"{document_chunk.id}.json"
-                )
+                output_path = output_folder / f"{document_chunk.id}.json"
 
                 with open(
                     output_path,
                     "w",
                     encoding="utf-8",
                 ) as f:
-
                     json.dump(
                         asdict(document_chunk),
                         f,

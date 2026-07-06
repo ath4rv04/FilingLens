@@ -1,21 +1,21 @@
 from filinglens.agents import FilingLensWorkflow, QueryRouter
 from filinglens.retrieval import RetrievalResult
+from filinglens.models import DocumentChunk
 
 
 class FakeRetriever:
     def search(self, question, top_k):
         return [
             RetrievalResult(
-                id="chunk-1",
+                chunk=DocumentChunk(
+                    id="chunk-1",
+                    company="TCS",
+                    year="FY2024",
+                    page=1,
+                    chunk=0,
+                    text="Management discussed demand.",
+                ),
                 score=0.9,
-                payload={
-                    "chunk_id": "chunk-1",
-                    "company": "TCS",
-                    "year": "FY2024",
-                    "page": 1,
-                    "chunk": 0,
-                    "text": "Management discussed demand.",
-                },
                 source="hybrid",
             )
         ]

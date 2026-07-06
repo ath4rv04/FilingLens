@@ -1,6 +1,11 @@
 from filinglens.retrieval import HybridRetriever, RetrievalResult
 
 
+class FakeChunk:
+    def __init__(self, id):
+        self.id = id
+
+
 class FakeRetriever:
     def __init__(self, source, chunks):
         self.source = source
@@ -11,9 +16,8 @@ class FakeRetriever:
         self.top_k = top_k
         return [
             RetrievalResult(
-                id=chunk_id,
+                chunk=FakeChunk(id=chunk_id),
                 score=score,
-                payload={"chunk_id": chunk_id, "text": chunk_id},
                 source=self.source,
             )
             for chunk_id, score in self.chunks
@@ -31,4 +35,4 @@ def test_hybrid_retriever_fuses_dense_and_bm25_results():
     assert bm25.query == "margin expansion"
     assert dense.top_k == 10
     assert bm25.top_k == 10
-    assert [result.chunk_id for result in results] == ["b", "a"]
+    assert [result.id for result in results] == ["b", "a"]

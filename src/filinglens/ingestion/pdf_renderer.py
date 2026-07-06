@@ -15,14 +15,12 @@ def render_pdf(pdf_path: str | Path, output_dir: str | Path):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     with fitz.open(pdf_path) as pdf:
-
         page_count = len(pdf)
 
         for page_num in tqdm(
             range(page_count),
             desc="Rendering Pages",
         ):
-
             page = pdf.load_page(page_num)
 
             pix = page.get_pixmap(
@@ -32,10 +30,7 @@ def render_pdf(pdf_path: str | Path, output_dir: str | Path):
                 )
             )
 
-            image_path = (
-                output_dir
-                / f"page_{page_num + 1:03d}.png"
-            )
+            image_path = output_dir / f"page_{page_num + 1:03d}.png"
 
             pix.save(image_path)
 

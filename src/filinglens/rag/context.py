@@ -16,7 +16,7 @@ class Citation:
     company: str
     year: str
     page: int | None
-    chunk: int |None
+    chunk: int | None
     chunk_id: str
 
     def label(self) -> str:
@@ -45,10 +45,7 @@ class ContextBlock:
     source: str
 
     def render(self, index: int) -> str:
-        return (
-            f"[{index}] {self.citation.label()}\n"
-            f"{self.text}"
-        )
+        return f"[{index}] {self.citation.label()}\n{self.text}"
 
 
 class ContextAssembler:
@@ -69,9 +66,7 @@ class ContextAssembler:
     ) -> None:
 
         if max_characters < 1:
-            raise ValueError(
-                "max_characters must be at least 1."
-            )
+            raise ValueError("max_characters must be at least 1.")
 
         self.max_characters = max_characters
 
@@ -97,11 +92,10 @@ class ContextAssembler:
         )
 
         for result in sorted_results:
-
-            if result.chunk_id in seen_chunks:
+            if result.id in seen_chunks:
                 continue
 
-            seen_chunks.add(result.chunk_id)
+            seen_chunks.add(result.id)
 
             text = self._clean_text(result.text)
 
@@ -117,10 +111,7 @@ class ContextAssembler:
                 text = text[:remaining].rstrip()
 
             block = ContextBlock(
-                citation=self._citation(
-                    result.payload,
-                    result.chunk_id,
-                ),
+                citation=self._citation(result.chunk),
                 text=text,
                 score=result.score,
                 source=result.source,
@@ -155,20 +146,16 @@ class ContextAssembler:
 
     @staticmethod
     def _citation(
-        payload: dict[str, Any],
-        chunk_id: str,
-    ) -> Citation:
-
+        chunk: Any,
+    ) -> (
+        Citation
+    ):  # Fallback to Any to avoid circular import if needed, or import DocumentChunk
         return Citation(
-            company=str(payload.get("company", "Unknown")),
-            year=str(payload.get("year", "Unknown")),
-            page=ContextAssembler._optional_int(
-                payload.get("page")
-            ),
-            chunk=ContextAssembler._optional_int(
-                payload.get("chunk")
-            ),
-            chunk_id=chunk_id,
+            company=str(getattr(chunk, "company", "Unknown")),
+            year=str(getattr(chunk, "year", "Unknown")),
+            page=ContextAssembler._optional_int(getattr(chunk, "page", None)),
+            chunk=ContextAssembler._optional_int(getattr(chunk, "chunk", None)),
+            chunk_id=chunk.id,
         )
 
     @staticmethod

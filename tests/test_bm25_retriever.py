@@ -26,7 +26,7 @@ def test_bm25_retriever_ranks_matching_chunks_first():
     results = retriever.search("banking revenue", top_k=1)
 
     assert len(results) == 1
-    assert results[0].chunk_id == "chunk-1"
+    assert results[0].id == "chunk-1"
     assert results[0].source == "bm25"
 
 

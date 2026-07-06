@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from scripts.build_index import load_chunks
+from filinglens.indexing import load_chunks
 
 
 def test_load_chunks_reads_document_chunk_json(tmp_path):

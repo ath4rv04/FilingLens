@@ -28,7 +28,6 @@ def extract_metadata(
     )
 
     with fitz.open(pdf_path) as pdf:
-
         metadata = {
             "page_count": len(pdf),
             "title": pdf.metadata.get("title"),
@@ -47,7 +46,6 @@ def extract_metadata(
         "w",
         encoding="utf-8",
     ) as f:
-
         json.dump(
             metadata,
             f,

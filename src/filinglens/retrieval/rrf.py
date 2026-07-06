@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from filinglens.retrieval.models import RetrievalResult
+from filinglens.models import RetrievalResult
 
 
 def reciprocal_rank_fusion(
@@ -17,7 +17,7 @@ def reciprocal_rank_fusion(
 
     for results in result_sets:
         for rank, result in enumerate(results, start=1):
-            chunk_id = result.chunk_id
+            chunk_id = result.id
             fused_scores[chunk_id] = fused_scores.get(chunk_id, 0.0) + 1 / (k + rank)
             sources.setdefault(chunk_id, set()).add(result.source)
 
@@ -30,13 +30,10 @@ def reciprocal_rank_fusion(
 
     for chunk_id in ranked_ids[:top_k]:
         result = best_results[chunk_id]
-        payload = dict(result.payload)
-        payload["retrieval_sources"] = sorted(sources[chunk_id])
         fused_results.append(
             RetrievalResult(
-                id=result.id,
+                chunk=result.chunk,
                 score=fused_scores[chunk_id],
-                payload=payload,
                 source="hybrid",
             )
         )

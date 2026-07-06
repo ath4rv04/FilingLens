@@ -4,18 +4,20 @@ from filinglens.rag import ContextAssembler
 from filinglens.retrieval import RetrievalResult
 
 
+from filinglens.models.document_chunk import DocumentChunk
+
+
 def retrieval_result(text, chunk_id="chunk-1"):
     return RetrievalResult(
-        id=chunk_id,
+        chunk=DocumentChunk(
+            id=chunk_id,
+            company="TCS",
+            year="FY2024",
+            page=7,
+            chunk=2,
+            text=text,
+        ),
         score=0.9,
-        payload={
-            "chunk_id": chunk_id,
-            "company": "TCS",
-            "year": "FY2024",
-            "page": 7,
-            "chunk": 2,
-            "text": text,
-        },
         source="hybrid",
     )
 

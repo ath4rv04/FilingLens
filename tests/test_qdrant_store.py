@@ -51,13 +51,22 @@ class FakeQdrantClient:
         self.upsert_wait = wait
         self.points.extend(points)
 
-    def search(self, collection_name, query_vector, limit, with_payload):
+    def search(
+        self, collection_name, query_vector, limit, with_payload, query_filter=None
+    ):
         self.search_args = (collection_name, query_vector, limit, with_payload)
         return [
             SimpleNamespace(
                 id="point-1",
                 score=0.91,
-                payload={"text": "Revenue grew", "page": 4},
+                payload={
+                    "chunk_id": "chunk-1",
+                    "text": "Revenue grew",
+                    "page": 4,
+                    "company": "ABC",
+                    "year": "FY2024",
+                    "chunk": 0,
+                },
             )
         ]
 
@@ -123,7 +132,7 @@ def test_upload_chunks_stores_chunk_id_in_payload():
 def test_upload_chunks_rejects_mismatched_embedding_count():
     store = make_store(FakeQdrantClient())
 
-    with pytest.raises(ValueError, match="same length"):
+    with pytest.raises(ValueError, match="mismatch"):
         store.upload_chunks([], [[0.1, 0.2, 0.3]])
 
 
@@ -141,7 +150,7 @@ def test_search_returns_result_objects():
     results = store.search([[0.1, 0.2, 0.3]], top_k=1)
 
     assert results[0].score == 0.91
-    assert results[0].text == "Revenue grew"
+    assert results[0].chunk.text == "Revenue grew"
     assert client.search_args == ("test_filings", [0.1, 0.2, 0.3], 1, True)
 
 
@@ -162,4 +171,4 @@ def test_collection_stats_reports_counts():
         [[0.1, 0.2, 0.3]],
     )
 
-    assert store.collection_stats()["points_count"] == 1
+    assert store.collection_stats()["points"] == 1

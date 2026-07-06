@@ -7,6 +7,4 @@ def get_llm():
     if LLM_PROVIDER == "ollama":
         return OllamaProvider()
 
-    raise ValueError(
-        f"Unknown provider: {LLM_PROVIDER}"
-    )
+    raise ValueError(f"Unknown provider: {LLM_PROVIDER}")

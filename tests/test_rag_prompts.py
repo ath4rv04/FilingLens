@@ -17,13 +17,14 @@ def test_rag_prompt_builder_includes_question_context_and_citation_instruction()
 
     prompt = RagPromptBuilder().build("Why did revenue grow?", [block])
 
-    assert "Answer only from the supplied context" in prompt.system
+    assert "Answer ONLY using the supplied context" in prompt.system
     assert "Why did revenue grow?" in prompt.user
     assert "[1] TCS FY2024, p. 5, chunk 1" in prompt.user
-    assert "Answer with concise reasoning and citations." in prompt.user
+    assert "Answer the question." in prompt.user
+    assert "Use citations like [1]." in prompt.user
 
 
 def test_rag_prompt_builder_handles_empty_context():
     prompt = RagPromptBuilder().build("What changed?", [])
 
-    assert "No retrieved context was available." in prompt.user
+    assert "No context available." in prompt.user

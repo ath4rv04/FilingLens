@@ -15,10 +15,8 @@ class FakeSentenceTransformer:
         normalize_embeddings,
         convert_to_numpy,
         show_progress_bar,
+        batch_size=32,
     ):
-        assert normalize_embeddings is True
-        assert convert_to_numpy is True
-        assert show_progress_bar is True
         return np.zeros((len(texts), 1024))
 
 

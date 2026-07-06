@@ -2,9 +2,7 @@ import argparse
 
 from filinglens.ingestion.document_processor import DocumentProcessor
 
-parser = argparse.ArgumentParser(
-    description="Process a financial filing PDF."
-)
+parser = argparse.ArgumentParser(description="Process a financial filing PDF.")
 
 parser.add_argument(
     "--input",

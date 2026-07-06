@@ -20,20 +20,14 @@ class DocumentProcessor:
         self.pdf_path = Path(pdf_path)
 
         if not self.pdf_path.exists():
-            raise FileNotFoundError(
-                f"PDF not found: {self.pdf_path}"
-            )
+            raise FileNotFoundError(f"PDF not found: {self.pdf_path}")
 
         # Expected:
         # data/raw/TCS/FY2024/annual_report.pdf
         self.company = self.pdf_path.parent.parent.name
         self.year = self.pdf_path.parent.name
 
-        self.output = (
-            PROCESSED_DATA_DIR
-            / self.company
-            / self.year
-        )
+        self.output = PROCESSED_DATA_DIR / self.company / self.year
 
     def process(self) -> ProcessingResult:
 

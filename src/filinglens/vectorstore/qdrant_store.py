@@ -1,14 +1,17 @@
 from __future__ import annotations
 
 import time
-from dataclasses import asdict, dataclass, is_dataclass
+from dataclasses import asdict, is_dataclass
 from typing import Any
 from uuid import NAMESPACE_URL, uuid5
 
 from tqdm import tqdm
 
 from filinglens.embeddings.embedder import get_embedding_service
-from filinglens.models.document_chunk import DocumentChunk
+from filinglens.models import (
+    DocumentChunk,
+    SearchResult,
+)
 from filinglens.settings import (
     QDRANT_COLLECTION,
     QDRANT_URL,
@@ -16,12 +19,6 @@ from filinglens.settings import (
 from filinglens.utils.logging import get_logger
 
 logger = get_logger(__name__)
-
-
-@dataclass(slots=True)
-class SearchResult:
-    score: float
-    chunk: DocumentChunk
 
 
 class QdrantVectorStore:
@@ -34,12 +31,15 @@ class QdrantVectorStore:
         url: str = QDRANT_URL,
         client: Any | None = None,
         models_module: Any | None = None,
+        vector_size: int | None = None,
     ) -> None:
 
-        embedder = get_embedding_service()
-
         self.collection_name = collection_name
-        self.vector_size = embedder.embedding_dimension
+        self.vector_size = vector_size
+
+        if self.vector_size is None:
+            embedder = get_embedding_service()
+            self.vector_size = embedder.embedding_dimension
 
         self.client = client or self._create_client(url)
         self.models = models_module
@@ -96,18 +96,11 @@ class QdrantVectorStore:
     def collection_exists(self) -> bool:
 
         if hasattr(self.client, "collection_exists"):
-            return bool(
-                self.client.collection_exists(
-                    self.collection_name
-                )
-            )
+            return bool(self.client.collection_exists(self.collection_name))
 
         collections = self.client.get_collections().collections
 
-        return any(
-            c.name == self.collection_name
-            for c in collections
-        )
+        return any(c.name == self.collection_name for c in collections)
 
     # --------------------------------------------------
 
@@ -120,9 +113,10 @@ class QdrantVectorStore:
     ) -> None:
 
         if len(chunks) != len(embeddings):
-            raise ValueError(
-                "chunks and embeddings length mismatch."
-            )
+            raise ValueError("chunks and embeddings length mismatch.")
+
+        if batch_size <= 0:
+            raise ValueError("batch_size must be positive")
 
         models = self._models()
 
@@ -135,14 +129,9 @@ class QdrantVectorStore:
             range(0, len(chunks), batch_size),
             desc="Uploading",
         ):
+            batch_chunks = chunks[start : start + batch_size]
 
-            batch_chunks = chunks[
-                start:start + batch_size
-            ]
-
-            batch_embeddings = embeddings[
-                start:start + batch_size
-            ]
+            batch_embeddings = embeddings[start : start + batch_size]
 
             points = []
 
@@ -151,14 +140,11 @@ class QdrantVectorStore:
                 batch_embeddings,
                 strict=True,
             ):
-
                 vector = self._vector_to_list(vector)
 
                 if len(vector) != self.vector_size:
                     raise ValueError(
-                        f"Expected vector length "
-                        f"{self.vector_size}, "
-                        f"got {len(vector)}"
+                        f"Expected vector length {self.vector_size}, got {len(vector)}"
                     )
 
                 points.append(
@@ -192,7 +178,6 @@ class QdrantVectorStore:
         query_filter = None
 
         if filters:
-
             query_filter = models.Filter(
                 must=[
                     models.FieldCondition(
@@ -215,9 +200,7 @@ class QdrantVectorStore:
             with_payload=True,
         )
 
-        elapsed = (
-            time.perf_counter() - start
-        ) * 1000
+        elapsed = (time.perf_counter() - start) * 1000
 
         logger.info(
             "Search completed in %.2f ms.",
@@ -227,7 +210,6 @@ class QdrantVectorStore:
         results = []
 
         for hit in hits:
-
             payload = dict(hit.payload)
 
             chunk = DocumentChunk(
@@ -241,8 +223,8 @@ class QdrantVectorStore:
 
             results.append(
                 SearchResult(
-                    score=hit.score,
                     chunk=chunk,
+                    score=float(hit.score),
                 )
             )
 
@@ -252,9 +234,7 @@ class QdrantVectorStore:
 
     def collection_stats(self):
 
-        collection = self.client.get_collection(
-            collection_name=self.collection_name
-        )
+        collection = self.client.get_collection(collection_name=self.collection_name)
 
         return {
             "collection": self.collection_name,
@@ -306,11 +286,7 @@ class QdrantVectorStore:
     @classmethod
     def _point_id(cls, chunk):
 
-        chunk_id = (
-            chunk.id
-            if isinstance(chunk, DocumentChunk)
-            else chunk["id"]
-        )
+        chunk_id = chunk.id if isinstance(chunk, DocumentChunk) else chunk["id"]
 
         return str(
             uuid5(

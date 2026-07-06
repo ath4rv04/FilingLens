@@ -19,20 +19,15 @@ def extract_text(
     scanned_pages = []
 
     with fitz.open(pdf_path) as pdf:
-
         page_count = len(pdf)
 
         for page_no, page in enumerate(pdf):
-
             text = page.get_text()
 
             if len(text.strip()) < SCANNED_PAGE_THRESHOLD:
                 scanned_pages.append(page_no + 1)
 
-            output_file = (
-                output_dir
-                / f"page_{page_no + 1:03d}.txt"
-            )
+            output_file = output_dir / f"page_{page_no + 1:03d}.txt"
 
             output_file.write_text(
                 text,

@@ -1,13 +1,12 @@
 from __future__ import annotations
 
 from collections import Counter
-from dataclasses import asdict, is_dataclass
 from math import log
 import re
 from typing import Any
 
 from filinglens.models.document_chunk import DocumentChunk
-from filinglens.retrieval.models import RetrievalResult
+from filinglens.models import RetrievalResult
 
 TOKEN_PATTERN = re.compile(r"[a-zA-Z0-9]+")
 
@@ -24,8 +23,11 @@ class BM25Retriever:
     ) -> None:
         self.k1 = k1
         self.b = b
-        self.payloads = [self._payload(chunk) for chunk in chunks]
-        self.documents = [self._tokenize(payload["text"]) for payload in self.payloads]
+        self.chunks = [
+            chunk if isinstance(chunk, DocumentChunk) else DocumentChunk(**chunk)
+            for chunk in chunks
+        ]
+        self.documents = [self._tokenize(chunk.text) for chunk in self.chunks]
         self.term_frequencies = [Counter(document) for document in self.documents]
         self.document_frequencies = self._document_frequencies()
         self.average_document_length = self._average_document_length()
@@ -38,21 +40,20 @@ class BM25Retriever:
         scored = [
             (
                 self._score(query_terms, index),
-                self.payloads[index],
+                self.chunks[index],
             )
-            for index in range(len(self.payloads))
+            for index in range(len(self.chunks))
         ]
-        scored = [(score, payload) for score, payload in scored if score > 0]
+        scored = [(score, chunk) for score, chunk in scored if score > 0]
         scored.sort(key=lambda item: item[0], reverse=True)
 
         return [
             RetrievalResult(
-                id=str(payload["chunk_id"]),
+                chunk=chunk,
                 score=score,
-                payload=payload,
                 source="bm25",
             )
-            for score, payload in scored[:top_k]
+            for score, chunk in scored[:top_k]
         ]
 
     def _score(self, query_terms: list[str], document_index: int) -> float:
@@ -95,9 +96,3 @@ class BM25Retriever:
     @staticmethod
     def _tokenize(text: str) -> list[str]:
         return TOKEN_PATTERN.findall(text.lower())
-
-    @staticmethod
-    def _payload(chunk: DocumentChunk | dict[str, Any]) -> dict[str, Any]:
-        payload = asdict(chunk) if is_dataclass(chunk) else dict(chunk)
-        payload["chunk_id"] = payload.pop("id", payload.get("chunk_id"))
-        return payload

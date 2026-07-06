@@ -1,17 +1,15 @@
 from __future__ import annotations
 
-from typing import Any
 
 from filinglens.embeddings.embedder import EmbeddingService
-from filinglens.retrieval.models import RetrievalResult
+from filinglens.models import RetrievalResult
 from filinglens.vectorstore import QdrantVectorStore
 from filinglens.embeddings.embedder import (
-    EmbeddingService,
     get_embedding_service,
 )
 
-class DenseRetriever:
 
+class DenseRetriever:
     def __init__(
         self,
         *,
@@ -31,16 +29,9 @@ class DenseRetriever:
 
         return [
             RetrievalResult(
-                id=result.id,
+                chunk=result.chunk,
                 score=result.score,
-                payload=self._payload(result.payload, result.id),
                 source="dense",
             )
             for result in results
         ]
-
-    @staticmethod
-    def _payload(payload: dict[str, Any], fallback_id: str) -> dict[str, Any]:
-        normalized = dict(payload)
-        normalized.setdefault("chunk_id", normalized.get("id", fallback_id))
-        return normalized

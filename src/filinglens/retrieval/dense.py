@@ -20,12 +20,12 @@ class DenseRetriever:
         self.embedder = embedder or get_embedding_service()
         self.vector_store = vector_store
 
-    def search(self, query: str, *, top_k: int = 5) -> list[RetrievalResult]:
+    def search(self, query: str, *, top_k: int = 5, filters: dict | None = None) -> list[RetrievalResult]:
         query_vector = self.embedder.embed(
             query,
             show_progress_bar=False,
         )[0]
-        results = self.vector_store.search(query_vector, top_k=top_k)
+        results = self.vector_store.search(query_vector, top_k=top_k, filters=filters)
 
         return [
             RetrievalResult(

@@ -11,7 +11,7 @@ class FakeRetriever:
         self.source = source
         self.chunks = chunks
 
-    def search(self, query, top_k):
+    def search(self, query, top_k, filters=None):
         self.query = query
         self.top_k = top_k
         return [

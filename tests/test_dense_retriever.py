@@ -16,7 +16,7 @@ class FakeChunk:
 
 
 class FakeVectorStore:
-    def search(self, query_vector, top_k):
+    def search(self, query_vector, top_k, filters=None):
         self.query_vector = query_vector
         self.top_k = top_k
         return [SimpleNamespace(score=0.92, chunk=FakeChunk(id="chunk-1"))]

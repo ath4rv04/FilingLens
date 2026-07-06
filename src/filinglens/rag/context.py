@@ -25,14 +25,14 @@ class Citation:
         location = []
 
         if self.page is not None:
-            location.append(f"p. {self.page}")
+            location.append(f"Page {self.page}")
 
         if self.chunk is not None:
-            location.append(f"chunk {self.chunk}")
+            location.append(f"Chunk {self.chunk}")
 
-        suffix = ", ".join(location) if location else self.chunk_id
+        suffix = " ".join(location) if location else self.chunk_id
 
-        return f"{self.company} {self.year}, {suffix}"
+        return f"{self.company} {self.year} {suffix}"
 
 
 @dataclass(slots=True)

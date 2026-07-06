@@ -1,94 +1,54 @@
-# FilingLens-IN
+# FilingLens-IN 
 
-Multimodal multi-agent financial filing intelligence for Indian markets.
+A highly-scalable robust semantic search tool for querying financial filings, executing Retrieval Augmented Generation (RAG) using Ollama local endpoints.
 
-## Current Build Slice
+## Installation and Setup
 
-The project currently supports:
-
-- PDF page rendering and text extraction
-- Page-level chunking into `DocumentChunk` JSON files
-- SentenceTransformer embeddings
-- Dense vector indexing and search with Qdrant
-
-## Local Setup
-
-Install the package in editable mode:
-
-```powershell
-pip install -e .
+### 1. Install Ollama and Dependencies
+Ensure you have the virtual environment activated and dependencies installed:
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-Start Qdrant:
+Ensure Ollama is installed on your local machine. You can download it directly from [Ollama.com](https://ollama.com).
 
-```powershell
-docker compose up -d qdrant
+### 2. Pull the Base Model
+FilingLens relies on Qwen2.5 (3-Billion parameters) by default. Execute the following command in your terminal while the Ollama daemon is running:
+```bash
+ollama pull qwen2.5:3b
 ```
 
-Process a filing PDF:
 
-```powershell
-python scripts/process_document.py --input data/raw/TCS/FY2024/annual_report.pdf
+## Workflow and Usage
+
+### 1. Indexing a Filing
+First, load the relevant financial filings (like annual reports in PDF form or raw chunks). Use the ingest script to chunk the items, generate embeddings through SentenceTransformers on Torch, and insert them into the Qdrant local Vector DB instance.
+
+```bash
+python scripts/build_index.py
+```
+*(Make sure Qdrant is either configured correctly locally, or your tests will run the mocks without issue)*
+
+
+### 2. Ask Questions
+With the index and Ollama setup active, you can submit analytical questions to the CLI directly:
+
+```bash
+python scripts/ask.py --company TCS --year FY2024 --question "What was the revenue growth in FY2024?"
 ```
 
-Build the dense vector index:
+This will autonomously execute the `QAService` pipeline.
+1. The script initializes Hybrid search fetching context from **BM25** and **Dense Retrieval** algorithms via RRF scores.
+2. Formats citations uniformly (e.g. `[1] TCS FY2024 Page 117`).
+3. Projects instructions via `RagPromptBuilder`.
+4. Streams results backward rendering latency metrics across your terminal logic automatically.
 
-```powershell
-python scripts/build_index.py --chunks data/processed/TCS/FY2024/chunks --recreate
-```
+---
+### Testing
+You do not need an active Ollama process to run unit tests. Assertions operate off HTTP intercept mocks mapping direct namespace JSON blobs.
 
-Search indexed chunks:
-
-```powershell
-python scripts/search.py --question "What drove revenue growth?" --top-k 5
-```
-
-Run hybrid dense + BM25 search:
-
-```powershell
-python scripts/hybrid_search.py --question "What drove revenue growth?" --chunks data/processed/TCS/FY2024/chunks --top-k 5
-```
-
-Extract tables into CSV files:
-
-```powershell
-python scripts/extract_tables.py --input data/raw/TCS/FY2024/annual_report.pdf --output data/processed/TCS/FY2024/tables
-```
-
-Ask simple questions over extracted table CSVs:
-
-```powershell
-python scripts/table_qa.py --tables data/processed/TCS/FY2024/tables --question "FY2024 revenue"
-```
-
-Assemble cited context for a future RAG answer:
-
-```powershell
-python scripts/assemble_context.py --question "What drove revenue growth?" --chunks data/processed/TCS/FY2024/chunks --top-k 5
-```
-
-Run OCR over rendered pages:
-
-```powershell
-python scripts/ocr_pages.py --pages data/processed/TCS/FY2024/pages --output data/processed/TCS/FY2024/ocr
-```
-
-Run visual page retrieval:
-
-```powershell
-python scripts/visual_search.py --pages data/processed/TCS/FY2024/pages --question "revenue chart" --top-k 5
-```
-
-Start the API:
-
-```powershell
-uvicorn filinglens.api:app --reload
-```
-
-Run checks:
-
-```powershell
-ruff format .
-ruff check .
-pytest
+```bash
+.venv\Scripts\pytest
 ```

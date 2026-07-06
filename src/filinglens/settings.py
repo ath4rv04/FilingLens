@@ -48,4 +48,14 @@ LLM_PROVIDER = "ollama"
 
 OLLAMA_MODEL = "qwen2.5:3b"
 
-OLLAMA_HOST = "http://localhost:11434"
+OLLAMA_URL = "http://localhost:11434"
+
+TEMPERATURE = 0.5
+
+TOP_K = 40
+
+MAX_CONTEXT_CHARS = 6000
+
+MAX_RETRIEVAL_RESULTS = 5
+
+REQUEST_TIMEOUT = 60.0

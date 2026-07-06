@@ -14,3 +14,12 @@ class BaseLLMProvider(ABC):
         user: str,
     ) -> LLMResponse:
         raise NotImplementedError
+
+    @abstractmethod
+    def generate_stream(
+        self,
+        *,
+        system: str,
+        user: str,
+    ):
+        raise NotImplementedError

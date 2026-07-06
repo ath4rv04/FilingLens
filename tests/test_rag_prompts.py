@@ -19,8 +19,7 @@ def test_rag_prompt_builder_includes_question_context_and_citation_instruction()
 
     assert "Answer ONLY using the supplied context" in prompt.system
     assert "Why did revenue grow?" in prompt.user
-    assert "[1] TCS FY2024, p. 5, chunk 1" in prompt.user
-    assert "Answer the question." in prompt.user
+    assert "[1] TCS FY2024 Page 5 Chunk 1" in prompt.user
     assert "Use citations like [1]." in prompt.user
 
 

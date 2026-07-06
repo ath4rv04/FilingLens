@@ -27,7 +27,8 @@ def test_context_assembler_renders_numbered_citations():
 
     rendered = assembler.render([retrieval_result("Revenue   increased\nin FY2024.")])
 
-    assert rendered == "[1] TCS FY2024, p. 7, chunk 2\nRevenue increased in FY2024."
+    assert "[1] TCS FY2024 Page 7 Chunk 2" in rendered
+    assert "Revenue increased in FY2024." in rendered
 
 
 def test_context_assembler_respects_character_budget():

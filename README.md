@@ -87,3 +87,39 @@ python scripts/evaluate.py
 
 This iterates across native questions mapping logical metrics out to standard JSON reports in the `reports/` directory measuring `Recall@K`, `Precision@K`, `MRR`, `Citation Accuracy`, and `Context Coverage`.
 All modules are comprehensively tested enforcing configurations across GitHub action `ci.yml` natively matching Pytest coverage.
+
+## 8. Financial Intelligence Layer (Phase 5)
+
+FilingLens natively extracts tabular arrays and numerical indicators completely bypassing LLMs resolving exact bounds natively via pre-trained mappings into local lightweight repositories. This structure routes intelligently classifying deterministic parameters optimally.
+
+### Data Storage Architecture
+```mermaid
+graph TD
+    PDF((PDF Ingestion)) --> Chunk(Document Chunks)
+    
+    Chunk -.-> |Deterministic Heuristics| Extract(Financial Extractor)
+    Chunk --> |Vector Embeddings| Vector(Qdrant Semantic Store)
+    
+    Extract --> SQL(SQLite Analytics Database)
+    
+    User(User Query) --> Router(Intent Router)
+    Router -.-> |Metric| SQL
+    Router --> |Narrative| Vector
+```
+
+### Extraction Workflow
+Ingests explicit metrics (e.g. `Revenue`, `EBITDA`, `PAT`, `ROE`) from raw structural chunks explicitly pushing logic directly onto `finance.db`.
+
+```bash
+python scripts/extract_metrics.py --company TCS --year FY2024
+```
+
+### Metric API Routes
+
+The `Finance API` natively retrieves extracted constraints natively without LLM delays:
+
+* **`GET /metrics`**: Root query evaluating available mappings.
+* **`GET /metrics/{company}/{year}`**: Returns comprehensive financial scalars evaluating structural bounds immediately.
+* **`GET /metrics/query`**: Pass standard properties `?company=TCS&year=FY2024&metric=Revenue` parsing normalized configurations synchronously.
+* **`POST /metrics/extract`**: Executes deterministic chunk processors extracting text natively resolving SQLite mappings dynamically across specific annual bounds.
+

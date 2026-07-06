@@ -1,6 +1,7 @@
 from functools import lru_cache
 from typing import Annotated
 from fastapi import Depends
+from filinglens.finance.repository import FinanceRepository
 
 from filinglens.embeddings.embedder import get_embedding_service, EmbeddingService
 from filinglens.vectorstore.qdrant_store import QdrantVectorStore
@@ -67,3 +68,10 @@ def get_indexing_service(
     vector_store: Annotated[QdrantVectorStore, Depends(get_qdrant_store)],
 ) -> IndexingService:
     return IndexingService(embedder=embedder, vector_store=vector_store)
+
+
+@lru_cache
+def get_finance_repository() -> FinanceRepository:
+    from filinglens.settings import FINANCE_DB_PATH
+
+    return FinanceRepository(db_path=FINANCE_DB_PATH)

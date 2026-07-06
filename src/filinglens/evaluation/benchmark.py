@@ -53,3 +53,17 @@ class BenchmarkExecutor:
             "llm_latency": metrics["llm_ms"],
             "total_latency": metrics["total_ms"],
         }
+
+
+def evaluate_financial_extraction(expected_metrics_list, extracted_metrics_list):
+    """Measures precise extraction precision and recall boundaries independently from semantic flows."""
+    total_expected = len(expected_metrics_list)
+    total_extracted = len(extracted_metrics_list)
+
+    # Calculate exactly matched mappings directly over normalized labels
+    matched = sum(1 for m in extracted_metrics_list if m in expected_metrics_list)
+
+    precision = matched / total_extracted if total_extracted > 0 else 0
+    recall = matched / total_expected if total_expected > 0 else 0
+
+    return {"precision": precision, "recall": recall}

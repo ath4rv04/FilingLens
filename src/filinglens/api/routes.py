@@ -18,6 +18,8 @@ from filinglens.api.dependencies import (
 from filinglens.ingestion.document_processor import DocumentProcessor
 from filinglens.llm.qa_service import QAService
 from filinglens.services.indexing_service import IndexingService
+from filinglens.finance.repository import FinanceRepository
+from filinglens.api.dependencies import get_finance_repository
 from filinglens.settings import PROCESSED_DATA_DIR, RAW_DATA_DIR
 
 router = APIRouter()
@@ -112,3 +114,62 @@ def list_years(company: str):
     if not company_dir.exists():
         return []
     return sorted([d.name for d in company_dir.iterdir() if d.is_dir()])
+
+
+@router.get("/metrics")
+def get_all_metrics(
+    company: str = None,
+    year: str = None,
+    repo: FinanceRepository = Depends(get_finance_repository),
+):
+    # Standardize output for broad configurations returning mappings seamlessly.
+    # Note: SQLite repository doesn't have an empty 'list_all' in prototype but we can query by filtering natively.
+    return repo.compare(
+        metric="Revenue",
+        companies=[company] if company else None,
+        years=[year] if year else None,
+    )
+
+
+@router.get("/metrics/{company}/{year}")
+def list_company_metrics(
+    company: str, year: str, repo: FinanceRepository = Depends(get_finance_repository)
+):
+    return [m.__dict__ for m in repo.list_metrics(company, year)]
+
+
+@router.get("/metrics/query")
+def query_metric(
+    company: str,
+    year: str,
+    metric: str,
+    repo: FinanceRepository = Depends(get_finance_repository),
+):
+    from filinglens.finance.normalizer import normalize_metric_name
+
+    m = repo.find(company, year, normalize_metric_name(metric))
+    return m.__dict__ if m else None
+
+
+@router.post("/metrics/extract")
+def extract_metrics(
+    company: str, year: str, repo: FinanceRepository = Depends(get_finance_repository)
+):
+    chunk_dir = PROCESSED_DATA_DIR / company / year / "chunks"
+    if not chunk_dir.exists():
+        from fastapi import HTTPException
+
+        raise HTTPException(status_code=404, detail="Processed chunks not found.")
+
+    from filinglens.indexing.loader import load_chunks
+    from filinglens.finance.extractor import FinancialMetricExtractor
+
+    chunks = load_chunks(chunk_dir)
+    extractor = FinancialMetricExtractor()
+    all_metrics = []
+
+    for chunk in chunks:
+        all_metrics.extend(extractor.extract_from_chunk(chunk))
+
+    repo.save_many(all_metrics)
+    return {"extracted": len(all_metrics)}

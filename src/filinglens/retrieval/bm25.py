@@ -32,7 +32,9 @@ class BM25Retriever:
         self.document_frequencies = self._document_frequencies()
         self.average_document_length = self._average_document_length()
 
-    def search(self, query: str, *, top_k: int = 5, filters: dict | None = None) -> list[RetrievalResult]:
+    def search(
+        self, query: str, *, top_k: int = 5, filters: dict | None = None
+    ) -> list[RetrievalResult]:
         query_terms = self._tokenize(query)
         if not query_terms:
             return []
@@ -42,7 +44,7 @@ class BM25Retriever:
             if filters:
                 if any(getattr(chunk, k, None) != v for k, v in filters.items()):
                     continue
-            
+
             score = self._score(query_terms, index)
             scored.append((score, chunk))
         scored = [(score, chunk) for score, chunk in scored if score > 0]

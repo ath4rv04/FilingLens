@@ -38,14 +38,12 @@ class OllamaProvider(BaseLLMProvider):
         system: str,
         user: str,
     ) -> LLMResponse:
-        
+
         payload = self._build_payload(system, user, stream=False)
 
         with Timer() as timer:
             res = requests.post(
-                f"{self.url}/api/chat",
-                json=payload,
-                timeout=self.timeout
+                f"{self.url}/api/chat", json=payload, timeout=self.timeout
             )
             res.raise_for_status()
             data = res.json()
@@ -58,7 +56,7 @@ class OllamaProvider(BaseLLMProvider):
             latency_ms=timer.elapsed_ms,
             prompt_tokens=data.get("prompt_eval_count"),
             completion_tokens=data.get("eval_count"),
-            total_tokens=data.get("prompt_eval_count", 0) + data.get("eval_count", 0)
+            total_tokens=data.get("prompt_eval_count", 0) + data.get("eval_count", 0),
         )
 
     def generate_stream(
@@ -67,7 +65,7 @@ class OllamaProvider(BaseLLMProvider):
         system: str,
         user: str,
     ) -> Iterator[str]:
-        
+
         payload = self._build_payload(system, user, stream=True)
 
         res = requests.post(
@@ -79,6 +77,7 @@ class OllamaProvider(BaseLLMProvider):
         res.raise_for_status()
 
         import json
+
         for line in res.iter_lines():
             if line:
                 chunk = json.loads(line)

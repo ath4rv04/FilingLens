@@ -1,0 +1,114 @@
+import shutil
+from fastapi import APIRouter, Depends, UploadFile, File, Form, Request
+from typing import Annotated
+
+from filinglens.api.schemas import (
+    HealthResponse,
+    AskRequest,
+    AskResponse,
+    Source,
+    ProcessResponse,
+    IndexRequest,
+    IndexResponse,
+)
+from filinglens.api.dependencies import (
+    get_qa_service,
+    get_indexing_service,
+)
+from filinglens.ingestion.document_processor import DocumentProcessor
+from filinglens.llm.qa_service import QAService
+from filinglens.services.indexing_service import IndexingService
+from filinglens.settings import PROCESSED_DATA_DIR, RAW_DATA_DIR
+
+router = APIRouter()
+
+
+@router.get("/health", response_model=HealthResponse)
+def health_check():
+    return HealthResponse(status="ok", version="3.0")
+
+
+@router.post("/process", response_model=ProcessResponse)
+def process_document(
+    company: Annotated[str, Form()],
+    year: Annotated[str, Form()],
+    file: UploadFile = File(...),
+):
+    target_dir = RAW_DATA_DIR / company / year
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target_path = target_dir / file.filename
+
+    with target_path.open("wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+
+    processor = DocumentProcessor(str(target_path))
+    result = processor.process()
+
+    return ProcessResponse(
+        company=result.company,
+        year=result.year,
+        page_count=result.page_count,
+        scanned_pages=result.scanned_pages,
+        chunk_count=result.chunk_count,
+    )
+
+
+@router.post("/index", response_model=IndexResponse)
+def index_documents(
+    request: IndexRequest,
+    indexing_service: Annotated[IndexingService, Depends(get_indexing_service)],
+):
+    count, collection = indexing_service.index_company_year(
+        request.company, request.year
+    )
+    return IndexResponse(chunks_indexed=count, collection=collection)
+
+
+@router.post("/ask", response_model=AskResponse)
+def ask_question(
+    request_data: AskRequest,
+    request: Request,
+    qa_service: Annotated[QAService, Depends(get_qa_service)],
+):
+    response, context_blocks, metrics = qa_service.answer(
+        question=request_data.question,
+        company=request_data.company,
+        year=request_data.year,
+    )
+
+    request.state.retrieval_time = metrics["retrieval_ms"]
+    request.state.llm_time = metrics["llm_ms"]
+
+    sources = [
+        Source(
+            company=block.citation.company,
+            year=block.citation.year,
+            page=block.citation.page,
+            chunk=block.citation.chunk,
+            chunk_id=block.citation.chunk_id,
+            text=block.text,
+        )
+        for block in context_blocks
+    ]
+
+    return AskResponse(
+        answer=response.answer,
+        sources=sources,
+        model=response.model,
+        latency_ms=response.latency_ms,
+    )
+
+
+@router.get("/companies", response_model=list[str])
+def list_companies():
+    if not PROCESSED_DATA_DIR.exists():
+        return []
+    return sorted([d.name for d in PROCESSED_DATA_DIR.iterdir() if d.is_dir()])
+
+
+@router.get("/companies/{company}/years", response_model=list[str])
+def list_years(company: str):
+    company_dir = PROCESSED_DATA_DIR / company
+    if not company_dir.exists():
+        return []
+    return sorted([d.name for d in company_dir.iterdir() if d.is_dir()])

@@ -1,23 +1,16 @@
-﻿============================= test session starts =============================
-platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0
-rootdir: F:\filinglens
-configfile: pyproject.toml
-testpaths: tests
-plugins: anyio-4.14.1, langsmith-0.9.7
-collected 43 items / 1 error
-
-=================================== ERRORS ====================================
-__________________ ERROR collecting tests/test_qa_service.py __________________
-ImportError while importing test module 'F:\filinglens\tests\test_qa_service.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-C:\Python313\Lib\importlib\__init__.py:88: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-tests\test_qa_service.py:5: in <module>
-    from filinglens.retrieval.models import RetrievalResult
-E   ModuleNotFoundError: No module named 'filinglens.retrieval.models'
-=========================== short test summary info ===========================
-ERROR tests/test_qa_service.py
-!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-============================== 1 error in 7.39s ===============================
+{"timestamp": "2026-07-06T14:51:03.015431", "level": "INFO", "name": "filinglens.embeddings.embedder", "message": "Loading embedding model...", "taskName": null}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|##########| 391/391 [00:00<00:00, 9766.10it/s]
+{"timestamp": "2026-07-06T14:51:09.370865", "level": "INFO", "name": "filinglens.embeddings.embedder", "message": "Model loaded on cuda", "taskName": null}
+Traceback (most recent call last):
+  File "F:\filinglens\scripts\evaluate.py", line 29, in <module>
+    main()
+    ~~~~^^
+  File "F:\filinglens\scripts\evaluate.py", line 15, in main
+    retriever = get_hybrid_retriever(embedder, store)
+  File "F:\filinglens\src\filinglens\api\dependencies.py", line 40, in get_hybrid_retriever
+    loaded = load_chunks(chunk_dir)
+  File "F:\filinglens\src\filinglens\indexing\loader.py", line 21, in load_chunks
+    chunks.append(DocumentChunk(**json.load(file)))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: DocumentChunk.__init__() missing 1 required positional argument: 'id'

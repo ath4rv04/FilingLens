@@ -1,15 +1,16 @@
 # FilingLens-IN 
 
-A highly-scalable robust semantic search tool for querying financial filings, executing Retrieval Augmented Generation (RAG) using Ollama local endpoints.
+A highly-scalable robust semantic search tool for querying financial filings, executing Retrieval Augmented Generation (RAG) using Ollama local endpoints, exposed elegantly over a native high-performance FastAPI standard instance.
 
 ## Installation and Setup
 
-### 1. Install Ollama and Dependencies
+### 1. Install Dependencies
 Ensure you have the virtual environment activated and dependencies installed:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
+pip install fastapi uvicorn python-multipart
 ```
 
 Ensure Ollama is installed on your local machine. You can download it directly from [Ollama.com](https://ollama.com).
@@ -20,35 +21,69 @@ FilingLens relies on Qwen2.5 (3-Billion parameters) by default. Execute the foll
 ollama pull qwen2.5:3b
 ```
 
+## Workflow and API Usage
 
-## Workflow and Usage
+You no longer need to depend strictly on standard batch execution. You can spin up the full infrastructure pipeline across a standard JSON routing environment executing natively over `localhost`.
 
-### 1. Indexing a Filing
-First, load the relevant financial filings (like annual reports in PDF form or raw chunks). Use the ingest script to chunk the items, generate embeddings through SentenceTransformers on Torch, and insert them into the Qdrant local Vector DB instance.
-
+### Starting the Server
+Run the localized backend wrapping standard routes through standard asynchronous processes:
 ```bash
-python scripts/build_index.py
+uvicorn filinglens.api.app:app --reload
 ```
-*(Make sure Qdrant is either configured correctly locally, or your tests will run the mocks without issue)*
 
+### Navigating the Ecosystem
+FilingLens deploys native Swagger documentation automatically defining interactive OpenAPI components natively.
+* **Swagger UI:** [http://localhost:8000/docs](http://localhost:8000/docs)
+* **ReDoc UI:** [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
-### 2. Ask Questions
-With the index and Ollama setup active, you can submit analytical questions to the CLI directly:
+### Endpoints
+* **`POST /process`** Upload `multipart/form-data` payloads ingesting PDFs dynamically parsing configurations using DocumentProcessor mappings context bounds.
+* **`POST /index`** Run internal standard indexing wrappers utilizing existing chunked bounds directly into Qdrant.
+* **`POST /ask`** Core component pipeline ingesting standard search parameters executing RAG retrieval across identical formats.
+* **`GET /companies`** Query valid dataset domains currently initialized in systems.
+
+---
+### Command Line Usage
+With the index and Ollama setup active, you can still submit analytical questions to the CLI directly:
 
 ```bash
 python scripts/ask.py --company TCS --year FY2024 --question "What was the revenue growth in FY2024?"
 ```
 
-This will autonomously execute the `QAService` pipeline.
-1. The script initializes Hybrid search fetching context from **BM25** and **Dense Retrieval** algorithms via RRF scores.
-2. Formats citations uniformly (e.g. `[1] TCS FY2024 Page 117`).
-3. Projects instructions via `RagPromptBuilder`.
-4. Streams results backward rendering latency metrics across your terminal logic automatically.
-
 ---
 ### Testing
-You do not need an active Ollama process to run unit tests. Assertions operate off HTTP intercept mocks mapping direct namespace JSON blobs.
+You do not need an active Ollama or Qdrant process to run unit tests. Assertions operate off HTTP intercept mocks mapping direct namespace JSON blobs via FastAPI overriding handlers.
 
 ```bash
 .venv\Scripts\pytest
 ```
+
+---
+### Analytics & Telemetry
+In Phase 4, FilingLens exposes native REST header endpoints returning computation metrics directly.
+Look for `X-Process-Time`, `X-LLM-Time`, and `X-Retrieval-Time` directly on your network requests. 
+All console metrics stream as JSON dicts across stdout handling request trace IDs dynamically.
+
+## Docker & Container Deployments
+
+We supply a production-ready `docker-compose.yml` that orchestrates:
+1. `FilingLens API`
+2. `Qdrant Vector Database`
+3. `Ollama Provider Model`
+
+You can launch all bound services via:
+```bash
+docker compose up -d
+```
+All system configurations map seamlessly through environment parameters. Clone `.env.example` to `.env` mapping variables targeting your environment.
+
+## Performance & Evaluation Framework
+
+To evaluate RAG logic independently, run the automated Benchmark Suite across built datasets targeting TCS, Infosys, and Reliance.
+
+```bash
+python scripts/evaluate.py
+```
+
+This iterates across native questions mapping logical metrics out to standard JSON reports in the `reports/` directory measuring `Recall@K`, `Precision@K`, `MRR`, `Citation Accuracy`, and `Context Coverage`.
+All modules are comprehensively tested enforcing configurations across GitHub action `ci.yml` natively matching Pytest coverage.

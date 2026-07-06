@@ -1,42 +1,51 @@
-from __future__ import annotations
-
-from dataclasses import dataclass
-import re
+from pydantic import BaseModel
 
 
-@dataclass(slots=True)
-class EvaluationResult:
-    faithfulness: float
-    context_recall: float
-    citation_coverage: float
+class QAQualityMetrics(BaseModel):
+    recall_at_k: float
+    precision_at_k: float
+    mrr: float
+    citation_accuracy: float
+    context_coverage: float
 
 
-def evaluate_answer(
-    *,
-    answer: str,
-    expected_terms: list[str],
-    context: str,
-) -> EvaluationResult:
-    answer_tokens = set(_tokens(answer))
-    context_tokens = set(_tokens(context))
-    expected = {term.lower() for term in expected_terms}
-
-    faithfulness = _ratio(answer_tokens & context_tokens, answer_tokens)
-    context_recall = _ratio(expected & answer_tokens, expected)
-    citation_coverage = 1.0 if re.search(r"\[\d+\]", answer) else 0.0
-
-    return EvaluationResult(
-        faithfulness=faithfulness,
-        context_recall=context_recall,
-        citation_coverage=citation_coverage,
-    )
+def compute_recall_at_k(expected: set[int], retrieved: list[int], k: int) -> float:
+    if not expected:
+        return 1.0
+    retrieved_at_k = set(retrieved[:k])
+    return len(expected & retrieved_at_k) / len(expected)
 
 
-def _tokens(text: str) -> list[str]:
-    return re.findall(r"[a-zA-Z0-9]+", text.lower())
+def compute_precision_at_k(expected: set[int], retrieved: list[int], k: int) -> float:
+    if not retrieved[:k]:
+        return 1.0
+    retrieved_at_k = set(retrieved[:k])
+    return len(expected & retrieved_at_k) / len(retrieved_at_k)
 
 
-def _ratio(numerator: set[str], denominator: set[str]) -> float:
-    if not denominator:
+def compute_mrr(expected: set[int], retrieved: list[int]) -> float:
+    for i, page in enumerate(retrieved):
+        if page in expected:
+            return 1.0 / (i + 1)
+    return 0.0
+
+
+def compute_citation_accuracy(
+    expected_pages: set[int], llm_output: str, citations: list[int]
+) -> float:
+    """Evaluate if the generated citations match the expected source bounding."""
+    if not expected_pages:
+        return 1.0
+    if not citations:
         return 0.0
-    return len(numerator) / len(denominator)
+    valid_citations = [c for c in citations if c in expected_pages]
+    return len(valid_citations) / len(citations)
+
+
+def compute_context_coverage(
+    expected_pages: set[int], retrieved_context_pages: set[int]
+) -> float:
+    """Measure if the retrieved context inherently spanned the required source text natively."""
+    if not expected_pages:
+        return 1.0
+    return len(expected_pages & retrieved_context_pages) / len(expected_pages)

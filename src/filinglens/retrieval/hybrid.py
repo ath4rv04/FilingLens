@@ -29,8 +29,12 @@ class HybridRetriever:
         filters: dict | None = None,
     ) -> list[RetrievalResult]:
         candidate_k = candidate_k or max(top_k * 4, top_k)
-        dense_results = self.dense_retriever.search(query, top_k=candidate_k, filters=filters)
-        bm25_results = self.bm25_retriever.search(query, top_k=candidate_k, filters=filters)
+        dense_results = self.dense_retriever.search(
+            query, top_k=candidate_k, filters=filters
+        )
+        bm25_results = self.bm25_retriever.search(
+            query, top_k=candidate_k, filters=filters
+        )
 
         return reciprocal_rank_fusion(
             [dense_results, bm25_results],

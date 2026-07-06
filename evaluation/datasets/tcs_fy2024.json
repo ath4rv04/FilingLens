@@ -1,0 +1,16 @@
+{
+    "company": "TCS",
+    "year": "FY2024",
+    "questions": [
+        {
+            "question": "What was the revenue growth shown in FY2024?",
+            "expected_answer": "Revenue grew significantly this year.",
+            "expected_pages": [117]
+        },
+        {
+            "question": "What actions did the company take towards attrition?",
+            "expected_answer": "TCS enhanced retention policies.",
+            "expected_pages": [12]
+        }
+    ]
+}

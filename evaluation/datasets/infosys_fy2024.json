@@ -1,0 +1,13 @@
+{
+    "company": "Infosys",
+    "year": "FY2024",
+    "questions": [
+        {
+            "question": "What is the net margin reported by Infosys?",
+            "expected_answer": "Infosys reported solid margins.",
+            "expected_pages": [
+                140
+            ]
+        }
+    ]
+}

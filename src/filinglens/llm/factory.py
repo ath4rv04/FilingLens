@@ -9,4 +9,3 @@ def get_llm() -> BaseLLMProvider:
         return OllamaProvider()
 
     raise ValueError(f"Unknown provider: {LLM_PROVIDER}")
-

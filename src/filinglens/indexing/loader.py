@@ -15,10 +15,11 @@ def load_chunks(chunks_dir: Path) -> list[DocumentChunk]:
     chunks: list[DocumentChunk] = []
 
     for chunk_path in sorted(chunks_dir.glob("*.json")):
-        with chunk_path.open(
-            encoding="utf-8",
-        ) as file:
-            chunks.append(DocumentChunk(**json.load(file)))
+        with chunk_path.open(encoding="utf-8") as file:
+            data = json.load(file)
+            if "chunk_id" in data:
+                data["id"] = data.pop("chunk_id")
+            chunks.append(DocumentChunk(**data))
 
     if not chunks:
         raise ValueError(f"No chunk JSON files found in: {chunks_dir}")

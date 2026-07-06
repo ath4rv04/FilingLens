@@ -1,0 +1,13 @@
+{
+    "company": "Reliance",
+    "year": "FY2024",
+    "questions": [
+        {
+            "question": "How much capital expenditure occurred in Jio?",
+            "expected_answer": "Jio led massive capex expansions.",
+            "expected_pages": [
+                23
+            ]
+        }
+    ]
+}

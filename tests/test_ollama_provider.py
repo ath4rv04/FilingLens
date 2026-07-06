@@ -1,4 +1,3 @@
-
 from filinglens.llm.ollama_provider import OllamaProvider
 
 
@@ -14,20 +13,24 @@ class FakeResponse:
 
     def iter_lines(self):
         import json
+
         for msg in self._data.get("chunks", []):
             yield json.dumps({"message": {"content": msg}}).encode("utf-8")
 
 
 def test_ollama_provider_generates_response(monkeypatch):
     def fake_post(*args, **kwargs):
-        return FakeResponse({
-            "message": {"content": "Revenue grew."},
-            "model": "qwen2.5:3b",
-            "prompt_eval_count": 10,
-            "eval_count": 5
-        })
+        return FakeResponse(
+            {
+                "message": {"content": "Revenue grew."},
+                "model": "qwen2.5:3b",
+                "prompt_eval_count": 10,
+                "eval_count": 5,
+            }
+        )
 
     import requests
+
     monkeypatch.setattr(requests, "post", fake_post)
 
     provider = OllamaProvider()
@@ -44,6 +47,7 @@ def test_ollama_provider_generates_stream(monkeypatch):
         return FakeResponse({"chunks": ["Rev", "enue ", "grew."]})
 
     import requests
+
     monkeypatch.setattr(requests, "post", fake_post)
 
     provider = OllamaProvider()

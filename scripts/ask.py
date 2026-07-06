@@ -11,7 +11,9 @@ from filinglens.settings import PROCESSED_DATA_DIR
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Ask a question about financial filings.")
+    parser = argparse.ArgumentParser(
+        description="Ask a question about financial filings."
+    )
     parser.add_argument("--question", required=True, help="Question to ask.")
     parser.add_argument("--company", help="Filter by company name.")
     parser.add_argument("--year", help="Filter by year.")
@@ -37,7 +39,7 @@ def main():
 
     print(f"\nQuestion\n--------\n{args.question}\n")
 
-    response, context_blocks = qa.answer(
+    response, context_blocks, metrics = qa.answer(
         question=args.question,
         company=args.company,
         year=args.year,

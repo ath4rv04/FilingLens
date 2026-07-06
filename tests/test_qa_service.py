@@ -1,4 +1,3 @@
-
 from filinglens.llm.base import BaseLLMProvider
 from filinglens.llm.response import LLMResponse
 from filinglens.llm.qa_service import QAService
@@ -20,7 +19,7 @@ class FakeRetriever:
                     text="Revenue increased.",
                 ),
                 score=0.9,
-                source="dense"
+                source="dense",
             )
         ]
 
@@ -29,12 +28,8 @@ class FakeLLM(BaseLLMProvider):
     def generate(self, *, system, user):
         self.system = system
         self.user = user
-        return LLMResponse(
-            answer="Revenue grew...",
-            model="fake",
-            latency_ms=10.0
-        )
-        
+        return LLMResponse(answer="Revenue grew...", model="fake", latency_ms=10.0)
+
     def generate_stream(self, *, system, user):
         pass
 
@@ -44,10 +39,8 @@ def test_qa_service_orchestrates_retrieval_and_llm():
     llm = FakeLLM()
     service = QAService(retriever=retriever, llm=llm)
 
-    response, context = service.answer(
-        question="What happened?",
-        company="TCS",
-        year="FY2024"
+    response, blocks, metrics = service.answer(
+        question="What happened?", company="TCS", year="FY2024"
     )
 
     assert response.answer == "Revenue grew..."

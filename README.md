@@ -123,3 +123,23 @@ The `Finance API` natively retrieves extracted constraints natively without LLM 
 * **`GET /metrics/query`**: Pass standard properties `?company=TCS&year=FY2024&metric=Revenue` parsing normalized configurations synchronously.
 * **`POST /metrics/extract`**: Executes deterministic chunk processors extracting text natively resolving SQLite mappings dynamically across specific annual bounds.
 
+## 9. Automated Filing Acquisition (Phase 5.0)
+
+FilingLens operates a completely automated asynchronous acquisition manager eliminating manual PDF drops natively.
+
+### Integrations
+- **Company Registries**: Automatically resolves targets via `data/company_registry.json`.
+- **Sources**: Iterates sequential constraints caching endpoints natively from `Investor Relations` -> `BSE` -> `NSE` -> `MCA`.
+- **Checksum Storage Validation**: Cross-checks incoming PDF constraints verifying byte-sizes and actual PDF definitions implicitly via PyMuPDF logic blocking corrupt bindings accurately mapping onto `download_manifest.json` guarding `data/raw/COMPANY/YEAR/` flawlessly.
+
+### Usage
+Download an Annual Report explicitly and natively:
+```bash
+python scripts/download_filings.py --company TCS --latest
+```
+
+Execute Full-Cycle Processing mappings synchronously pulling, analyzing, indexing, and structuring targets effortlessly:
+```bash
+python scripts/build_company.py --company TCS --year FY2024
+```
+

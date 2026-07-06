@@ -1,16 +1,0 @@
-{"timestamp": "2026-07-06T14:51:03.015431", "level": "INFO", "name": "filinglens.embeddings.embedder", "message": "Loading embedding model...", "taskName": null}
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|##########| 391/391 [00:00<00:00, 9766.10it/s]
-{"timestamp": "2026-07-06T14:51:09.370865", "level": "INFO", "name": "filinglens.embeddings.embedder", "message": "Model loaded on cuda", "taskName": null}
-Traceback (most recent call last):
-  File "F:\filinglens\scripts\evaluate.py", line 29, in <module>
-    main()
-    ~~~~^^
-  File "F:\filinglens\scripts\evaluate.py", line 15, in main
-    retriever = get_hybrid_retriever(embedder, store)
-  File "F:\filinglens\src\filinglens\api\dependencies.py", line 40, in get_hybrid_retriever
-    loaded = load_chunks(chunk_dir)
-  File "F:\filinglens\src\filinglens\indexing\loader.py", line 21, in load_chunks
-    chunks.append(DocumentChunk(**json.load(file)))
-                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-TypeError: DocumentChunk.__init__() missing 1 required positional argument: 'id'

@@ -39,3 +39,13 @@ IMAGE_SCALE = 2
 # ---------- Text Extraction ----------
 
 SCANNED_PAGE_THRESHOLD = 20
+
+# --------------------------------------------------
+# LLM
+# --------------------------------------------------
+
+LLM_PROVIDER = "ollama"
+
+OLLAMA_MODEL = "qwen2.5:3b"
+
+OLLAMA_HOST = "http://localhost:11434"

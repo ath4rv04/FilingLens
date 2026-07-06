@@ -20,7 +20,7 @@ CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "200"))
 
 # ---------- Vector DB ----------
 QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION", "filinglens")
-QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
+QDRANT_URL = os.getenv("QDRANT_URL", str(DATA_DIR / "qdrant"))
 VECTOR_DIMENSION = int(os.getenv("VECTOR_DIMENSION", "1024"))
 
 # ---------- Rendering ----------

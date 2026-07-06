@@ -92,19 +92,22 @@ class ContextAssembler:
         )
 
         for result in sorted_results:
-            if result.id in seen_chunks:
+            if result.chunk.id in seen_chunks:
+                logger.info("Context assembler dropped chunk %s: duplicate chunks.", result.chunk.id)
                 continue
 
-            seen_chunks.add(result.id)
+            seen_chunks.add(result.chunk.id)
 
             text = self._clean_text(result.text)
 
             if not text:
+                logger.info("Context assembler dropped chunk %s: empty text.", result.chunk.id)
                 continue
 
             remaining = self.max_characters - used_characters
 
             if remaining <= 0:
+                logger.info("Context assembler dropped chunk %s: context budget exceeded.", result.chunk.id)
                 break
 
             if len(text) > remaining:

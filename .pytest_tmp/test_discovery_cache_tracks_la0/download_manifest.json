@@ -1,0 +1,13 @@
+{
+  "TCS_FY2024": {
+    "source": "SearchProvider",
+    "url": "http://tcs.com/ar.pdf",
+    "landing_page": "http://tcs.com/investor-relations",
+    "downloaded_at": "2026-07-06T18:33:06.281641+00:00",
+    "checksum": "3d4a07bcbf2eaec380ad707451832924bee1197fbdf43d20d6d4bc96c8284268",
+    "pages": 1,
+    "size": 6,
+    "downloaded": true,
+    "status": "success"
+  }
+}

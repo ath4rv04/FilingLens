@@ -1,0 +1,13 @@
+{
+  "TCS_2024": {
+    "source": "SearchProvider",
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/OTC_TCS_2024.pdf",
+    "landing_page": "https://www.annualreports.com/Company/tata-consultancy-services-ltd",
+    "downloaded_at": "2026-07-06T18:36:44.003955+00:00",
+    "checksum": "bd5911dc402c55e8ec2516c634244e5509a40953ad3bd38bb443612afff8ee8a",
+    "pages": 340,
+    "size": 9676889,
+    "downloaded": true,
+    "status": "success"
+  }
+}

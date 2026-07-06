@@ -1,10 +1,13 @@
 {
   "ACME_FY2024": {
     "source": "IR",
-    "downloaded_at": "2026-07-06T16:17:19.182794+00:00",
+    "url": "http://",
+    "landing_page": null,
+    "downloaded_at": "2026-07-06T18:33:06.386466+00:00",
     "checksum": "38e0d178ad5a2608935ce2dc05481ef884c2f32eff3401a6e1b2d44a6ff07141",
     "pages": 3,
     "size": 16,
+    "downloaded": true,
     "status": "success"
   }
 }

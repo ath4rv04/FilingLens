@@ -5,7 +5,7 @@ from filinglens.indexing.loader import load_chunks
 from filinglens.finance.extractor import FinancialMetricExtractor
 from filinglens.finance.repository import FinanceRepository
 from filinglens.services.indexing_service import IndexingService
-from filinglens.settings import FINANCE_DB_PATH, RAW_DATA_DIR, PROCESSED_DATA_DIR
+from filinglens.settings import FINANCE_DB_PATH, PROCESSED_DATA_DIR
 from filinglens.api.dependencies import get_embedder, get_qdrant_store
 
 
@@ -22,7 +22,7 @@ def main():
         print(f"Fatal Download Collision: {res.error}")
         return
 
-    print(f"2. Processing PDF natively...")
+    print("2. Processing PDF natively...")
     pdf_path = res.path
     if not pdf_path:
         pdf_path = manager.storage.get_filing_path(res.filing)
@@ -30,7 +30,7 @@ def main():
     processor = DocumentProcessor(str(pdf_path))
     proc_res = processor.process()
 
-    print(f"3. Extracting deterministic Finance analytics...")
+    print("3. Extracting deterministic Finance analytics...")
     chunk_dir = PROCESSED_DATA_DIR / args.company / args.year / "chunks"
     chunks = load_chunks(chunk_dir)
     extractor = FinancialMetricExtractor()
@@ -42,7 +42,7 @@ def main():
         total.extend(metrics)
     repo.save_many(total)
 
-    print(f"4. Generating Vector Indexes natively...")
+    print("4. Generating Vector Indexes natively...")
     embedder = get_embedder()
     store = get_qdrant_store()
     indexer = IndexingService(embedder, store)

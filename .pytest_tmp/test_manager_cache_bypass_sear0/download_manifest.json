@@ -1,0 +1,13 @@
+{
+  "Infosys_FY2024": {
+    "source": "SearchProvider",
+    "url": "http://info.com/ar.pdf",
+    "landing_page": null,
+    "downloaded_at": "2026-07-06T18:33:38.124473+00:00",
+    "checksum": "3d4a07bcbf2eaec380ad707451832924bee1197fbdf43d20d6d4bc96c8284268",
+    "pages": 5,
+    "size": 6,
+    "downloaded": true,
+    "status": "success"
+  }
+}

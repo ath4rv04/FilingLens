@@ -129,8 +129,10 @@ FilingLens operates a completely automated asynchronous acquisition manager elim
 
 ### Integrations
 - **Company Registries**: Automatically resolves targets via `data/company_registry.json`.
-- **Sources**: Iterates sequential constraints caching endpoints natively from `Investor Relations` -> `BSE` -> `NSE` -> `MCA`.
-- **Checksum Storage Validation**: Cross-checks incoming PDF constraints verifying byte-sizes and actual PDF definitions implicitly via PyMuPDF logic blocking corrupt bindings accurately mapping onto `download_manifest.json` guarding `data/raw/COMPANY/YEAR/` flawlessly.
+- **Intelligent PDF Discovery Engine (Phase 5.2)**: Integrates `BeautifulSoup` driven recursive parsing explicitly finding candidates seamlessly natively removing scraping assumptions completely!
+- **Search Backend Discovery**: Abstracts search engines mapping landing page targets securely avoiding brittle domains utilizing generic metadata structures inherently.
+- **Provider Ranking**: Binds sequential constraints intelligently cascading candidates internally (`SearchProvider` -> `BSE` -> `NSE` -> `IR` -> `MCA`). Evaluates target scores (+40 pdf, +35 year, -50 quarter, etc.) finding the best candidates predictably.
+- **Checksum Storage Validation**: Cross-checks HTTP instances instantly bypassing failed PDF binaries testing absolute dimensions (`> 100KB`) & matching Magic sequences (`%PDF`) securely natively parsing identically out-of-the-box perfectly!
 
 ### Usage
 Download an Annual Report explicitly and natively:

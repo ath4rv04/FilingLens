@@ -6,11 +6,9 @@ from filinglens.downloader.models import Filing
 @patch("requests.get")
 def test_investor_relations_list_filings(mock_get):
     class FakeResponse:
-        text = '<a href="annual_report.pdf">AR</a>'
-
-        def raise_for_status(self):
-            pass
-
+        text = '<a href="annual_report_2024.pdf">AR</a>'
+        headers = {'Content-Type': 'text/html'}
+        def raise_for_status(self): pass
     mock_get.return_value = FakeResponse()
 
     source = InvestorRelationsSource()
@@ -36,4 +34,4 @@ def test_investor_relations_download_verifies_pdf(mock_get):
 
     result = source.download(filing)
     assert result.success is False
-    assert "Payload dimension smaller" in result.error
+    assert "magic bytes" in result.error.lower()

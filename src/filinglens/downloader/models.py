@@ -11,6 +11,7 @@ class Filing:
     source: str
     url: str
     filename: str
+    landing_page: Optional[str] = None
 
 
 @dataclass(slots=True)
@@ -29,3 +30,5 @@ class DownloadResult:
     size: int
     checksum: Optional[str]
     error: Optional[str]
+    raw_content: Optional[bytes] = None
+    pages: Optional[int] = None

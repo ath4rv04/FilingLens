@@ -10,6 +10,7 @@ from filinglens.downloader.sources.investor_relations import InvestorRelationsSo
 from filinglens.downloader.sources.mca import MCASource
 from filinglens.downloader.sources.nse import NSESource
 from filinglens.downloader.storage import StorageManager
+from filinglens.downloader.providers.search import SearchProvider
 from filinglens.utils.logging import get_logger
 
 logger = get_logger(__name__)
@@ -36,6 +37,7 @@ class DownloadManager:
 
         # Prefer official sources first.
         self.sources = [
+            SearchProvider(),
             BSESource(),
             NSESource(),
             InvestorRelationsSource(),
@@ -66,7 +68,6 @@ class DownloadManager:
         )
 
         if not overwrite and self.storage.exists(dummy):
-
             logger.info(
                 "Using cached filing for %s %s",
                 company,
@@ -83,7 +84,6 @@ class DownloadManager:
             )
 
         for source in self.sources:
-
             logger.info(
                 "Trying source: %s",
                 source.name,
@@ -93,25 +93,35 @@ class DownloadManager:
             # discover candidate filings
             # ----------------------------------------------------------
 
-            try:
-
-                candidates = source.list_filings(
-                    company,
-                    [year],
+            # Attempt cached bypass natively avoiding searches iteratively.
+            cached_url = self.storage.get_cached_url(company, year)
+            if cached_url and getattr(source, "name", "") == "SearchProvider":
+                logger.info(
+                    f"Triggering cache bypassing {source.name} discovery boundaries cleanly."
                 )
-
-            except Exception as exc:
-
-                logger.warning(
-                    "Source %s failed while listing filings: %s",
-                    source.name,
-                    exc,
-                )
-
-                continue
+                candidates = [
+                    Filing(
+                        company=company,
+                        year=year,
+                        filing_type="Annual Report",
+                        source=source.name,
+                        url=cached_url,
+                        filename="annual_report.pdf",
+                    )
+                ]
+            else:
+                try:
+                    candidates = source.list_filings(
+                        company,
+                        [year],
+                    )
+                except Exception as exc:
+                    logger.warning(
+                        "Source %s failed while listing filings: %s", source.name, exc
+                    )
+                    continue
 
             if not candidates:
-
                 logger.info(
                     "%s returned no candidates.",
                     source.name,
@@ -130,15 +140,11 @@ class DownloadManager:
             # ----------------------------------------------------------
 
             for candidate in candidates:
-
                 for attempt in range(1, self.retries + 2):
-
                     try:
-
                         result = source.download(candidate)
 
                     except Exception as exc:
-
                         logger.warning(
                             "%s download attempt %d failed: %s",
                             source.name,
@@ -153,7 +159,6 @@ class DownloadManager:
                         break
 
                     if not result.success:
-
                         logger.warning(
                             "%s rejected %s (%s)",
                             source.name,
@@ -169,8 +174,8 @@ class DownloadManager:
 
                     path = self.storage.save(
                         candidate,
-                        getattr(result, "_raw_content", b""),
-                        pages=getattr(result, "_pages", 0),
+                        result.raw_content or b"",
+                        result.pages or 0,
                     )
 
                     result.path = path
@@ -212,7 +217,6 @@ class DownloadManager:
         with concurrent.futures.ThreadPoolExecutor(
             max_workers=self.max_workers,
         ) as executor:
-
             futures = [
                 executor.submit(
                     self.download,
@@ -224,15 +228,10 @@ class DownloadManager:
             ]
 
             for future in concurrent.futures.as_completed(futures):
-
                 try:
-
-                    results.append(
-                        future.result()
-                    )
+                    results.append(future.result())
 
                 except Exception as exc:
-
                     logger.exception(
                         "Batch download failed: %s",
                         exc,

@@ -80,6 +80,7 @@ class QAService:
             "retrieval_ms": ret_timer.elapsed_ms,
             "llm_ms": llm_timer.elapsed_ms,
             "total_ms": ret_timer.elapsed_ms + llm_timer.elapsed_ms,
+            "prompt_preview": f"System:\n{prompt.system}\n\nUser:\n{prompt.user}"
         }
 
         return llm_response, context_blocks, metrics

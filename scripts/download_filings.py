@@ -1,6 +1,5 @@
 import argparse
 from filinglens.downloader.downloader import DownloadManager
-from filinglens.downloader.registry import CompanyRegistry
 
 
 def main():

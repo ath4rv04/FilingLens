@@ -1,0 +1,75 @@
+{
+    "summary": {
+        "avg_recall_at_5": 0.0,
+        "avg_precision_at_5": 1.0,
+        "avg_mrr": 0.0,
+        "avg_citation_accuracy": 0.0,
+        "avg_context_coverage": 0.0,
+        "avg_retrieval_ms": 95.03925000899471,
+        "avg_llm_ms": 2653.605299987248,
+        "avg_total_ms": 2748.644549996243
+    },
+    "queries_executed": 4,
+    "results": [
+        {
+            "question": "What is the net margin reported by Infosys?",
+            "expected_pages": [
+                140
+            ],
+            "retrieved_pages": [],
+            "recall_at_5": 0.0,
+            "precision_at_5": 1.0,
+            "mrr": 0.0,
+            "citation_accuracy": 0.0,
+            "context_coverage": 0.0,
+            "retrieval_latency": 248.1497999979183,
+            "llm_latency": 2642.2569999704137,
+            "total_latency": 2890.406799968332
+        },
+        {
+            "question": "How much capital expenditure occurred in Jio?",
+            "expected_pages": [
+                23
+            ],
+            "retrieved_pages": [],
+            "recall_at_5": 0.0,
+            "precision_at_5": 1.0,
+            "mrr": 0.0,
+            "citation_accuracy": 0.0,
+            "context_coverage": 0.0,
+            "retrieval_latency": 39.70710001885891,
+            "llm_latency": 2647.5900000077672,
+            "total_latency": 2687.297100026626
+        },
+        {
+            "question": "What was the revenue growth shown in FY2024?",
+            "expected_pages": [
+                117
+            ],
+            "retrieved_pages": [],
+            "recall_at_5": 0.0,
+            "precision_at_5": 1.0,
+            "mrr": 0.0,
+            "citation_accuracy": 0.0,
+            "context_coverage": 0.0,
+            "retrieval_latency": 46.43020004732534,
+            "llm_latency": 2738.918899965938,
+            "total_latency": 2785.3491000132635
+        },
+        {
+            "question": "What actions did the company take towards attrition?",
+            "expected_pages": [
+                12
+            ],
+            "retrieved_pages": [],
+            "recall_at_5": 0.0,
+            "precision_at_5": 1.0,
+            "mrr": 0.0,
+            "citation_accuracy": 0.0,
+            "context_coverage": 0.0,
+            "retrieval_latency": 45.86989997187629,
+            "llm_latency": 2585.6553000048734,
+            "total_latency": 2631.5251999767497
+        }
+    ]
+}

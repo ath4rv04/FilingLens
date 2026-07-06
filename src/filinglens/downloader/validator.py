@@ -6,6 +6,12 @@ class FilingValidator:
 
     @staticmethod
     def is_valid_pdf_content(content: bytes) -> tuple[bool, int, str]:
+        if not content:
+            return False, 0, "Empty payload"
+
+        if not content.startswith(b"%PDF"):
+            return False, 0, "Invalid magic bytes (not a PDF)."
+
         if (
             len(content) < 100 * 1024
         ):  # Less than 100KB typically means 404 or anti-bot payload rather than a full annual report

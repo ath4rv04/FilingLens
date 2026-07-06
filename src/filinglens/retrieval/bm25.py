@@ -11,6 +11,11 @@ from filinglens.models import RetrievalResult
 TOKEN_PATTERN = re.compile(r"[a-zA-Z0-9]+")
 
 
+from filinglens.retrieval.filtering import normalize_filters
+from filinglens.utils.logging import get_logger
+
+logger = get_logger(__name__)
+
 class BM25Retriever:
     """In-memory BM25 retriever for filing chunks."""
 
@@ -27,6 +32,12 @@ class BM25Retriever:
             chunk if isinstance(chunk, DocumentChunk) else DocumentChunk(**chunk)
             for chunk in chunks
         ]
+        
+        if not self.chunks:
+            logger.warning("[!] BM25 Corpus initialized with 0 chunks. If data/processed/chunks is empty or non-existent, generating empty retrival pipelines. Consider running `scripts/build_company.py` to regenerate chunks!")
+        else:
+            logger.info("BM25 Corpus mapping loaded successfully supporting %d DocumentChunks.", len(self.chunks))
+            
         self.documents = [self._tokenize(chunk.text) for chunk in self.chunks]
         self.term_frequencies = [Counter(document) for document in self.documents]
         self.document_frequencies = self._document_frequencies()
@@ -35,8 +46,11 @@ class BM25Retriever:
     def search(
         self, query: str, *, top_k: int = 5, filters: dict | None = None
     ) -> list[RetrievalResult]:
+        filters = normalize_filters(filters)
+        logger.info("BM25 Search | Query: '%s' | Filters: %s", query, filters)
         query_terms = self._tokenize(query)
         if not query_terms:
+            logger.warning("BM25 Query rejected: Tokenizer emitted 0 tokens for query '%s'!", query)
             return []
 
         scored = []
@@ -47,8 +61,12 @@ class BM25Retriever:
 
             score = self._score(query_terms, index)
             scored.append((score, chunk))
+            
         scored = [(score, chunk) for score, chunk in scored if score > 0]
         scored.sort(key=lambda item: item[0], reverse=True)
+        
+        if not scored:
+            logger.warning("BM25 Retrieval missed all chunks returning 0 candidates! Ensure filters %s match dataset geometries.", filters)
 
         return [
             RetrievalResult(

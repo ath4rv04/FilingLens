@@ -46,14 +46,24 @@ class StorageManager:
         key = f"{filing.company}_{filing.year}"
         self.manifest[key] = {
             "source": filing.source,
+            "url": getattr(filing, "url", ""),
+            "landing_page": getattr(filing, "landing_page", ""),
             "downloaded_at": datetime.now(timezone.utc).isoformat(),
             "checksum": checksum,
             "pages": pages,
             "size": size,
+            "downloaded": True,
             "status": "success",
         }
         self._save_manifest()
         return target
+
+    def get_cached_url(self, company: str, year: str) -> str:
+        """Retrieves verified URL avoiding duplicate search lookups strictly."""
+        key = f"{company}_{year}"
+        if key in self.manifest and self.manifest[key].get("downloaded"):
+            return self.manifest[key].get("url")
+        return None
 
     def exists(self, filing: Filing) -> bool:
         """Determines if target exists natively avoiding identical redownloads gracefully."""

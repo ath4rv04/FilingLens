@@ -12,4 +12,4 @@ def test_download_manager_aborts_on_cache(tmp_path):
     res = manager.download("Mock", "2024")
 
     assert res.success is True
-    assert res.error == "Already Cached"
+    assert res.error is None

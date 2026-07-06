@@ -172,33 +172,33 @@ class QdrantVectorStore:
         top_k: int = 5,
         filters: dict | None = None,
     ) -> list[SearchResult]:
+        
+        from filinglens.retrieval.filtering import build_qdrant_filter
 
         models = self._models()
 
-        query_filter = None
-
-        if filters:
-            query_filter = models.Filter(
-                must=[
-                    models.FieldCondition(
-                        key=k,
-                        match=models.MatchValue(value=v),
-                    )
-                    for k, v in filters.items()
-                ]
-            )
+        query_filter = build_qdrant_filter(filters, models)
 
         start = time.perf_counter()
 
         vector = self._vector_to_list(query_vector)
 
-        hits = self.client.search(
-            collection_name=self.collection_name,
-            query_vector=vector,
-            query_filter=query_filter,
-            limit=top_k,
-            with_payload=True,
-        )
+        if hasattr(self.client, "query_points"):
+            hits = self.client.query_points(
+                collection_name=self.collection_name,
+                query=vector,
+                query_filter=query_filter,
+                limit=top_k,
+                with_payload=True,
+            ).points
+        else:
+            hits = self.client.search(
+                collection_name=self.collection_name,
+                query_vector=vector,
+                query_filter=query_filter,
+                limit=top_k,
+                with_payload=True,
+            )
 
         elapsed = (time.perf_counter() - start) * 1000
 
@@ -213,7 +213,7 @@ class QdrantVectorStore:
             payload = dict(hit.payload)
 
             chunk = DocumentChunk(
-                id=payload.pop("chunk_id"),
+                id=payload.get("id", ""),
                 company=payload["company"],
                 year=payload["year"],
                 page=payload["page"],
@@ -238,9 +238,9 @@ class QdrantVectorStore:
 
         return {
             "collection": self.collection_name,
-            "points": collection.points_count,
-            "vectors": collection.vectors_count,
-            "status": str(collection.status),
+            "points": getattr(collection, "points_count", getattr(collection, "vectors_count", 0)),
+            "vectors": getattr(collection, "vectors_count", getattr(collection, "points_count", 0)),
+            "status": str(getattr(collection, "status", "unknown")),
         }
 
     # --------------------------------------------------
@@ -263,7 +263,12 @@ class QdrantVectorStore:
 
         from qdrant_client import QdrantClient
 
-        return QdrantClient(url=url)
+        if url.startswith("http") or url.startswith("grpc"):
+            return QdrantClient(url=url)
+        else:
+            import os
+            os.makedirs(url, exist_ok=True)
+            return QdrantClient(path=url)
 
     # --------------------------------------------------
 
@@ -277,8 +282,7 @@ class QdrantVectorStore:
         else:
             payload = dict(chunk)
 
-        payload["chunk_id"] = payload.pop("id")
-
+        # Retain original id without translation
         return payload
 
     # --------------------------------------------------

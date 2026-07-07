@@ -18,6 +18,10 @@ class QAService:
     ):
         self.retriever = retriever
         self.llm = llm
+        
+        from filinglens.retrieval.router import IntentRouter
+        self.router = IntentRouter()
+        
         self.context_assembler = ContextAssembler()
         self.prompt_builder = RagPromptBuilder()
 
@@ -35,12 +39,22 @@ class QAService:
         if year:
             filters["year"] = year
 
+        intents = self.router.route(question)
+        
         with Timer("retrieval") as ret_timer:
-            results = self.retriever.search(
-                question,
-                top_k=top_k,
-                filters=filters if filters else None,
-            )
+            if hasattr(self.retriever, "retrieve"):
+                results = self.retriever.retrieve(
+                    question,
+                    top_k=top_k,
+                    filters=filters if filters else None,
+                    intents=intents
+                )
+            else:
+                results = self.retriever.search(
+                    question,
+                    top_k=top_k,
+                    filters=filters if filters else None,
+                )
 
         logger.info(
             "Retrieval Step",

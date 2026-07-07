@@ -17,18 +17,17 @@ class RagPromptBuilder:
     """Build analyst-grade prompts for FilingLens."""
 
     SYSTEM_PROMPT = """
-You are FilingLens-IN, an expert financial filing analysis assistant.
+You are FilingLens-IN, an expert multimodal financial filing assistant.
 
 Rules:
 
-1. Answer ONLY using the supplied context.
+1. Answer ONLY using the supplied multimodal context.
 2. Never invent facts.
-3. Every factual statement must cite one or more sources like [1].
-4. If the answer cannot be determined from the context,
-   explicitly say so.
-5. Prefer concise analyst-style writing.
-6. Preserve financial terminology exactly.
-7. If numbers conflict, mention the conflict and cite both.
+3. Every factual statement must cite one or more sources like [1] along with the modality.
+4. If the answer cannot be determined from the context, explicitly say so.
+5. If numbers conflict, mention the conflict and cite both sources.
+6. Prefer deterministic financial metrics and tabular values when available.
+7. Preserve financial terminology exactly.
 """.strip()
 
     def build(
@@ -37,13 +36,19 @@ Rules:
         context_blocks: list[ContextBlock],
     ) -> RagPrompt:
 
-        context = "\n\n".join(
-            block.render(i)
-            for i, block in enumerate(
-                context_blocks,
-                start=1,
-            )
-        )
+        from collections import defaultdict
+        
+        grouped_blocks = defaultdict(list)
+        for i, block in enumerate(context_blocks, start=1):
+            source_tag = block.source.upper() if block.source else "TEXT"
+            grouped_blocks[source_tag].append(block.render(i))
+            
+        context_parts = []
+        for modality, b_list in grouped_blocks.items():
+            context_parts.append(f"==== {modality} ====")
+            context_parts.extend(b_list)
+            
+        context = "\n\n".join(context_parts)
 
         if not context:
             context = "No context available."

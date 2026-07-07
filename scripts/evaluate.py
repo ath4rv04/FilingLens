@@ -21,6 +21,20 @@ def main():
     datasets_dir = PROJECT_ROOT / "evaluation" / "datasets"
     datasets_dir.mkdir(parents=True, exist_ok=True)
 
+    print("--- Agentic (LangGraph) Evaluation Protocol Engaged ---")
+    metrics_mock = {
+        "Planner Accuracy": 0.0,
+        "Agent Selection Accuracy": 0.0,
+        "Tool Invocation Success Rate": 0.0,
+        "Verification Pass Rate": 0.0,
+        "Hallucination Rate": 0.0,
+        "Citation Coverage": 0.0,
+        "Average Agent Latency": 0.0,
+        "Overall Graph Latency": 0.0,
+    }
+    for k, v in metrics_mock.items():
+        print(f" - {k}: {v:.4f}")
+        
     runner = EvaluationRunner(qa_service, datasets_dir, reports_dir)
     runner.run()
 

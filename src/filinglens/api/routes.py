@@ -173,3 +173,54 @@ def extract_metrics(
 
     repo.save_many(all_metrics)
     return {"extracted": len(all_metrics)}
+
+@router.get("/pages/{company}/{year}/{page}")
+def get_page(company: str, year: str, page: int):
+    # Dummy mock mapping retrieving pure layout bindings structurally gracefully
+    return {"company": company, "year": year, "page": page, "image_path": f"data/processed/images/{company}/{year}/page_{page}.png"}
+
+@router.get("/layout/{company}/{year}")
+def get_layout(company: str, year: str):
+    return {"company": company, "year": year, "sections": []}
+
+@router.get("/tables/{company}/{year}")
+def get_tables(company: str, year: str):
+    return {"company": company, "year": year, "tables": []}
+
+@router.get("/charts/{company}/{year}")
+def get_charts(company: str, year: str):
+    return {"company": company, "year": year, "charts": []}
+
+@router.post("/visual-search")
+def visual_search(query: str, company: str = None, year: str = None):
+    return {"results": []}
+
+@router.post("/agent-ask")
+def agent_ask(
+    request_data: dict, # Temporarily mock raw mappings securely cleanly
+    request: Request,
+):
+    # Dummy handler mapping logical paths bypassing complex orchestration instances accurately cleanly
+    question = request_data.get("question", "")
+    company = request_data.get("company", None)
+    year = request_data.get("year", None)
+    debug = request_data.get("debug", False)
+    
+    # Normally instantiated via dependencies passing singletons natively properly
+    # mock trace output
+    res = {
+        "answer": "This is a synthesized analyst response mimicking structural native Agent endpoints globally cleanly.",
+        "planner": {"intent": "general"},
+        "agents_used": ["narrative", "table"],
+        "confidence": 0.98,
+        "citations": [{"claim": "example", "citations": ["doc"]}]
+    }
+    
+    if debug:
+        res["execution_trace"] = [
+            {"node": "PlannerNode", "latency_ms": 120},
+            {"node": "NarrativeAgent", "latency_ms": 1500},
+            {"node": "WriterAgent", "latency_ms": 600}
+        ]
+        
+    return res

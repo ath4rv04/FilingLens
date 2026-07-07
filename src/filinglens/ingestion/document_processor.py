@@ -36,20 +36,51 @@ class DocumentProcessor:
             self.pdf_path.name,
         )
 
+        image_output_dir = PROCESSED_DATA_DIR / "images" / self.company / self.year
         render_pdf(
             self.pdf_path,
-            self.output / "pages",
-        )
-
-        scanned_pages = extract_text(
-            self.pdf_path,
-            self.output / "text",
+            image_output_dir,
         )
 
         metadata = extract_metadata(
             self.pdf_path,
             self.output / "metadata.json",
         )
+
+        from filinglens.visual.repository import VisualRepository
+        visual_repo = VisualRepository()
+        for page_num in range(1, metadata["page_count"] + 1):
+            img_path = image_output_dir / f"page_{page_num:03d}.png"
+            visual_repo.store_page(self.company, self.year, page_num, str(img_path))
+
+        scanned_pages = extract_text(
+            self.pdf_path,
+            self.output / "text",
+        )
+
+        if scanned_pages:
+            logger.info("Triggering OCR on %d scanned pages...", len(scanned_pages))
+            from filinglens.ocr.service import get_ocr_service
+            
+            ocr_service = get_ocr_service().get_provider()
+            
+            for page_num in scanned_pages:
+                image_path = visual_repo.get_image_path(self.company, self.year, page_num)
+                
+                if image_path:
+                    ocr_page = ocr_service.process_page(image_path, page_num)
+                    
+                    text_parts = []
+                    for block in ocr_page.blocks:
+                        for line in block.lines:
+                            line_str = " ".join([w.text for w in line.words])
+                            text_parts.append(line_str)
+                            
+                    merged_text = "\n".join(text_parts)
+                    
+                    if merged_text:
+                        text_file = self.output / "text" / f"page_{page_num:03d}.txt"
+                        text_file.write_text(merged_text, encoding="utf-8")
 
         chunker = Chunker()
 

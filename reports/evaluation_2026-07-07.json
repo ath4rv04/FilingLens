@@ -5,9 +5,9 @@
         "avg_mrr": 0.0,
         "avg_citation_accuracy": 0.0,
         "avg_context_coverage": 0.0,
-        "avg_retrieval_ms": 102.07072501361836,
-        "avg_llm_ms": 2946.470800001407,
-        "avg_total_ms": 3048.5415250150254
+        "avg_retrieval_ms": 97.75807498954237,
+        "avg_llm_ms": 2885.780024997075,
+        "avg_total_ms": 2983.5380999866175
     },
     "queries_executed": 4,
     "results": [
@@ -22,9 +22,9 @@
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 262.0396999991499,
-            "llm_latency": 2430.5934000294656,
-            "total_latency": 2692.6331000286154
+            "retrieval_latency": 249.48790000053123,
+            "llm_latency": 2448.6813999828883,
+            "total_latency": 2698.1692999834195
         },
         {
             "question": "How much capital expenditure occurred in Jio?",
@@ -37,9 +37,9 @@
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 40.60170002048835,
-            "llm_latency": 2630.8200000203215,
-            "total_latency": 2671.42170004081
+            "retrieval_latency": 39.187799964565784,
+            "llm_latency": 2591.3126000086777,
+            "total_latency": 2630.5003999732435
         },
         {
             "question": "What was the revenue growth shown in FY2024?",
@@ -58,9 +58,9 @@
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 56.87979998765513,
-            "llm_latency": 3436.6702999686822,
-            "total_latency": 3493.5500999563374
+            "retrieval_latency": 53.52269997820258,
+            "llm_latency": 3422.767699987162,
+            "total_latency": 3476.2903999653645
         },
         {
             "question": "What actions did the company take towards attrition?",
@@ -79,9 +79,9 @@
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 48.76170004718006,
-            "llm_latency": 3287.799499987159,
-            "total_latency": 3336.561200034339
+            "retrieval_latency": 48.83390001486987,
+            "llm_latency": 3080.3584000095725,
+            "total_latency": 3129.1923000244424
         }
     ]
 }

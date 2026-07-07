@@ -1,51 +1,81 @@
-from __future__ import annotations
+import os
+from filinglens.ocr.base import BaseOCRProvider
+from filinglens.ocr.models import OCRPage, OCRBlock, OCRLine, OCRWord
+from filinglens.utils.logging import get_logger
 
-from dataclasses import dataclass
-from pathlib import Path
-from typing import Any
+logger = get_logger(__name__)
 
+class PaddleOCRService(BaseOCRProvider):
+    """PaddleOCR integration wrapper honoring hardware bounds."""
 
-@dataclass(slots=True)
-class OCRResult:
-    image_path: str
-    text: str
-    confidence: float
-
-
-class PaddleOCRService:
-    """Optional PaddleOCR wrapper for scanned filing pages."""
-
-    def __init__(self, ocr_engine: Any | None = None, *, language: str = "en") -> None:
-        self.ocr_engine = ocr_engine
-        self.language = language
-
-    def extract_image(self, image_path: str | Path) -> OCRResult:
-        image_path = Path(image_path)
-        engine = self._engine()
-        raw_result = engine.ocr(str(image_path), cls=True)
-        text_parts: list[str] = []
-        confidences: list[float] = []
-
-        for page_result in raw_result or []:
-            for line in page_result or []:
-                if len(line) < 2:
-                    continue
-                text, confidence = line[1]
-                text_parts.append(str(text))
-                confidences.append(float(confidence))
-
-        confidence = sum(confidences) / len(confidences) if confidences else 0.0
-        return OCRResult(
-            image_path=str(image_path),
-            text=" ".join(text_parts).strip(),
-            confidence=confidence,
-        )
-
-    def _engine(self) -> Any:
-        if self.ocr_engine is not None:
-            return self.ocr_engine
-
+    def __init__(self):
         from paddleocr import PaddleOCR
+        
+        device = os.getenv("OCR_DEVICE", "auto")
+        
+        model_dir = os.getenv("PADDLE_MODEL_DIR", "data/models/paddleocr")
+        self.min_confidence = float(os.getenv("OCR_MIN_CONFIDENCE", "0.60"))
+        
+        os.makedirs(model_dir, exist_ok=True)
+        
+        kwargs = {
+            "lang": 'en'
+        }
+        
+        if device != "auto":
+            kwargs["device"] = device
+            
+        self.ocr = PaddleOCR(**kwargs)
 
-        self.ocr_engine = PaddleOCR(use_angle_cls=True, lang=self.language)
-        return self.ocr_engine
+    def process_page(self, image_path: str, page_number: int) -> OCRPage:
+        try:
+            results = self.ocr.ocr(str(image_path))
+        except Exception as e:
+            logger.error("PaddleOCR execution failed (underlying framework bug): %s", e)
+            return OCRPage(page_number=page_number, blocks=[], confidence=0.0)
+            
+        if not results or not results[0]:
+            return OCRPage(page_number=page_number, blocks=[], confidence=0.0)
+            
+        page_results = results[0]
+        
+        lines = []
+        page_conf = 0.0
+        valid_words = 0
+        
+        for line in page_results:
+            bbox, (text, confidence) = line
+            
+            if confidence < self.min_confidence:
+                continue
+                
+            xs = [p[0] for p in bbox]
+            ys = [p[1] for p in bbox]
+            xmin, xmax = min(xs), max(xs)
+            ymin, ymax = min(ys), max(ys)
+            
+            word = OCRWord(
+                text=text,
+                confidence=confidence,
+                bbox=(xmin, ymin, xmax, ymax)
+            )
+            
+            lines.append(OCRLine(
+                words=[word],
+                bbox=(xmin, ymin, xmax, ymax)
+            ))
+            
+            page_conf += confidence
+            valid_words += 1
+            
+        avg_conf = page_conf / valid_words if valid_words > 0 else 0.0
+        
+        # Map to a single logical block.
+        main_block = OCRBlock(lines=lines, bbox=(0, 0, 0, 0)) if lines else None
+        blocks = [main_block] if main_block else []
+        
+        return OCRPage(
+            page_number=page_number,
+            blocks=blocks,
+            confidence=avg_conf
+        )

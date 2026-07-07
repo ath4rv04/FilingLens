@@ -1,13 +1,13 @@
 {
     "summary": {
         "avg_recall_at_5": 0.0,
-        "avg_precision_at_5": 1.0,
+        "avg_precision_at_5": 0.5,
         "avg_mrr": 0.0,
         "avg_citation_accuracy": 0.0,
         "avg_context_coverage": 0.0,
-        "avg_retrieval_ms": 95.03925000899471,
-        "avg_llm_ms": 2653.605299987248,
-        "avg_total_ms": 2748.644549996243
+        "avg_retrieval_ms": 102.07072501361836,
+        "avg_llm_ms": 2946.470800001407,
+        "avg_total_ms": 3048.5415250150254
     },
     "queries_executed": 4,
     "results": [
@@ -22,9 +22,9 @@
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 248.1497999979183,
-            "llm_latency": 2642.2569999704137,
-            "total_latency": 2890.406799968332
+            "retrieval_latency": 262.0396999991499,
+            "llm_latency": 2430.5934000294656,
+            "total_latency": 2692.6331000286154
         },
         {
             "question": "How much capital expenditure occurred in Jio?",
@@ -37,39 +37,51 @@
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 39.70710001885891,
-            "llm_latency": 2647.5900000077672,
-            "total_latency": 2687.297100026626
+            "retrieval_latency": 40.60170002048835,
+            "llm_latency": 2630.8200000203215,
+            "total_latency": 2671.42170004081
         },
         {
             "question": "What was the revenue growth shown in FY2024?",
             "expected_pages": [
                 117
             ],
-            "retrieved_pages": [],
+            "retrieved_pages": [
+                75,
+                56,
+                75,
+                8,
+                75
+            ],
             "recall_at_5": 0.0,
-            "precision_at_5": 1.0,
+            "precision_at_5": 0.0,
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 46.43020004732534,
-            "llm_latency": 2738.918899965938,
-            "total_latency": 2785.3491000132635
+            "retrieval_latency": 56.87979998765513,
+            "llm_latency": 3436.6702999686822,
+            "total_latency": 3493.5500999563374
         },
         {
             "question": "What actions did the company take towards attrition?",
             "expected_pages": [
                 12
             ],
-            "retrieved_pages": [],
+            "retrieved_pages": [
+                308,
+                142,
+                186,
+                67,
+                79
+            ],
             "recall_at_5": 0.0,
-            "precision_at_5": 1.0,
+            "precision_at_5": 0.0,
             "mrr": 0.0,
             "citation_accuracy": 0.0,
             "context_coverage": 0.0,
-            "retrieval_latency": 45.86989997187629,
-            "llm_latency": 2585.6553000048734,
-            "total_latency": 2631.5251999767497
+            "retrieval_latency": 48.76170004718006,
+            "llm_latency": 3287.799499987159,
+            "total_latency": 3336.561200034339
         }
     ]
 }
